@@ -1,0 +1,17 @@
+.Header-redes {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,.2);
+    color: rgba(61, 8, 237, 0.66);
+    font-size: 20px;
+    
+}
+#tell, #email, #login {
+    float: left;
+    margin-right: 16px;    
+}
+#face, #GM, #inst, #you {
+    float: right;
+    margin-right: 16px;    
+}
