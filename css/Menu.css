@@ -1,0 +1,123 @@
+a{ 
+color:white; 
+}
+
+header{
+    position: relative;
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	 box-sizing:border-box;   
+    display: flex;
+    z-index:1;
+    font-family:Arial, Helvetica, sans-serif;  
+    border-left: 60px;
+    font-size: 20px;
+}
+
+.menu1{
+    color: aliceblue;
+    width:100%;
+	min-width: 440px;
+    margin: auto;
+    text-align: center;
+	height: 60px;
+    opacity: 100%;
+    display: flex;
+    z-index:1;
+}
+
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+
+.contenedor p {
+margin-bottom:40px;
+}
+
+div .menu1 {
+	background:#3498db;
+	margin-bottom:10px;
+}
+
+li{
+    padding: 10px;
+}
+
+/*------------------------------------------------cajas---------------------*/
+.cajaMenu1{
+    background: #AEC2C6;
+    width: 40%;
+	height: 250px;
+    top:100px;
+	margin: 20px auto;
+    padding-bottom: 150px;
+    font-size: 19px;
+}
+.cajamenu2{
+    background: #AEC2C6;
+    width: 120px;
+	height: 160px;
+	margin: 20px auto;
+    font-size: 19px;
+    top:100px;
+}
+.caja1, .caja2{
+    display: table-cell;
+}
+
+/*----------------------------------*/
+ul, ol {
+    list-style:none;   
+}
+.nav > li {
+    float:left;
+    margin-right: 25px;
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+.nav li a {
+    text-decoration:none;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:gray;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+/*-------------------------------------*/
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	/*left:0;*/
+	/*Podemos hacer que el menu abarque el 100% al hacer scroll*/
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
