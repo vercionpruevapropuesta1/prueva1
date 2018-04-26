@@ -208,11 +208,49 @@ hr{
     background-size: cover;
 
 }
+.contentspecial{
+    position: relative;
+    top: 10%;
+}
 .imagenphon5{
-    position:relative;
-    top: 5%;
+    position:absolute;
+    top: 20%;
     left: 60%;
 }
+.imagenphontex{
+    position: relative;
+    top: 65%;
+    left: 0%;
+    width: 40%;
+    height: 20%;
+    background-color: aqua;
+}
+.boton1{
+    position: relative;
+
+    left: 10%;
+    float: left;
+}
+.boton2{
+    position: relative;
+
+    left: 40%;
+     float: left;
+}
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+.boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
 /*content-6*/
 .content-6{
     width: 100%;
