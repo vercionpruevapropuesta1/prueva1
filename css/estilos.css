@@ -129,7 +129,6 @@ hr{
     z-index: 1;
     width: 80%;
     height: 90%;
-
     left: 12%;
     top: 70px;
 }
@@ -192,7 +191,7 @@ hr{
 
 .content-4{
     width: 100%;
-    height: 50vh;
+    height: 20vh;
     margin-top: 200px;
     background-image: url(../images/background-1.jpg);
     background-attachment: fixed;
@@ -204,7 +203,7 @@ hr{
 .content-5{
     width: 100%;
     height: 50vh;
-    margin-top: 200px;
+    margin-top: 100px;
     background-image: url(../images/slider-tech.jpg);
     background-attachment: fixed;
     background-position: center center;
