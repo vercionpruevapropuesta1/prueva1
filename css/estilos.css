@@ -227,14 +227,13 @@ hr{
 }
 .boton1{
     position: relative;
-    margin-top: 400px;
-    left: 10%;
+    margin-top: 300px;
+    left: 40px;
     float: left;
 }
 .boton2{
     position: relative;
-    margin-top: 400px;
-    left: 40%;
+    margin-top: 300px;
     float: left;
     left: 50px;
 }
