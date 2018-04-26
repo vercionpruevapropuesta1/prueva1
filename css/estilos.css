@@ -365,7 +365,10 @@ hr{
 .content-9{
     color: aliceblue;
 }
-
+#faceb-p, #GM-p, #inst-p, #you-p {
+    float: left;
+    margin-right: 16px;
+}
 
 
 
