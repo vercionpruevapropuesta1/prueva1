@@ -15,7 +15,10 @@ header{
     border-left: 60px;
     font-size: 20px;
 }
-
+.logo {
+    position: relative;
+    float: left;
+}
 .menu1{
     color: aliceblue;
     width:100%;
