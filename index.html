@@ -12,6 +12,14 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="main.js"></script>
     
+    <link type="text/css" rel="stylesheet" href="tipsy.css" />
+    <script type="text/javascript" src="jquery.tipsy.js">
+    </script>
+    <script>
+        $(function() {
+            $("[title]").tipsy({fade: false, gravity: $.fn.tipsy.autoNS});
+        });
+    </script>
     
     <title>Document</title>
 </head>
@@ -285,8 +293,9 @@
             </div>
             <div>
                 <div id="faceb-p" >
-                  <img src="images/facebook_pie2.png" >
-                  <a href="http://www.facebook.com">facebook</a>
+
+                  <a href="http://www.facebook.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();">
+                  <img src="images/facebook_pie2.png" title="FACEBOOCK" ></a>
               </div>
               <div id="GM-p">
                   <img src="images/gmail_pie.png" >
