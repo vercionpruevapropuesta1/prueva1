@@ -220,7 +220,7 @@ hr{
 .imagenphontex{
     position: relative;
     top: 65%;
-    left: 0%;
+    left: 10%;
     width: 40%;
     height: 20%;
 
@@ -228,20 +228,21 @@ hr{
 .texclass{
     position: relative;
     margin-top: 10px;
-    left: 40px;
+    left: 20px;
+    text-align: center;
 
 }
 .boton1{
     position: relative;
     margin-top: 100px;
-    left: 50px;
+    left: 90px;
     float: left;
 }
 .boton2{
     position: relative;
     margin-top: 100px;
     float: left;
-    left: 60px;
+    left: 100px;
 }
 .boton_personalizado{
     text-decoration: none;
@@ -269,7 +270,7 @@ hr{
 }
 .content-7{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     margin-top: 100px;
     background-color: white;
     background-attachment: fixed;
