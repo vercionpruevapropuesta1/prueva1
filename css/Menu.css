@@ -20,16 +20,19 @@ header{
     float: left;
 }
 .menu1{
+    margin: 10px;
     color: aliceblue;
-    width:100%;
-    padding: 10px;
-    margin: 0;
+    float: left;
     margin-top: 20px;
     text-align: center;
-	height: 50%;
-    left: 220px;
-    opacity: 100%;
+    padding: 10px;
     z-index:1;
+    top:0;
+	max-width:1000px;
+	left:220px;
+	width:100%;
+    height: auto;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5)
 }
 
 .contenedor {
@@ -126,5 +129,6 @@ ul, ol {
 	/*left:0;*/
 	/*Podemos hacer que el menu abarque el 100% al hacer scroll*/
 	width:100%;
+    height: auto;
 	box-shadow:0px 4px 3px rgba(0,0,0,.5);
 }
