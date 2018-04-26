@@ -271,7 +271,7 @@ hr{
     width: 100%;
     height: 80vh;
     margin-top: 100px;
-    background-image: url(../images/slider-tech.jpg);
+    background-color: white;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -281,8 +281,65 @@ hr{
     position: relative;
     width: 80%;
     height: 80%;
-    top: 30px;
+    top: 100px;
     left: 100px;
+
+}
+.conten-special-tex1{
+    position: absolute;
+    color:black;
+    width: 200px;
+    top 200px;
+    left: 50px;
+    text-align: center;
+
+
+}
+.conten-special-tex2{
+    position: absolute;
+   color:black;
+     width: 200px;
+    top 100px;
+    left: 40%;
+    text-align: center;
+
+}
+.conten-special-tex3{
+    position: absolute;
+    color:black;
+     width: 200px;
+     top 100px;
+    left: 80%;
+    text-align: center;
+
+}
+.conten-special-tex4{
+    position: absolute;
+    color:black;;
+     width: 200px;
+    top: 200px;
+    left: 50px;
+    text-align: center;
+
+}
+.conten-special-tex5{
+    position: absolute;
+    color:black;
+     width: 200px;
+    top: 200px;
+     left: 40%;
+    text-align: center;
+
+}
+.conten-special-tex6{
+    position: absolute;
+    color:black;
+     width: 200px;
+    top: 200px;
+    left: 80%;
+    text-align: center;
+
+
 }
 .content-8{
     width: 100%;
