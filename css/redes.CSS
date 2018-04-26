@@ -5,6 +5,7 @@
     background-color: rgba(0,0,0,.2);
     color: rgba(61, 8, 237, 0.66);
     font-size: 20px;
+    font-stretch: expanded;
 }
 #tell, #email, #login {
     float: left;
@@ -18,7 +19,8 @@
 A:hover {text-decoration:underline;
     color:rgba(61, 8, 237, 0.46);}
 
-.Header-redes div A:link {
+.Header-redes div a:link {
     text-decoration:none;
     color:rgb(235, 29, 29);
+    cursor: zoom-in;
 }
