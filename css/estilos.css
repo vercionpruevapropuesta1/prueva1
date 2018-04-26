@@ -227,15 +227,16 @@ hr{
 }
 .boton1{
     position: relative;
-
+    margin-top: 400px;
     left: 10%;
     float: left;
 }
 .boton2{
     position: relative;
-
+    margin-top: 400px;
     left: 40%;
-     float: left;
+    float: left;
+    left: 50px;
 }
 .boton_personalizado{
     text-decoration: none;
