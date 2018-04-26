@@ -5,13 +5,28 @@
     background-color: rgba(0,0,0,.2);
     color: rgba(61, 8, 237, 0.66);
     font-size: 20px;
-    
 }
 #tell, #email, #login {
     float: left;
     margin-right: 16px;    
 }
-#face, #GM, #inst, #you {
+#faceb, #GM, #inst, #you {
     float: right;
-    margin-right: 16px;    
+    margin-right: 16px;
+}
+#faceb a:link {
+    text-decoration:none;
+    color:#0505dd;
+}
+#GM a:link {
+    text-decoration:none;
+    color:#0505dd;
+}
+#inst a:link {
+    text-decoration:none;
+    color:#0505dd;
+}
+#you a:link {
+    text-decoration:none;
+    color:#0505dd;
 }
