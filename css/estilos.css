@@ -129,7 +129,7 @@ hr{
     z-index: 1;
     width: 80%;
     height: 90%;
-    background-color:blue;
+
     left: 160px;
     top: 30px;
 }
@@ -138,7 +138,7 @@ hr{
     z-index: 2;
     width: 33%;
     height: 48%;
-    background-color: aqua;
+
     top: 5px;
 }
 .imagebox-2{
@@ -148,7 +148,7 @@ hr{
     left: 380px;
     width: 33%;
     height: 48%;
-    background-color:green;
+
     top: 5px;
 }
 .imagebox-3{
@@ -158,7 +158,7 @@ hr{
     left: 760px;
     width: 33%;
     height: 48%;
-    background-color: yellow;
+
     top: 5px;
 }
 .imagebox-4{
@@ -167,7 +167,7 @@ hr{
     top:250px;
     width: 33%;
     height: 48%;
-    background-color: red;
+
 }
 .imagebox-5{
     position: absolute;
@@ -176,7 +176,7 @@ hr{
     left: 380px;
     width: 33%;
     height: 48%;
-    background-color: royalblue;
+
 }
 .imagebox-6{
     position: absolute;
@@ -185,7 +185,7 @@ hr{
     left: 760px;
     width: 33%;
     height: 48%;
-    background-color: orange;
+
 }
 
 /*content-4*/
