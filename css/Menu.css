@@ -27,7 +27,6 @@ header{
     text-align: center;
 	height: 60px;
     opacity: 100%;
-    display: flex;
     z-index:1;
 }
 
