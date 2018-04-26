@@ -1,15 +1,5 @@
 
-.menu1{
-    position: relative;
-	width: 20%;
-	min-width: 440px;
-	margin: 20px auto;
-	height: 80px;
-    opacity: 100%;
-    display: flex;
-    z-index:1;
-    right: -60px;
-}
+
 
 #header {
     margin:auto;
