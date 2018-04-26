@@ -133,6 +133,13 @@ hr{
     left: 250px;
     top: 50px;
 }
+.imagebox-1{
+    position: relative;
+    z-index: 2;
+    width: 33%;
+    height: 15%;
+    background-color: aqua;
+}
 /*content-4*/
 
 .content-4{
@@ -145,6 +152,7 @@ hr{
     background-size: cover;
     
 }
+
 
 
 
