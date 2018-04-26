@@ -200,6 +200,29 @@ hr{
     background-size: cover;
     
 }
+/*content-5*/
+.content-5{
+    width: 100%;
+    height: 50vh;
+    margin-top: 200px;
+    background-image: url(../images/slider-tech.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+/*content-6*/
+.content-6{
+    width: 100%;
+    height: 50vh;
+    margin-top: 200px;
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
 
 
 
