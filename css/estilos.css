@@ -211,6 +211,7 @@ hr{
 /*content-6*/
 .content-6{
     width: 100%;
+    height: 30vh;
     background-image: url(../images/background-1.jpg);
     background-attachment: fixed;
     background-position: center center;
@@ -222,6 +223,25 @@ hr{
     height: 80vh;
     margin-top: 250px;
     background-image: url(../images/slider-tech.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-8{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-9{
+    width: 100%;
+    height: 50vh;
+    margin-top: 250px;
+    background-image: url(../images/wallpapers_tecnologia_computacion_by_madboxpc-1.png);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
