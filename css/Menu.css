@@ -23,6 +23,7 @@ header{
     color: aliceblue;
     width:100%;
 	min-width: 440px;
+    padding: 10px;
     margin: auto;
     text-align: center;
 	height: 60px;
@@ -32,8 +33,8 @@ header{
 
 .contenedor {
     text-align: center;
-	width: 95%;
-	margin:auto;
+	width: 1590px;
+	margin:15px;
 }
 
 .contenedor p {

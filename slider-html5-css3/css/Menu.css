@@ -16,6 +16,7 @@ ul, ol {
 }
 .nav{
     width: 500px;
+    min-width: 200px;
     margin:0px ;
 }
 			
