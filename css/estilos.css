@@ -127,42 +127,67 @@ hr{
 .content-imagebox{
     position: relative;
     z-index: 1;
-    width: 70%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     background-color:white;
-    left: 250px;
-    top: 50px;
+    left: 160px;
+    top: 30px;
 }
 .imagebox-1{
-    position: relative;
+    position: absolute;
     z-index: 2;
     width: 33%;
-    height: 50%;
+    height: 48%;
     background-color: aqua;
+    top: 5px;
 }
 .imagebox-2{
     position:absolute;
     z-index: 3;
     top: 0px;
-    left: 330px;
+    left: 380px;
     width: 33%;
-    height: 50%;
+    height: 48%;
     background-color:green;
+    top: 5px;
 }
 .imagebox-3{
-    position: relative;
+    position: absolute;
     z-index: 4;
+    top: 0px;
+    left: 760px;
     width: 33%;
-    height: 50%;
+    height: 48%;
     background-color: yellow;
+    top: 5px;
 }
 .imagebox-4{
-    position: relative;
+    position: absolute;
     z-index: 5;
+    top:250px;
     width: 33%;
-    height: 50%;
+    height: 48%;
     background-color: red;
 }
+.imagebox-5{
+    position: absolute;
+    z-index: 6;
+    top:250px;
+    left: 380px;
+    width: 33%;
+    height: 48%;
+    background-color: royalblue;
+}
+.imagebox-6{
+    position: absolute;
+    z-index: 7;
+    top:250px;
+    left: 760px;
+    width: 33%;
+    height: 48%;
+    background-color: orange;
+}
+
 /*content-4*/
 
 .content-4{
