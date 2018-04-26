@@ -208,6 +208,11 @@ hr{
     background-size: cover;
 
 }
+.imagenphon5{
+    position:relative;
+    top: 5%;
+    left: 60%;
+}
 /*content-6*/
 .content-6{
     width: 100%;
