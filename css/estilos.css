@@ -215,12 +215,12 @@ hr{
 .imagenphon5{
     position:absolute;
     top: 20%;
-    left: 70%;
+    left: 60%;
 }
 .imagenphontex{
     position: relative;
     top: 65%;
-    left: 0%;
+    left: 10%;
     width: 40%;
     height: 20%;
 
@@ -228,7 +228,7 @@ hr{
 .texclass{
     position: relative;
     margin-top: 10px;
-    left: 40px;
+    left: 20px;
     text-align: center;
 
 }
