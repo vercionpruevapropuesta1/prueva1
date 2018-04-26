@@ -14,21 +14,11 @@
     float: right;
     margin-right: 16px;
 }
+
 A:hover {text-decoration:underline;
     color:rgba(61, 8, 237, 0.46);}
-#faceb a:link {
+
+.Header-redes div A:link {
     text-decoration:none;
-    color:#0505dd;
-}
-#GM a:link {
-    text-decoration:none;
-    color:#0505dd;
-}
-#inst a:link {
-    text-decoration:none;
-    color:#0505dd;
-}
-#you a:link {
-    text-decoration:none;
-    color:#0505dd;
+    color:rgb(235, 29, 29);
 }
