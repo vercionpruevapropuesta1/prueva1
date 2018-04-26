@@ -215,7 +215,7 @@ hr{
 .imagenphon5{
     position:absolute;
     top: 20%;
-    left: 60%;
+    left: 70%;
 }
 .imagenphontex{
     position: relative;
@@ -229,19 +229,20 @@ hr{
     position: relative;
     margin-top: 10px;
     left: 40px;
+    text-align: center;
 
 }
 .boton1{
     position: relative;
     margin-top: 100px;
-    left: 50px;
+    left: 90px;
     float: left;
 }
 .boton2{
     position: relative;
     margin-top: 100px;
     float: left;
-    left: 60px;
+    left: 100px;
 }
 .boton_personalizado{
     text-decoration: none;
