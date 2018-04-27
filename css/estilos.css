@@ -368,7 +368,15 @@ hr{
 .pie-1, .pie-2, .pie-3 {
     float: left;
     width: 320px;
-    height: 200px;
+    height: auto;
+    margin: 20px;
+    margin-top: 50px;
+}
+.pie-1{
+    margin-left: 200px;
+}
+.redes-pie {
+    margin-top: 30px;
 }
 #faceb-p, #GM-p, #inst-p, #you-p {
     float: left;
