@@ -403,14 +403,25 @@ hr{
 }
 .redes-pie {
     margin-top: 30px;
+    width: 350px;
 }
 #faceb-p, #GM-p, #inst-p, #you-p {
     float: left;
     margin-right: 16px;
-
 }
-
-
+.redes-pie img{
+    width: auto;
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.redes-pie img:hover{
+    height: 90px;
+    width: 90;
+    margin-left: -50px;
+}
 
 
 
