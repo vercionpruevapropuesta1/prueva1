@@ -544,9 +544,10 @@ input:valid ~ span:after {
     height: auto;
     width: 270px;
 }
-#home-pie,#fax-pie div{
+#home-pie div{
     float: left;
     margin-right: 22px;
+    margin-top: 5px;
 }
 #home-pie div h3{
     padding: 12px;
@@ -554,6 +555,7 @@ input:valid ~ span:after {
 #correo-pie div{
     float: left;
     margin-right: 27px;
+    margin-top: 5px;
 }
 #correo-pie div h3{
     padding: 12px;
@@ -561,11 +563,16 @@ input:valid ~ span:after {
 #tell-pie div{
     float: left;
     margin-right: 22px;
+    margin-top: 5px;
 }
 #tell-pie div h3{
-    padding: 12px;
+    padding: 20px;
 }
-
+#fax-pie div{
+    float: left;
+    margin-right: 22px;
+    margin-top: 5px;
+}
 #fax-pie div h3{
     padding: 12px;
 }
