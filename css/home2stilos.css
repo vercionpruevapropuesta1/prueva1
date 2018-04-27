@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+    margin: 0;
+    padding: 0;
+    -wedkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-1{
+    width: 100%;
+    background: white;
+    padding: 50px;
+    margin-top: 25vh;
+
+
+}
+.content-1 h1{
+    text-align: center;
+
+
+}
+.content-icon-all{
+    display: -wedkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content-icon{
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    -wedkit-transition: all 300ms;
+    transition: all 300ms;
+    margin-top: 40px;
+
+}
+.content-icon:hover{
+    -wedkit-box-shadow:0px 0px 40px -5px black;
+    box-shadow: 0px 0px 40px -5px black;
+}
+.content-icon img{
+    width: 150px;
+    border-radius:50% ;
+    -wedkit-box-shadow:0px 0px 40px -10px black;
+    box-shadow: 0px 0px 40px -10px black;
+}
+.content-icon h4{
+    margin-top:10px;
+}
+.content-icon p{
+    margin-top: 10px;
+}
+hr{
+    border-top:1px solid #4f4f4f;
+    border-bottom:  1px solid #4f4f4f;
+    border-left: none;
+    border-right: none;
+    height: 6px;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.parrafo1{
+    margin: auto;
+    margin-top: 20px;
+    max-width: 800px;
+    font-size: 20px;
+
+
+}
+/*conte-2*/
+.content-2{
+    background-image: url(../images/background-2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-item-1{
+    width: 80%;
+    margin: auto;
+    background: #59CDC0;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30vh;
+
+}
+.content-item-1 img{
+    width: 100%;
+    max-width: 800px;
+
+
+}
+.content-item-1 h1{
+    margin-top: 20px;
+}
+.content-item-1 p{
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+/*content-3*/
+.content-3{
+    width: 100%;
+    height: 80vh;
+    margin-top: 250px;
+    background-image: url(../images/background-2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-imagebox{
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: 90%;
+    left: 12%;
+    top: 70px;
+}
+#imagebox-1{
+    position: absolute;
+    z-index: 2;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28558804-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
+    top: 5px;
+}
+#info1{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-1:hover #info1{
+    opacity: 1;
+
+}
+#headline1{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#imagebox-2{
+    position:absolute;
+    z-index: 3;
+    top: 0px;
+    left: 380px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28558811-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
+    top: 5px;
+}
+#info2{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-2:hover #info2{
+    opacity: 1;
+
+}
+#headline2{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-3{
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    left: 760px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28559613-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
+    top: 5px;
+}
+#info3{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-3:hover #info3{
+    opacity: 1;
+
+}
+#headline3{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-4{
+    position: absolute;
+    z-index: 5;
+    top:250px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/30287319-nube-concepto-de-computaci%C3%B3n.jpg);
+
+}
+#info4{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-4:hover #info4{
+    opacity: 1;
+
+}
+#headline4{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-5{
+    position: absolute;
+    z-index: 6;
+    top:250px;
+    left: 380px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/declaracion-18.jpg);
+
+}
+#info5{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-5:hover #info5{
+    opacity: 1;
+
+}
+#headline5{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+.imagebox-6{
+    position: absolute;
+    z-index: 7;
+    top:250px;
+    left: 760px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/niif-esfa.jpg);
+
+}
+#info6{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-6:hover #info6{
+    opacity: 1;
+
+}
+#headline6{
+    position: absolute;
+    font-size: 21;
+    margin-left: 130px;
+    margin-top: 100px;
+
+}
+
+/*content-4*/
+
+.content-4{
+    width: 100%;
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+/*content-5*/
+.content-5{
+    width: 100%;
+    height: 60vh;
+    margin-top: 200px;
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.contentspecial{
+    position: relative;
+    top: 10%;
+}
+.imagenphon5{
+    position:absolute;
+    top: 20%;
+    left: 60%;
+}
+.imagenphontex{
+    position: relative;
+    top: 65%;
+    left: 10%;
+    width: 40%;
+    height: 20%;
+
+}
+.texclass{
+    position: relative;
+    margin-top: 10px;
+    left: 20px;
+    text-align: center;
+    font-family: roboto,sans-serif;
+
+}
+.boton1{
+    position: relative;
+    margin-top: 100px;
+    left: 90px;
+    float: left;
+}
+.boton2{
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    left: 100px;
+}
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:purple;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+  }
+.boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+/*content-6*/
+.content-6{
+    width: 100%;
+    height: 20vh;
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-7{
+    width: 100%;
+    height: 70vh;
+    margin-top: 100px;
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.comten-spec-tex{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    top: 100px;
+    left: 100px;
+
+}
+.conten-special-tex1{
+    position: absolute;
+    color:black;
+    width: 200px;
+    top 200px;
+    left: 50px;
+    text-align: center;
+
+
+}
+.conten-special-tex2{
+    position: absolute;
+   color:black;
+     width: 200px;
+    top 100px;
+    left: 40%;
+    text-align: center;
+
+}
+.conten-special-tex3{
+    position: absolute;
+    color:black;
+     width: 200px;
+     top 100px;
+    left: 80%;
+    text-align: center;
+
+}
+.conten-special-tex4{
+    position: absolute;
+    color:black;;
+     width: 200px;
+    top: 200px;
+    left: 50px;
+    text-align: center;
+
+}
+.conten-special-tex5{
+    position: absolute;
+    color:black;
+     width: 200px;
+    top: 200px;
+     left: 40%;
+    text-align: center;
+
+}
+.conten-special-tex6{
+    position: absolute;
+    color:black;
+     width: 200px;
+    top: 200px;
+    left: 80%;
+    text-align: center;
+
+
+}
+.content-8{
+    width: 100%;
+    height: 20vh;
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-9{
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    background-image: url(../images/wallpapers_tecnologia_computacion_by_madboxpc-1.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-9{
+    color: aliceblue;
+}
+.pie-1, .pie-2, .pie-3 {
+    float: left;
+    width: 320px;
+    height: auto;
+    margin: 20px;
+    margin-top: 50px;
+}
+.pie-1{
+    margin-left: 200px;
+}
+.redes-pie {
+    margin-top: 30px;
+    width: 350px;
+}
+#faceb-p, #GM-p, #inst-p, #you-p {
+    float: left;
+    margin-right: 16px;
+}
+.redes-pie img{
+    width: auto;
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.redes-pie img:hover{
+    height: 90px;
+    width: 90;
+    margin-left: -50px;
+}
+
+
+
+
+
