@@ -56,10 +56,42 @@ hr{
     background-size: cover;
 
 }
+.content-4{
+    width: 100%;
+    height: 30vh;
+    margin-top: 0px;
+    background-color: aqua;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-5{
+    width: 100%;
+    height: 30vh;
+    margin-top: 0px;
+    background-color:orange;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-6{
+    width: 100%;
+    height: 60vh;
+    margin-top: 0px;
+    background-color:white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+
 .content-9{
     width: 100%;
     height: 50vh;
-    margin-top: 200px;
+    margin-top: 0px;
     background-image: url(../images/wallpapers_tecnologia_computacion_by_madboxpc-1.png);
     background-attachment: fixed;
     background-position: center center;
