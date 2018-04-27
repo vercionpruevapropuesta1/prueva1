@@ -163,7 +163,7 @@ hr{
 
 }
 
-.imagebox-2{
+#imagebox-2{
     position:absolute;
     z-index: 3;
     top: 0px;
@@ -173,7 +173,29 @@ hr{
     background-image: url(../portafoliobox/28558811-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
     top: 5px;
 }
-.imagebox-3{
+#info2{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-2:hover #info2{
+    opacity: 1;
+
+}
+#headline2{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-3{
     position: absolute;
     z-index: 4;
     top: 0px;
@@ -183,7 +205,29 @@ hr{
     background-image: url(../portafoliobox/28559613-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
     top: 5px;
 }
-.imagebox-4{
+#info3{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-3:hover #info3{
+    opacity: 1;
+
+}
+#headline3{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-4{
     position: absolute;
     z-index: 5;
     top:250px;
@@ -192,7 +236,29 @@ hr{
     background-image: url(../portafoliobox/30287319-nube-concepto-de-computaci%C3%B3n.jpg);
 
 }
-.imagebox-5{
+#info4{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-4:hover #info4{
+    opacity: 1;
+
+}
+#headline4{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-5{
     position: absolute;
     z-index: 6;
     top:250px;
@@ -200,6 +266,28 @@ hr{
     width: 370px;
     height: 239px;
     background-image: url(../portafoliobox/declaracion-18.jpg);
+
+}
+#info5{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-5:hover #info5{
+    opacity: 1;
+
+}
+#headline5{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
 
 }
 .imagebox-6{
@@ -210,6 +298,28 @@ hr{
     width: 370px;
     height: 239px;
     background-image: url(../portafoliobox/niif-esfa.jpg);
+
+}
+#info6{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-6:hover #info6{
+    opacity: 1;
+
+}
+#headline6{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
 
 }
 
