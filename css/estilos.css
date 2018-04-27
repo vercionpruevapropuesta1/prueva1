@@ -542,22 +542,37 @@ input:valid ~ span:after {
 }
 .imagen-pie{
     height: auto;
-    width: 300px;
-    position: relative;
+    width: 270px;
 }
 #home-pie div{
     float: left;
     margin-right: 22px;
+    margin-top: 5px;
 }
 #home-pie div h3{
     padding: 12px;
 }
 #correo-pie div{
     float: left;
-    margin-right: 22px;
+    margin-right: 27px;
+    margin-top: 5px;
 }
 #correo-pie div h3{
     padding: 12px;
 }
-
-
+#tell-pie div{
+    float: left;
+    margin-right: 22px;
+    margin-top: 5px;
+}
+#tell-pie div h3{
+    padding: 20px;
+}
+#fax-pie div{
+    float: left;
+    margin-right: 22px;
+    margin-top: 5px;
+}
+#fax-pie div h3{
+    padding: 12px;
+}
