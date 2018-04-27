@@ -132,22 +132,45 @@ hr{
     left: 12%;
     top: 70px;
 }
-.imagebox-1{
+#imagebox-1{
     position: absolute;
     z-index: 2;
-    width: 33%;
-    height: 48%;
-
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28558804-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
     top: 5px;
 }
+#info1{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-1:hover #info1{
+    opacity: 1;
+
+}
+#headline1{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
 .imagebox-2{
     position:absolute;
     z-index: 3;
     top: 0px;
     left: 380px;
-    width: 33%;
-    height: 48%;
-
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28558811-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
     top: 5px;
 }
 .imagebox-3{
@@ -155,17 +178,18 @@ hr{
     z-index: 4;
     top: 0px;
     left: 760px;
-    width: 33%;
-    height: 48%;
-
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28559613-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
     top: 5px;
 }
 .imagebox-4{
     position: absolute;
     z-index: 5;
     top:250px;
-    width: 33%;
-    height: 48%;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/30287319-nube-concepto-de-computaci%C3%B3n.jpg);
 
 }
 .imagebox-5{
@@ -173,8 +197,9 @@ hr{
     z-index: 6;
     top:250px;
     left: 380px;
-    width: 33%;
-    height: 48%;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/declaracion-18.jpg);
 
 }
 .imagebox-6{
@@ -182,8 +207,9 @@ hr{
     z-index: 7;
     top:250px;
     left: 760px;
-    width: 33%;
-    height: 48%;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/niif-esfa.jpg);
 
 }
 
