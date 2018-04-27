@@ -542,10 +542,9 @@ input:valid ~ span:after {
 }
 .imagen-pie{
     height: auto;
-    width: 300px;
-    position: relative;
+    width: 270px;
 }
-#home-pie div{
+#home-pie,#fax-pie div{
     float: left;
     margin-right: 22px;
 }
@@ -554,10 +553,19 @@ input:valid ~ span:after {
 }
 #correo-pie div{
     float: left;
-    margin-right: 22px;
+    margin-right: 27px;
 }
 #correo-pie div h3{
     padding: 12px;
 }
+#tell-pie div{
+    float: left;
+    margin-right: 22px;
+}
+#tell-pie div h3{
+    padding: 12px;
+}
 
-
+#fax-pie div h3{
+    padding: 12px;
+}
