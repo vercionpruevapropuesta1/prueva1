@@ -516,6 +516,12 @@ hr{
     float: left;
     margin-right: 16px;
 }
+#faceb-p, #GM-p, #inst-p, #you-p{
+    filter: grayscale(100%);
+}
+#faceb-p:hover,#GM-p:hover, #inst-p:hover, #you-p:hover{
+    filter: grayscale(0%);
+}
 .redes-pie img{
     width: auto;
     position: relative;
@@ -566,7 +572,7 @@ input:valid ~ span:after {
     margin-top: 5px;
 }
 #tell-pie div h3{
-    padding: 20px;
+    padding: 12px;
 }
 #fax-pie div{
     float: left;
