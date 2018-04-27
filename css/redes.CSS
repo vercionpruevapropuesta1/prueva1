@@ -39,13 +39,14 @@
     margin-right: 16px;
 }
 
-A:hover {text-decoration:underline;
-    color:rgba(61, 8, 237, 0.46);}
+.Header-redes A:hover {text-decoration:underline;
+    color:rgba(61, 8, 237, 0.46);
+cursor: zoom-in;}
 
 .Header-redes div a:link {
     text-decoration:none;
     color:white;
-    cursor: zoom-in;
+
 }
 .colora{
     color: white;
