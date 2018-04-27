@@ -44,6 +44,9 @@ A:hover {text-decoration:underline;
 
 .Header-redes div a:link {
     text-decoration:none;
-    color: rgba(61, 8, 237, 0.66);
+    color:white;
     cursor: zoom-in;
+}
+.colora{
+    color: white;
 }
