@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/redes.CSS">
     <link rel="stylesheet" href="css/fontello.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <scrip src="JS/buscar.js" ></scrip>
     <script src="main.js"></script>
     
     <link type="text/css" rel="stylesheet" href="tipsy.css" />
@@ -330,10 +331,15 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tenetur recusandae nemo aspernatur similique perspiciatis amet neque quo odio labore nisi rem dolores enim, iusto, excepturi doloribus eos eligendi, voluptatibus.
         </div>
         <div class="pie-3">
-          <div class="buscar" >
-              <input type="search" id="miBusqueda" name="q" >
-               <buton>Buscar</buton>
+         <form >
+             <div class="buscar" >
+                <input type="search" id="mySearch" name="q" placeholder="Search the site..." required
+                size="30" minlength="4" maxlength="8" pattern="[A-z]{2}[0-9]{4}">
+               <input type="submit" value="Buscar" class="button">
+               <span class="validity"></span>
           </div>
+         </form>
+
            <br>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui sapiente architecto odit a dicta nam odio inventore, nisi, tenetur placeat perferendis aspernatur eius neque, sint quas consequuntur. Fugit, dolorem! Id.
         </div>

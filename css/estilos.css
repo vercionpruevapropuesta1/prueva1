@@ -19,13 +19,9 @@ body{
     background: white;
     padding: 50px;
     margin-top: 30vh;
-    
-    
 }
 .content-1 h1{
     text-align: center;
-    
-    
 }
 .content-icon-all{
     display: -wedkit-box;
@@ -532,7 +528,17 @@ hr{
     width: 90;
     margin-left: -50px;
 }
+input:invalid ~ span:after {
+    content: '✖';
+    padding-left: 5px;
+    position: absolute:
+}
 
+input:valid ~ span:after {
+    content: '✓';
+    padding-left: 5px;
+    position: absolute:
+}
 
 
 
