@@ -14,53 +14,7 @@ body{
     background-size: cover;
 
 }
-.content-1{
-    width: 100%;
-    background: white;
-    padding: 50px;
-    margin-top: 25vh;
 
-
-}
-.content-1 h1{
-    text-align: center;
-
-
-}
-.content-icon-all{
-    display: -wedkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap:wrap;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.content-icon{
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-    margin: 20px;
-    -wedkit-transition: all 300ms;
-    transition: all 300ms;
-    margin-top: 40px;
-
-}
-.content-icon:hover{
-    -wedkit-box-shadow:0px 0px 40px -5px black;
-    box-shadow: 0px 0px 40px -5px black;
-}
-.content-icon img{
-    width: 150px;
-    border-radius:50% ;
-    -wedkit-box-shadow:0px 0px 40px -10px black;
-    box-shadow: 0px 0px 40px -10px black;
-}
-.content-icon h4{
-    margin-top:10px;
-}
-.content-icon p{
-    margin-top: 10px;
-}
 hr{
     border-top:1px solid #4f4f4f;
     border-bottom:  1px solid #4f4f4f;
@@ -71,14 +25,7 @@ hr{
     margin-top: 40px;
 
 }
-.parrafo1{
-    margin: auto;
-    margin-top: 20px;
-    max-width: 800px;
-    font-size: 20px;
 
-
-}
 /*conte-2*/
 .content-2{
     background-image: url(../images/background-2.jpg);
