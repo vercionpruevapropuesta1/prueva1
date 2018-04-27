@@ -365,6 +365,11 @@ hr{
 .content-9{
     color: aliceblue;
 }
+.pie-1, .pie-2, .pie-3 {
+    float: left;
+    width: 320px;
+    height: 200px;
+}
 #faceb-p, #GM-p, #inst-p, #you-p {
     float: left;
     margin-right: 16px;
