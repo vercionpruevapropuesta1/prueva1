@@ -540,10 +540,24 @@ input:valid ~ span:after {
     padding-left: 5px;
     position: absolute:
 }
+.imagen-pie{
+    height: auto;
+    width: 300px;
+    position: relative;
+}
 #home-pie div{
     float: left;
-    margin-right: 20px;
+    margin-right: 22px;
 }
-
+#home-pie div h3{
+    padding: 12px;
+}
+#correo-pie div{
+    float: left;
+    margin-right: 22px;
+}
+#correo-pie div h3{
+    padding: 12px;
+}
 
 
