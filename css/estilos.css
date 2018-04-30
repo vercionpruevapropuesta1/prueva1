@@ -500,7 +500,9 @@ hr{
     border: 1px solid #85898B;
 }
 .content-image-content-6{
-    width: 50%;
+    position: relative;
+        float: left;
+    width: 49%;
     height: 100%;
 
 
@@ -509,8 +511,31 @@ hr{
     width: 100%;
     height: 100%;
     }
+.content-contenido-tex{
+    position: relative;
+    float: left;
+    width: 49%;
+    height: auto;
+    right: 0px;
 
+}
 
+.contex-1 {
+   padding: 20px;
+
+}
+.contex-2 {
+   padding: 20px;
+
+}
+.contex-3 {
+   padding: 20px;
+
+}
+.contex-4 {
+   padding: 20px;
+
+}
 .content-4{
     width: 100%;
     height: 30vh;
@@ -607,4 +632,6 @@ input:valid ~ span:after {
     background-size: cover;
 
 }
+
+
 
