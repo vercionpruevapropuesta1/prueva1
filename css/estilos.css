@@ -97,8 +97,8 @@ hr{
 }
 .content-image-ct1{
     position: absolute;
-    left: 100px;
-    margin-top: 200px
+    left: 50px;
+    margin-top: 150px
 
 }
 .content-titile{
@@ -107,7 +107,7 @@ hr{
 }
 .comtent-HvP{
     position: absolute;
-    right: 100px;
+    right: 50px;
     margin-top: 180px;
     width: 700px;
     height: auto;
