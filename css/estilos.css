@@ -653,6 +653,12 @@ input:valid ~ span:after {
     background-size: cover;
 
 }
-
+.content-10 p{
+    float: left;
+    border: solid red;
+    color:aqua;
+    width: auto;
+    margin: 60px 260px;
+}
 
 
