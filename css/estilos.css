@@ -595,3 +595,6 @@ input:valid ~ span:after {
     background-size: cover;
 
 }
+.pie-2 li{
+    padding: 5px;
+}
