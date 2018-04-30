@@ -109,7 +109,10 @@ hr{
     position: absolute;
     right: 100px;
     margin-top: 180px;
+    width: 700px;
+    height: auto;
 }
+
 
 
 .content-image-ct1 img{
