@@ -523,23 +523,41 @@ hr{
 }
 .lol1, .lol2{
     float: left;
+    width: 600px;
     margin: 10px 60px;
+    border: solid blue;
 }
 .contex-1 {
-    position: relative;
-   padding: 20px;
-    width: 200px;
     float: left;
     margin-right: 50px;
+    padding: 20px;
+}
+.CT1 {
+    float: left;
+    border: solid red;
+    width: 40px;
+    margin-right: 5px;
+}
+.CT2 {
+    float: right;
+    border: solid red;
+    width: 160px;
 }
 .contex-2 {
-    position: relative;
-   padding: 20px;
-    width: 200px;
     float: left;
-
-
-
+    margin-right: 50px;
+    padding: 20px;
+}
+.CT3 {
+    float: left;
+    border: solid red;
+    width: 40px;
+    margin-right: 5px;
+}
+.CT4 {
+    float: right;
+    border: solid red;
+    width: 160px;
 }
 .contex-3 {
      position: relative;
@@ -664,3 +682,5 @@ input:valid ~ span:after {
 .content-10 ul {
     float: left;
 }
+
+
