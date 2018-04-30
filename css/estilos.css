@@ -110,7 +110,12 @@ hr{
     right: 100px;
     margin-top: 180px;
 }
-.content-item-1 img{
+.content-image-icon{
+    float: left;
+
+}
+
+.content-image-ct1 img{
     width: 100%;
     max-width: 600px;
     }
