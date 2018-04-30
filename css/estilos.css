@@ -506,14 +506,15 @@ hr{
     color: aliceblue;
 }
 .pie-1, .pie-2, .pie-3 {
+    text-align: left;
     float: left;
     width: 320px;
     height: auto;
-    margin: 20px;
-    margin-top: 50px;
+    margin: 10px;
+    margin-top: 100px;
 }
 .pie-1{
-    margin-left: 200px;
+    margin-left: 230px;
 }
 .redes-pie {
     margin-top: 30px;
@@ -598,6 +599,9 @@ input:valid ~ span:after {
     background-position: center center;
     background-size: cover;
 
+}
+.pie-2{
+    margin-left: 50px;
 }
 .pie-2 li{
     padding: 5px;
