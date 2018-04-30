@@ -488,7 +488,7 @@ hr{
 /*content-6*/
 .content-6{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     margin-top: 200px;
     background-color: white;
     background-attachment: fixed;
@@ -496,6 +496,16 @@ hr{
     background-size: cover;
     border: 1px solid #85898B;
 }
+.content-image-content-6{
+    width: 50%;
+    height: 100%;
+
+
+}
+.content-image-content-6 img{
+    width: 100%;
+    height: 100%;
+    }
 
 
 .content-4{
