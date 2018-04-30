@@ -516,24 +516,43 @@ hr{
     float: left;
     width: 49%;
     height: auto;
-    right: 0px;
+    margin-top: 180px;
+    left: 100px
+
 
 }
-
+.lol1, .lol2{
+    float: left;
+    margin: 10px 60px;
+}
 .contex-1 {
+    position: relative;
    padding: 20px;
-
+    width: 200px;
+    float: left;
+    margin-right: 50px;
 }
 .contex-2 {
+    position: relative;
    padding: 20px;
+    width: 200px;
+    float: left;
+
+
 
 }
 .contex-3 {
-   padding: 20px;
-
+     position: relative;
+    padding: 20px;
+     width: 200px;
+    float: left;
+   margin-right: 50px;
 }
 .contex-4 {
+    position: relative;
    padding: 20px;
+    width: 200px;
+     float: left;
 
 }
 .content-4{
