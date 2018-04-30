@@ -497,11 +497,10 @@ hr{
     width: 100%;
     height: 50vh;
     margin-top: 0px;
-    background: rgba(0,0,0,1);
+    background: rgba(0, 0, 0, 0.9);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-
 }
 .content-9{
     color: aliceblue;
@@ -592,13 +591,12 @@ input:valid ~ span:after {
 }
 .content-10{
     width: 100%;
-    height: 12vh;
+    height: 15vh;
     margin-top: 0px;
-    background-color:black;
+    background-color:purple;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-
 
 }
 .pie-2 li{
