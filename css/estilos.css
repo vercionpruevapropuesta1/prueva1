@@ -532,13 +532,13 @@ hr{
     margin-right: 50px;
     padding: 20px;
 }
-.CT1 {
+.CT1, .CT3, .CT5, .CT7 {
     float: left;
     border: solid red;
     width: 40px;
     margin-right: 5px;
 }
-.CT2 {
+.CT2, .CT4, .CT6, .CT8 {
     float: right;
     border: solid red;
     width: 160px;
@@ -547,17 +547,6 @@ hr{
     float: left;
     margin-right: 50px;
     padding: 20px;
-}
-.CT3 {
-    float: left;
-    border: solid red;
-    width: 40px;
-    margin-right: 5px;
-}
-.CT4 {
-    float: right;
-    border: solid red;
-    width: 160px;
 }
 .contex-3 {
      float: left;
