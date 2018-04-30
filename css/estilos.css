@@ -601,3 +601,6 @@ input:valid ~ span:after {
 
 
 }
+.pie-2 li{
+    padding: 5px;
+}
