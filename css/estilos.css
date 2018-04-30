@@ -647,9 +647,9 @@ input:valid ~ span:after {
     position: absolute:
 }
 .imagen-pie h3{
-    padding: 2px;
     width: 200px;
-    margin-top: 5px;
+    height: auto;
+    margin-top: 0.1%;
     margin-left: 50px;
 }
 
