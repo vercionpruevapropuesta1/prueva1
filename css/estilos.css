@@ -516,6 +516,8 @@ hr{
     float: left;
     width: 49%;
     height: auto;
+    margin-top: 180px;
+    left: 100px
 
 
 }
@@ -528,16 +530,14 @@ hr{
    padding: 20px;
     width: 200px;
     float: left;
-
-    border: solid red;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 .contex-2 {
     position: relative;
    padding: 20px;
     width: 200px;
     float: left;
-    border: solid purple;
+
 
 
 }
@@ -546,15 +546,13 @@ hr{
     padding: 20px;
      width: 200px;
     float: left;
-    border: solid yellow;
-   margin-right: 30px;
+   margin-right: 50px;
 }
 .contex-4 {
     position: relative;
    padding: 20px;
     width: 200px;
      float: left;
-    border: solid orange;
 
 }
 .content-4{
