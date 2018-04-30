@@ -86,7 +86,7 @@ hr{
 }
 .content-item-1{
     width: 80%;
-    height: 90vh;
+    height: 80vh;
     margin: auto;
     background: white;
     color: black;
@@ -98,12 +98,17 @@ hr{
 .content-image-ct1{
     position: absolute;
     left: 100px;
-    margin-top: 280px
+    margin-top: 200px
+
+}
+.content-titile{
+    margin-top: 40px;
 
 }
 .comtent-HvP{
     position: absolute;
-    right: 0px;
+    right: 100px;
+    margin-top: 180px;
 }
 .content-item-1 img{
     width: 100%;
