@@ -560,18 +560,14 @@ hr{
     width: 160px;
 }
 .contex-3 {
-     position: relative;
+     float: left;
+    margin-right: 50px;
     padding: 20px;
-     width: 200px;
-    float: left;
-   margin-right: 50px;
 }
 .contex-4 {
-    position: relative;
-   padding: 20px;
-    width: 200px;
-     float: left;
-
+    float: left;
+    margin-right: 50px;
+    padding: 20px;
 }
 .content-4{
     width: 100%;
