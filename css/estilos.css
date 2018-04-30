@@ -641,3 +641,7 @@ input:valid ~ span:after {
 }
 
 
+
+.content-10 ul {
+    float: left;
+}
