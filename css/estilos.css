@@ -78,7 +78,7 @@ hr{
 }
 /*conte-2*/
 .content-2{
-    background-image: url(../images/background-2.jpg);
+    background-color: white;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -86,6 +86,7 @@ hr{
 }
 .content-item-1{
     width: 80%;
+    height: 90vh;
     margin: auto;
     background: white;
     color: black;
@@ -94,18 +95,26 @@ hr{
     margin-top: 30vh;
     
 }
+.content-image-ct1{
+    position: absolute;
+    left: 100px;
+    margin-top: 230px
+
+}
+.comtent-HvP{
+    position: absolute;
+    right: 0px;
+}
 .content-item-1 img{
     width: 100%;
-    max-width: 800px;
-    
-    
-}
+    max-width: 600px;
+    }
 .content-item-1 h1{
     margin-top: 20px;
 }
 .content-item-1 p{
     text-align: justify;
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
     margin-top: 20px;
     font-size: 20px;
