@@ -29,21 +29,13 @@
     margin-top: 10%;
     width: 100%;
     max-width: 1000px;
-    border: solid red 1px;
     padding: 20px;
+    display: none;
 }
 .content-tabs1 .content-texnew{
     text-align: center;
 }
-.content-tabs1:before{
-    content:;
-    width: 0px;
-    height: 0px;
-    position: fixed;
-    border-left: 22px solid transparent;
-    border-right: 22px solid transparent;
-    border-bottom: 26px solid black;
-}
+
 .content-texnew h2{
     font-size: 35px;
     margin-top: 20px;
@@ -62,3 +54,80 @@
      width: 100%;
     max-width: 500px;
 }
+/*content-tab2*/
+.content-tabs2{
+    position: absolute;
+   left: 15%;
+    margin-top: 10%;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    display: none;
+
+}
+.content-tabs2 h1{
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+.contexprincipal{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms- flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.contexprincipal .contex{
+    width: 300px;
+    padding: 10px;
+
+
+}
+.contexprincipal .contex h4{
+    padding: 10px;
+}
+.contexprincipal .contex .imcon{
+    float: left;
+    padding: 20px;
+    margin-top:12%;
+}
+/*content-tab3*/
+.content-tabs3{
+    position: absolute;
+   left: 15%;
+    margin-top: 10%;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+
+
+}
+.contet-contenido{
+ display: flex;
+
+}
+.content-tabs3 .cont-ini{
+    width: 400px;
+    padding: 10px;
+
+}
+.content-tabs3 .cont-ini .imge{
+
+}
+.content-tabs3 .cont-ini .imge img{
+    width: 100%;
+    max-width: 300px;
+}
+
+
+
+
+
