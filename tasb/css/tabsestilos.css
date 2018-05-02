@@ -99,6 +99,35 @@
     padding: 20px;
     margin-top:12%;
 }
+/*content-tab3*/
+.content-tabs3{
+    position: absolute;
+   left: 15%;
+    margin-top: 10%;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+
+
+}
+.contet-contenido{
+ display: flex;
+
+}
+.content-tabs3 .cont-ini{
+    width: 400px;
+    padding: 10px;
+
+}
+.content-tabs3 .cont-ini .imge{
+
+}
+.content-tabs3 .cont-ini .imge img{
+    width: 100%;
+    max-width: 300px;
+}
+
+
 
 
 
