@@ -3,12 +3,17 @@
     margin: auto;
     overflow: hidden;
 }
+
 .slider ul {
     display: flex;
     padding: 0;
     width: 300%;
-
     animation: cambio 20s infinite alternate linear;
+}
+.btn-prev:active {
+
+    background: red;
+    animation: cambio2 5s infinite alternate linear;
 }
 .slider li {
     width: 100%;
@@ -31,3 +36,31 @@
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
+.btn-prev, .btn-next {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+.btn-prev:hover, .btn-next:hover {
+  background: blue;
+}
+
+.btn-prev {
+  left: 10px;
+}
+
+.btn-next {
+  right: 10px;
+}
+
