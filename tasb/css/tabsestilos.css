@@ -30,7 +30,7 @@
     width: 100%;
     max-width: 1000px;
     padding: 20px;
-    display: none;
+
 }
 .content-tabs1 .content-texnew{
     text-align: center;
@@ -107,6 +107,7 @@
     width: 100%;
     max-width: 1000px;
     padding: 20px;
+    display: none;
 
 
 }
@@ -117,15 +118,30 @@
 .content-tabs3 .cont-ini{
     width: 400px;
     padding: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    }
+.imge{
+
 
 }
-.content-tabs3 .cont-ini .imge{
-
-}
-.content-tabs3 .cont-ini .imge img{
-    width: 100%;
+.imge img{
+     width: 100%;
     max-width: 300px;
+
 }
+.content-tabs3 .cont-ini h4{
+    margin-top: 10px;
+    padding: 10px;
+    color: gray;
+}
+.content-tabs3 .cont-ini h3{
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
 
 
 
