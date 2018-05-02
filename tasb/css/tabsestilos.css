@@ -30,7 +30,7 @@
     width: 100%;
     max-width: 1000px;
     padding: 20px;
-    display: none;
+
 }
 .content-tabs1 .content-texnew{
     text-align: center;
@@ -107,6 +107,7 @@
     width: 100%;
     max-width: 1000px;
     padding: 20px;
+    display: none;
 
 
 }
