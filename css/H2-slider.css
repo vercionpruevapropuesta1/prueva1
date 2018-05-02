@@ -1,3 +1,4 @@
+/*    ------    contenedor 1    -----     */
 .slider {
     position: relative;
     width: 100%;
@@ -36,6 +37,7 @@ animation: cambio 20s infinite alternate linear;}
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
-/*---------------------------------------------------*/
+
+/*----------     contenedor 5      -----------*/
 
 
