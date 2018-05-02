@@ -166,6 +166,16 @@ hr{
     padding: 5px;
     list-style-type: circle;
 }
+.pie-2 a{
+    color: #b7b0e0;
+    text-decoration:none;
+}
+.pie-2 a:hover{
+    text-decoration:none;
+    display:block;
+    color: skyblue;
+    font-size: 19px;
+}
 .redes-pie {
     margin-top: 30px;
     width: 350px;
@@ -221,7 +231,6 @@ input:valid ~ span:after {
 }
 .content-10 p{
     float: left;
-    border: solid red;
     color:aqua;
     width: auto;
     margin: 60px 260px;
