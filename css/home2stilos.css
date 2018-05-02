@@ -44,6 +44,10 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
 
 }
 .content-3{
