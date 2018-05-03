@@ -78,6 +78,7 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    border: solid 1px grey;
 
 
 
@@ -100,6 +101,7 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    border: solid 1px grey;
 
 }
 /*content-5*/
