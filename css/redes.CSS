@@ -44,11 +44,8 @@
     color:rgba(61, 8, 237, 0.46);
 cursor: zoom-in;}
 
-.Header-redes div a:link {
+.Header-redes div a{
     text-decoration:none;
     color:white;
 
-}
-.colora{
-    color: white;
 }
