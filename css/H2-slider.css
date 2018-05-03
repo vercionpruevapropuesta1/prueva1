@@ -47,7 +47,7 @@ animation: cambio 20s infinite alternate linear;}
     max-width: none;
     height: auto;
     width: auto;
-    transform: translate(100%,-50%);
+    transform: translate(-50%,-50%);
 }
 /*----------     contenedor 5      -----------*/
 .content-5 div{
