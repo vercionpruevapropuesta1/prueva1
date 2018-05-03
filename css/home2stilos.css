@@ -147,6 +147,14 @@ hr{
     padding: 20px;
     border:  solid 1px black;
 }
+.content-R2 h3{
+    margin-top:45%;
+     padding: 10px;
+}
+.content-R2 p{
+    padding: 10px;
+
+}
 .content-R3{
     width:25%;
     padding: 20px;
@@ -156,6 +164,13 @@ hr{
     width: 25%;
     padding: 20px;
     border:  solid 1px black;
+}
+.content-R4 h3{
+    margin-top:45%;
+     padding: 10px;
+}
+.content-R4 p{
+    padding: 10px;
 }
 
 
