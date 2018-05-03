@@ -59,16 +59,29 @@ animation: cambio 20s infinite alternate linear;}
     text-align: center;
     z-index: 2;
     font-size: 20px;
-    color: #5a5353;
+    color: white;
 }
 .content-3 .texto2 {
     position: absolute;
-    margin-left: 30%;
+    margin-left: 27%;
     margin-top: 260px;
     text-align: center;
     z-index: 2;
     font-size: 50px;
-    color: #5a5353;
+    color: white;
+}
+.content-3 .logos {
+    float: left;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 400px;
+    text-align: center;
+    z-index: 2;
+    font-size: 10px;
+    color: white;
+}
+.content-3 #L1{
+    padding: 6px;
 }
 
 /*----------     contenedor 5      -----------*/
