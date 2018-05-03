@@ -38,18 +38,6 @@ animation: cambio 20s infinite alternate linear;}
     100% {margin-left: -300%;}
 }
 /*----------     contenedor 3      -----------*/
-.content-3 .video{
-    /*position: relative;
-    top: 50%;
-    left: 50%;
-    min-height: 100%;
-    min-width: 100%;
-    max-width: none;
-    height: auto;
-    width: auto;
-    transform: translate(-50%,-50%);*/
-
-}
 .content-3{
  overflow: hidden;
 }
@@ -64,10 +52,11 @@ animation: cambio 20s infinite alternate linear;}
     width: auto;
     transform: translate(-50%,-10%);
 }
-.content-4{
+
+/*----------     contenedor 5      -----------*/
+.content-5{
  border: solid red 20px;
 }
-/*----------     contenedor 5      -----------*/
 .content-5 div{
     float: left;
     animation: cambio2 10s infinite alternate linear;

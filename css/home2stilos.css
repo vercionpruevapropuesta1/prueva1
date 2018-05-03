@@ -52,7 +52,7 @@ hr{
 .content-3{
 
     width: 100%;
-    height: 60vh;
+    height: 69vh;
     margin-top: 0px;
     background-color: yellow;
     background-attachment: fixed;
@@ -60,16 +60,7 @@ hr{
     background-size: cover;
 
 }
-.content-4{
-    width: 100%;
-    height: 30vh;
-    margin-top: 0px;
-    background-color: aqua;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
 
-}
 .content-5{
     width: 100%;
     height: 30vh;
