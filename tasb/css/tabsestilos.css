@@ -149,7 +149,6 @@
     width: 100%;
     max-width: 1000px;
     padding: 20px;
-    border: 1px solid black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -159,8 +158,14 @@
 .tex-contex .cont-tex{
     width: 300px;
     padding: 10px;
-    border: 1px solid black;
 
+
+
+}
+.tex-contex .cont-tex .ime{
+    float: left;
+    padding: 20px;
+    margin-top:7%;
 
 }
 
