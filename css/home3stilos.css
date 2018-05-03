@@ -41,7 +41,15 @@ hr{
     height: 100%;
     background-color: rgba(31,31,31,0.7);
 }
-.boton_personalizado{
+.comten-ryo h1{
+    position: absolute;
+    font-size: 30px;
+    top: 42%;
+    left: 30%;
+    color: grey;
+
+}
+.boton_personalizado1{
     position: absolute;
     text-decoration: none;
     padding: 10px;
@@ -54,7 +62,7 @@ hr{
     top: 50%;
     left: 45%;
   }
-.boton_personalizado:hover{
+.boton_personalizado1:hover{
     color: #1883ba;
     background-color: #ffffff;
   }
@@ -70,6 +78,7 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    border: solid 1px grey;
 
 
 
@@ -92,18 +101,77 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    border: solid 1px grey;
 
 }
+/*content-5*/
 .content-5{
+    position: absolute;
     width: 100%;
-    height: 30vh;
+    height: 60vh;
     margin-top: 0px;
-    background-color:orange;
+    background-color: white;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
 
 }
+.contentspecial{
+    position: relative;
+    margin-top: 2%;
+}
+.imagenphon5{
+    position:absolute;
+    top: 5%;
+    left: 60%;
+}
+.imagenphon5 img{
+    width: 100%;
+    max-width: 400px;
+
+}
+.imagenphontex{
+    position: relative;
+    top: 65%;
+    left: 10%;
+    width: 40%;
+    height: 20%;
+
+}
+.texclass{
+    position: relative;
+    margin-top: 10px;
+    left: 20px;
+    text-align: center;
+    font-family: roboto,sans-serif;
+
+}
+.boton1{
+    position: relative;
+    margin-top: 100px;
+    left: 90px;
+    float: left;
+}
+.boton2{
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    left: 100px;
+}
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:purple;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+  }
+.boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
 /*content-6*/
 .content-6{
     width: 100%;
