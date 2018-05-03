@@ -38,7 +38,10 @@ animation: cambio 20s infinite alternate linear;}
     100% {margin-left: -300%;}
 }
 /*----------     contenedor 3      -----------*/
-.content-3 .video{
+.content-3{
+ overflow: hidden;
+}
+.l-section-video video {
     position: relative;
     top: 50%;
     left: 50%;
@@ -47,9 +50,13 @@ animation: cambio 20s infinite alternate linear;}
     max-width: none;
     height: auto;
     width: auto;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-10%);
 }
+
 /*----------     contenedor 5      -----------*/
+.content-5{
+ border: solid red 20px;
+}
 .content-5 div{
     float: left;
     animation: cambio2 10s infinite alternate linear;
