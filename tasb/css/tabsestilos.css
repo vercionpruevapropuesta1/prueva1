@@ -25,7 +25,7 @@
 /*content-tab1*/
 .content-tabs1{
     position: absolute;
-    left: 20%;
+    left: 18%;
     margin-top: 10%;
     width: 100%;
     max-width: 1000px;
@@ -57,7 +57,7 @@
 /*content-tab2*/
 .content-tabs2{
     position: absolute;
-   left: 20%;
+   left: 18%;
     margin-top: 10%;
     width: 100%;
     max-width: 1000px;
@@ -102,7 +102,7 @@
 /*content-tab3*/
 .content-tabs3{
     position: absolute;
-   left: 20%;
+   left: 18%;
     margin-top: 10%;
     width: 100%;
     max-width: 1000px;
@@ -141,6 +141,34 @@
     color: black;
     text-align: center;
 }
+/*content-6*/
+.tex-contex{
+      position: absolute;
+   left: 18%;
+    margin-top: 10%;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms- flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.tex-contex .cont-tex{
+    width: 300px;
+    padding: 10px;
+
+
+
+}
+.tex-contex .cont-tex .ime{
+    float: left;
+    padding: 20px;
+    margin-top:7%;
+
+}
+
 
 
 
