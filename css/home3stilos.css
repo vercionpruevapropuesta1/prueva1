@@ -43,9 +43,7 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+
 
 
 }
@@ -92,36 +90,7 @@ hr{
 
 }
 
-.tex-contex{
-      position: absolute;
-   left: 18%;
-    margin-top: 10%;
-    width: 100%;
-    max-width: 1000px;
-    padding: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms- flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-.tex-contex .cont-tex{
-    width: 300px;
-    padding: 20px;
-}
-.tex-contex .cont-tex .ime{
-    float: left;
-    padding: 20px;
-    margin-top:7%;
-}
-.tex-contex .cont-tex h4{
-    padding: 10px;
-}
-.content-h{
-    position: absolute;
-    margin-top: 8%;
-    left: 33%;
-    }
+
 /*content-7*/
 .content-7{
     width: 100%;
@@ -131,51 +100,8 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-     display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
 
-}
-.content-R1{
-    width: 25%;
-    padding: 20px;
 
-     background-image: url(/images/BCJAP.jpg);
-    background-position: center center;
-    background-size: cover;
-
-}
-.content-R2{
-    width: 25%;
-    padding: 20px;
-
-}
-.content-R2 h3{
-    margin-top:45%;
-     padding: 10px;
-}
-.content-R2 p{
-    padding: 10px;
-
-}
-.content-R3{
-    width:25%;
-    padding: 20px;
-    background-image: url(/images/empresa2.jpeg);
-    background-position: center center;
-    background-size: cover;
-}
-.content-R4{
-    width: 25%;
-    padding: 20px;
-
-}
-.content-R4 h3{
-    margin-top:45%;
-     padding: 10px;
-}
-.content-R4 p{
-    padding: 10px;
 }
 
 
