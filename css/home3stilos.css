@@ -41,6 +41,26 @@ hr{
     height: 100%;
     background-color: rgba(31,31,31,0.7);
 }
+.boton_personalizado{
+    position: absolute;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:rebeccapurple;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+    top: 50%;
+    left: 45%;
+  }
+.boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+.opasity{
+    background-color: rgba(31,31,31,0.7);
+}
 
 .content-2{
     width: 100%;
