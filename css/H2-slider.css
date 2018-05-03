@@ -74,7 +74,7 @@ animation: cambio 20s infinite alternate linear;}
 .content-3 .logos {
     position: absolute;
     margin-left: 30%;
-    margin-top: 450px;
+    margin-top: 25%;
     text-align: center;
     z-index: 2;
     font-size: 15px;
