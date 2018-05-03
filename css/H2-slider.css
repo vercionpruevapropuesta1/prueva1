@@ -52,9 +52,28 @@ animation: cambio 20s infinite alternate linear;}
     width: auto;
     transform: translate(-50%,-10%);
 }
+.content-3 .texto {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 200px;
+    text-align: center;
+    z-index: 2;
+    font-size: 20px;
+    color: #5a5353;
+}
+.content-3 .texto2 {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 260px;
+    text-align: center;
+    z-index: 2;
+    font-size: 50px;
+    color: #5a5353;
+}
 
 /*----------     contenedor 5      -----------*/
 .content-5{
+    z-index: 1;
  border: solid red 20px;
 }
 .content-5 div{
