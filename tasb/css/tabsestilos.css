@@ -157,17 +157,17 @@
 }
 .tex-contex .cont-tex{
     width: 300px;
-    padding: 10px;
-
-
-
+    padding: 20px;
 }
 .tex-contex .cont-tex .ime{
     float: left;
     padding: 20px;
     margin-top:7%;
-
 }
+.tex-contex .cont-tex h4{
+    padding: 10px;
+}
+
 
 
 
