@@ -72,6 +72,7 @@ animation: cambio 20s infinite alternate linear;}
     color: white;
 }
 .content-3 .logos {
+    width: 50%;
     position: absolute;
     margin-left: 30%;
     margin-top: 25%;
@@ -82,7 +83,10 @@ animation: cambio 20s infinite alternate linear;}
 }
 .content-3 #L1{
     float: left;
-    padding: 16px;
+    margin-right: 5%;
+}
+.content-3 #L1 h2{
+    margin-top: 7%;
 }
 
 /*----------     contenedor 5      -----------*/
