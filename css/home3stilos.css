@@ -163,6 +163,14 @@ hr{
     margin-left: 16px;
     width: 20%;
 }
+.divi .icono{
+    float: left;
+}
+.divi h2{
+    float: left;
+    margin-left: 15px;
+}
+
 /*     ----------------     content-5       ----------------------------*/
 .content-5{
 
