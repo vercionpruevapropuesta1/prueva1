@@ -27,3 +27,19 @@
 .slider2 {
   overflow: hidden;
 }
+.slide .TxSl2 {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-align: center;
+    color: black;
+}
+.slide .TxSl3 {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-left: 3%;
+    text-align: center;
+    color: black;
+}
