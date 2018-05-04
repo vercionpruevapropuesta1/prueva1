@@ -33,7 +33,7 @@
     margin-top: 2%;
     margin-left: 2%;
     text-align: center;
-    color: black;
+    color: whitesmoke;
 }
 .slide .TxSl3 {
     position: absolute;
@@ -41,5 +41,16 @@
     margin-top: 4%;
     margin-left: 3%;
     text-align: center;
-    color: black;
+    color: whitesmoke;
+}
+.slide:hover{
+    filter: grayscale(80%)
+}
+.slide:hover .TxSl2{
+    color: snow;
+    background: rgba(59, 25, 25, 0.52);
+}
+.slide:hover .TxSl3{
+    color: snow;
+    background: rgba(59, 25, 25, 0.52);
 }

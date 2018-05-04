@@ -123,7 +123,7 @@ animation: cambio 15s infinite alternate linear;}
     height: auto;
     width: auto;
     transform: translate(-50%,-10%);
-    filter: grayscale(80%)
+    filter: grayscale(80%);
 }
 .content-3 .texto {
     position: absolute;
