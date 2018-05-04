@@ -8,7 +8,6 @@
             transform: translateX(calc(-250px * 7));
   }
 }
-
 @keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -24,4 +23,7 @@
           animation: scroll 60s linear infinite;
   display: flex;
   width: calc(20% * 11);
+}
+.slider2 {
+  overflow: hidden;
 }
