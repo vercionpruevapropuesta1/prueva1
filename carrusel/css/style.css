@@ -32,3 +32,8 @@
   display: flex;
   width: calc(250px * 14);
 }
+.slide img{
+    width: 250px;
+    height: 100px
+
+}
