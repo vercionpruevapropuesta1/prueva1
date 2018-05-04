@@ -8,7 +8,6 @@
             transform: translateX(calc(-250px * 7));
   }
 }
-
 @keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -24,4 +23,13 @@
           animation: scroll 60s linear infinite;
   display: flex;
   width: calc(20% * 11);
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  top: 70%;
+  overflow: hidden;
+  position: relative;
+  width: auto;
 }
