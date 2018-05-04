@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+    margin: 0;
+    padding: 0;
+    -wedkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-1{
+    width: 100%;
+    background: white;
+    padding: 50px;
+    margin-top: 25vh;
+
+}
+
+hr{
+    border-top:1px solid #4f4f4f;
+    border-bottom:  1px solid #4f4f4f;
+    border-left: none;
+    border-right: none;
+    height: 6px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+/*conte-2*/
+.content-2{
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+.content-item-1{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    margin-top: 30vh;
+
+}
+.content-image-ct1{
+    position: absolute;
+    left: 50px;
+    margin-top: 150px
+
+}
+.content-titile{
+    margin-top: 40px;
+
+}
+.comtent-HvP{
+    position: absolute;
+    right: 50px;
+    margin-top: 180px;
+    width: 700px;
+    height: auto;
+}
+
+
+
+.content-image-ct1 img{
+    width: 100%;
+    max-width: 600px;
+    }
+.content-item-1 h1{
+    margin-top: 20px;
+}
+.content-item-1 p{
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    color:black;
+}
+/*content-3*/
+.content-3{
+    width: 100%;
+    height: 80vh;
+    margin-top: 250px;
+    background-image: url(../images/background-2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.content-imagebox{
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: 90%;
+    left: 12%;
+    top: 70px;
+}
+#imagebox-1{
+    position: absolute;
+    z-index: 2;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28558804-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
+    top: 5px;
+}
+#info1{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-1:hover #info1{
+    opacity: 1;
+
+}
+#headline1{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#imagebox-2{
+    position:absolute;
+    z-index: 3;
+    top: 0px;
+    left: 380px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28558811-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
+    top: 5px;
+}
+#info2{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-2:hover #info2{
+    opacity: 1;
+
+}
+#headline2{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-3{
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    left: 760px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/28559613-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
+    top: 5px;
+}
+#info3{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-3:hover #info3{
+    opacity: 1;
+
+}
+#headline3{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-4{
+    position: absolute;
+    z-index: 5;
+    top:250px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/30287319-nube-concepto-de-computaci%C3%B3n.jpg);
+
+}
+#info4{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-4:hover #info4{
+    opacity: 1;
+
+}
+#headline4{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+#imagebox-5{
+    position: absolute;
+    z-index: 6;
+    top:250px;
+    left: 380px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/declaracion-18.jpg);
+
+}
+#info5{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-5:hover #info5{
+    opacity: 1;
+
+}
+#headline5{
+    position: absolute;
+    font-size: 21;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+.imagebox-6{
+    position: absolute;
+    z-index: 7;
+    top:250px;
+    left: 760px;
+    width: 370px;
+    height: 239px;
+    background-image: url(../portafoliobox/niif-esfa.jpg);
+
+}
+#info6{
+    position: absolute;
+    overflow: hidden;
+   width: 370px;
+    height: 239px;
+    color: white;
+    background-color: rgba(31,31,31,0.9);
+    -wedkit-transition:opacity 0.2s;
+    -moz-transition:opacity 0.2s;
+    opacity: 0;
+}
+#imagebox-6:hover #info6{
+    opacity: 1;
+
+}
+#headline6{
+    position: absolute;
+    font-size: 21;
+    margin-left: 130px;
+    margin-top: 100px;
+
+}
+
+
+/*content-5*/
+.content-5{
+    width: 100%;
+    height: 60vh;
+    margin-top: 200px;
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.contentspecial{
+    position: relative;
+    top: 10%;
+}
+.imagenphon5{
+    position:absolute;
+    top: 5%;
+    left: 60%;
+}
+.imagenphontex{
+    position: relative;
+    top: 65%;
+    left: 10%;
+    width: 40%;
+    height: 20%;
+
+}
+.texclass{
+    position: relative;
+    margin-top: 10px;
+    left: 20px;
+    text-align: center;
+    font-family: roboto,sans-serif;
+
+}
+.boton1{
+    position: relative;
+    margin-top: 100px;
+    left: 90px;
+    float: left;
+}
+.boton2{
+    position: relative;
+    margin-top: 100px;
+    float: left;
+    left: 100px;
+}
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:purple;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+  }
+.boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+.content-7{
+    width: 100%;
+    height: 70vh;
+    margin-top: 200px;
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.comten-spec-tex{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    top: 100px;
+    left: 100px;
+
+}
+.conten-special-tex1{
+    position: absolute;
+    color:black;
+    width: 200px;
+    top 200px;
+    left: 50px;
+    text-align: center;
+
+
+}
+.conten-special-tex2{
+    position: absolute;
+   color:black;
+     width: 200px;
+    top 100px;
+    left: 40%;
+    text-align: center;
+
+}
+.conten-special-tex3{
+    position: absolute;
+    color:black;
+     width: 200px;
+     top 100px;
+    left: 80%;
+    text-align: center;
+
+}
+.conten-special-tex4{
+    position: absolute;
+    color:black;;
+     width: 200px;
+    top: 200px;
+    left: 50px;
+    text-align: center;
+
+}
+.conten-special-tex5{
+    position: absolute;
+    color:black;
+     width: 200px;
+    top: 200px;
+     left: 40%;
+    text-align: center;
+
+}
+.conten-special-tex6{
+    position: absolute;
+    color:black;
+     width: 200px;
+    top: 200px;
+    left: 80%;
+    text-align: center;
+
+
+}
+.content-8{
+    width: 100%;
+    height: 20vh;
+    background-image: url(../images/background-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+/*content-6*/
+.content-6{
+    width: 100%;
+    height: 80vh;
+    margin-top: 200px;
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #85898B;
+}
+.content-image-content-6{
+    position: relative;
+        float: left;
+    width: 49%;
+    height: 100%;
+
+
+}
+.content-image-content-6 img{
+    width: 100%;
+    height: 100%;
+    }
+.content-contenido-tex{
+    position: relative;
+    float: left;
+    width: 49%;
+    height: auto;
+    margin-top: 80px;
+    left: 100px
+
+
+}
+.content-nnewh2{
+     position: relative;
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-top: 80px;
+    left: 100px;
+    text-align: center;
+
+}
+.lol1, .lol2{
+    float: left;
+    width: 600px;
+    margin: 10px 60px;
+
+}
+.contex-1 {
+    float: left;
+    margin-right: 50px;
+    padding: 20px;
+}
+.CT1, .CT3, .CT5, .CT7 {
+    float: left;
+    width: 40px;
+    margin-right: 5px;
+}
+.CT2, .CT4, .CT6, .CT8 {
+    float: right;
+
+    width: 160px;
+}
+.contex-2 {
+    float: left;
+    margin-right: 50px;
+    padding: 20px;
+}
+.contex-3 {
+     float: left;
+    margin-right: 50px;
+    padding: 20px;
+}
+.contex-4 {
+    float: left;
+    margin-right: 50px;
+    padding: 20px;
+}
+.content-4{
+    width: 100%;
+    height: 30vh;
+    margin-top: 0px;
+    background-color: purple;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #85898B;
+
+}
+.content-9{
+    width: 100%;
+    height: 50vh;
+    margin-top: 0%;
+    background: rgba(0, 0, 0, 0.9);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.content-9{
+    color: aliceblue;
+}
+.pie-1, .pie-2, .pie-3 {
+
+    float: left;
+    width: 360px;
+    height: auto;
+    margin: 10px;
+    margin-top: 100px;
+}
+.pie-1{
+    margin-left: 230px;
+}
+.pie-2{
+    margin-left: 50px;
+}
+.pie-2 li{
+    padding: 5px;
+    list-style-type: circle;
+}
+.pie-2 a{
+    color: #b7b0e0;
+    text-decoration:none;
+}
+.pie-2 a:hover{
+    text-decoration:none;
+    display:block;
+    color: skyblue;
+    font-size: 19px;
+}
+
+.redes-pie {
+    margin-top: 30px;
+    width: 350px;
+}
+#faceb-p, #GM-p, #inst-p, #you-p {
+    float: left;
+    margin-right: 16px;
+}
+#faceb-p, #GM-p, #inst-p, #you-p{
+    filter: grayscale(100%);
+}
+#faceb-p:hover,#GM-p:hover, #inst-p:hover, #you-p:hover{
+    filter: grayscale(0%);
+}
+.redes-pie img{
+    width: auto;
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.redes-pie img:hover{
+    height: 90px;
+    width: 90;
+    margin-left: -50px;
+}
+input:invalid ~ span:after {
+    content: '✖';
+    padding-left: 5px;
+    position: absolute:
+}
+
+input:valid ~ span:after {
+    content: '✓';
+    padding-left: 5px;
+    position: absolute:
+}
+.imagen-pie h3{
+    width: 200px;
+    height: auto;
+    margin-top: 0.1%;
+    margin-left: 50px;
+}
+
+
+.content-10{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    margin-top: 0px;
+    background-color:black;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
+.NN1{
+    float: left;
+    color: snow;
+    width: auto;
+    margin: 3.29% 260px;
+}
+.content-10 ul {
+    float: left;
+    color:white;
+    width: auto;
+    margin: 3.29% 10px;
+    font-size: 20px;
+}
+.content-10 ul a{
+    text-decoration:none;
+    display:block;
+    color: aliceblue;
+}
+.content-10 ul a:hover{
+    text-decoration:none;
+    display:block;
+    color: skyblue;
+    font-size: 26px;
+}
+
