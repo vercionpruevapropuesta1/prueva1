@@ -192,6 +192,30 @@ hr{
     height: 100%;
     background-image: url(../images/GLOBOS.jpeg)
 }
+.contery1 h1{
+    position: relative;
+    top: 5%;
+    margin-left: 10%;
+    font-size: 25px;
+    font-family: roboto,sans-serif;
+    font-family: inherit;
+    line-height: 1.4;
+    margin: 0 0 1.5rem;
+    padding-top: 1rem;
+}
+.contery1 .conten-p{
+    position: relative;
+    width: 600px;
+    color: whitesmoke;
+    line-height:30px;
+    top: 15%;
+    left: 10%;
+}
+.conte-butom{
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
 .contery2{
     width: 50%;
     height: 100%;
