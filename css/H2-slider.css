@@ -12,7 +12,7 @@
     width: 300%;
 }
 #clickImg {
-animation: cambio 0s infinite alternate linear;}
+animation: cambio 15s infinite alternate linear;}
 #clickImg:hover {
     animation-play-state:paused;
 }
@@ -20,6 +20,18 @@ animation: cambio 0s infinite alternate linear;}
     font-size: 40px;
     margin-left: 25%;
     margin-top: 14%;
+    opacity:1;
+}
+#clickImg:hover .TxSl2{
+    font-size: 15px;
+    margin-left: 35%;
+    margin-top: 10%;
+    opacity:1;
+}
+#clickImg:hover .TxSl3{
+    font-size: 40px;
+    margin-left: 28%;
+    margin-top: 15%;
     opacity:1;
 }
 .slider li {
@@ -50,14 +62,30 @@ animation: cambio 0s infinite alternate linear;}
     margin-left: 40%;
     margin-top: 5%;
     text-align: center;
-    z-index: 2;
     color: black;
     opacity:0;
-    transition: ;
     transition: opacity 0.9s, margin-top 0.6s, font-size 0.9s;
 }
-
-
+.slider .TxSl2 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 5%;
+    text-align: center;
+    color: black;
+    opacity:0;
+    transition: opacity 0.9s, margin-top 0.6s, font-size 0.9s;
+}
+.slider .TxSl3 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 5%;
+    text-align: center;
+    color: black;
+    opacity:0;
+    transition: opacity 0.9s, margin-top 0.6s, font-size 0.9s;
+}
 /*----------     contenedor 3      -----------*/
 .content-3{
  overflow: hidden;
