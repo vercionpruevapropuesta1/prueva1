@@ -166,49 +166,4 @@ animation: cambio 15s infinite alternate linear;}
 .content-3 #L1 h2:hover{
     font-size: 30px;
 }
-/*----------     contenedor 5      -----------*/
-.content-5{
-    z-index: 1;
- border: solid red 20px;
-}
-.content-5 div{
-    float: left;
-    animation: cambio2 10s infinite alternate linear;
-}
-.slider-corto {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.slider-corto ul {
-    display: flex;
-    padding: 0;
-    width: 100%;
-}
-
-#clickImg2 {
-animation: cambio2 5s infinite alternate linear;}
-#clickImg2:hover {
-    animation-play-state:paused;
-}
-.slider-corto li {
-    width: 100%;
-    list-style: none;
-}
-
-@keyframes cambio2{
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
-}
-
 
