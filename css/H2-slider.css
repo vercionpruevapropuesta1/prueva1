@@ -116,7 +116,7 @@ animation: cambio 15s infinite alternate linear;}
 .l-section-video video {
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 48%;
     min-height: 100%;
     min-width: 100%;
     max-width: none;
