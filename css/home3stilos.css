@@ -189,15 +189,46 @@ hr{
 /*content-7*/
 .content-7{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     margin-top: 0px;
     background-color:whitesmoke;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    align-items: center;
+
     display: flex;
     justify-content: center;
+
+}
+.content-7 .conten-h1{
+     position: absolute;
+    margin-top: 5%;
+    left: 21%;
+
+}
+.content-7 .conten-h1 h1{
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: roboto,sans-serif;
+    font-family: inherit;
+    line-height: 1.4;
+    margin: 0 0 1.5rem;
+    padding-top: 1rem;
+}
+.conter-striker{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 12%;
+    left: 14%;
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.conter-striker .conty{
+    width: 350px;
+    padding: 30px;
 
 }
 
