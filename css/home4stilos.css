@@ -15,22 +15,7 @@ body{
     background-size: cover;
 
 }
-/**-------------------------------*/
-#global {
-	height: 300px;
-	width: 200px;
-	border: 1px solid #ddd;
-	background: #f1f1f1;
-	overflow-y: scroll;
-}
-#mensajes {
-	height: auto;
-}
-.texto {
-	padding:4px;
-	background:#fff;
-}
-/**-------------------------------*/
+
 hr{
     border-top:1px solid #4f4f4f;
     border-bottom:  1px solid #4f4f4f;
@@ -51,7 +36,7 @@ hr{
 }
 #global {
 	height: 300px;
-	width: 200px;
+	width: 100%;
 	border: 1px solid #ddd;
 	background: #f1f1f1;
 	overflow-y: scroll;
