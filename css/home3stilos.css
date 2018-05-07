@@ -70,19 +70,7 @@ hr{
     background-color: rgba(31,31,31,0.7);
 }
 
-.content-2{
-    width: 100%;
-    height: 60vh;
-    margin-top: 0px;
-    background-color: white;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    border: solid 1px grey;
 
-
-
-}
 .content-3{
     width: 100%;
     height: 80vh;
@@ -93,11 +81,12 @@ hr{
     background-size: cover;
 
 }
+/*     ----------------     content-4       ----------------------------*/
 .content-4{
      width: 100%;
-    height: 30vh;
+    height: 38vh;
     margin-top: 0px;
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(0, 0, 0);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -105,6 +94,84 @@ hr{
 
 }
 /*content-5*/
+.title-Ct4{
+    color: snow;
+    font-size: 20px;
+    margin-top: 1.7%;
+    margin-left: 37%;
+}
+.title-Ct4 spam{
+    color: yellow;
+}
+.botoms-Ct4{
+    text-align: center;
+    width: 55%;
+    height: 79%;
+    margin-left: 25%;
+    margin-top: 0.6%;
+}
+.BtCt4{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+#BtCt4{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 12px double #0d0b0d;
+    background-color: #9e969e;
+    text-align: center;
+    width: 45%;
+    margin-left: 26%;
+}
+.BtCt4 a{
+    color: wheat;
+    text-decoration: none;
+}
+.BtCt4 p{
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 12px 6px;
+}
+/*     ----------------     content-2       ----------------------------*/
+.content-2{
+    width: 100%;
+    height: 90vh;
+    margin-top: 0px;
+    background-color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    border: solid 1px grey;
+}
+.Ct2{
+    border: solid red;
+    width: 100%;
+    height: 50%;
+}
+.Ct2 .img img{
+    float: left;
+   width: 49%;
+    max-width: 1000px;
+    max-height: 419px;
+}
+.divi{
+    float: left;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 20%;
+}
+.divi .icono{
+    float: left;
+}
+.divi h2{
+    float: left;
+    margin-left: 15px;
+}
+
+/*     ----------------     content-5       ----------------------------*/
 .content-5{
 
     width: 100%;
@@ -114,7 +181,6 @@ hr{
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-
 }
 .contentspecial{
     position: absolute;
