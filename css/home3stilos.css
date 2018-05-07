@@ -178,15 +178,13 @@ hr{
     width: 40%;
     height: 120px;
     max-height: 120px;
+    display: flex;
 }
 .icono{
-    float: left;
     margin-right: 15px;
 }
 .tes{
-    float: left;
-    width: 50%;
-    margin-right: 15px;
+    width: 100%;
 }
 
 .Ct2-2{
