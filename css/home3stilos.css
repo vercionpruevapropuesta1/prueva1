@@ -163,6 +163,11 @@ hr{
     max-width: 1000px;
     max-height: 419px;
 }
+.Ct2 .Ct2-text{
+    float: left;
+    width: 49%;
+    height: 100%;
+}
 .divi{
     float: left;
     margin-top: 55px;
