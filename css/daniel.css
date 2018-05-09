@@ -138,11 +138,15 @@ h1 {
 }
 /* modifica p y h4*/
 .cuerpo #dactos h4{
+    width: 100%;
+    margin-top: 35px;
     color: snow;
     font-size: 16px;
     font-family: roboto;
 }
 .cuerpo #dactos p{
+    width: 100%;
+    margin-top: 15px;
     color: snow;
     font-size: 15px;
     font-family: roboto;
