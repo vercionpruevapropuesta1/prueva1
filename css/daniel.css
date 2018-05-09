@@ -66,7 +66,25 @@ h1 {
 .boton_personalizado1:hover {
     color: #1883ba;
     background-color: #ffffff;
+<<<<<<< HEAD
 }
+=======
+  }
+.boton_personalizado2{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: blue;
+    background-color:yellow;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+  }
+.boton_personalizado2:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+>>>>>>> origin/master
 
 .conte-bottom {
     margin-top: 10%;
