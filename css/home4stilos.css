@@ -35,7 +35,7 @@ hr{
     background-color:#00bdff;
 }
 #global {
-	height: 300px;
+	height: 80vh;
 	width: 100%;
 	border: 1px solid #ddd;
 	background: #f1f1f1;
@@ -46,7 +46,10 @@ hr{
 }
 .texto {
 	padding:4px;
-	background:#fff;
+	background:grey;
+    width: 100%;
+    height: 80vh;
+    border: solid 2px black;
 }
 
 
