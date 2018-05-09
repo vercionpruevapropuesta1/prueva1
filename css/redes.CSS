@@ -1,13 +1,7 @@
-
+/*---------------------  Tipo de fuente ---------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-*{
-    margin: 0;
-    padding: 0;
-    -wedkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 
-}
+/*------------------  tamaño y color de la barra redes, info y el contenedor Feader redes------------------------------*/
 .Header-redes {
     position: relative;
     width: 100%;
@@ -33,6 +27,8 @@
     padding: 10px;
     height: auto;
 }
+
+/*------------------ modificaciones para los id de los dactos en info y redes  ------------------------------*/
 #tell, #email, #login {
     float: left;
     margin-right: 16px;    
@@ -42,10 +38,12 @@
     margin-right: 16px;
 }
 
+/*-----------------  animacion hover-------------------------------*/
 .Header-redes A:hover {text-decoration:underline;
     color:rgba(61, 8, 237, 0.46);
 cursor: zoom-in;}
 
+/*------------------ estilo para los links ------------------------------*/
 .Header-redes div a{
     text-decoration:none;
     color:white;
