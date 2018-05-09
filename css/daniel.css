@@ -43,5 +43,6 @@ p{
     display: -ms-flexbox;
     display: flex;
     width: 1000px;
+    margin-left: 15%;
 
 }
