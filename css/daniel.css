@@ -147,3 +147,10 @@ h1 {
     font-size: 15px;
     font-family: roboto;
 }
+
+.contehr {
+    position: absolute;
+    font-size:40px;
+    top: 40%;
+    left: 30%;
+}
