@@ -76,3 +76,16 @@ h1{
 #section1 {
     background-color: white;
 }
+
+.contenbunto {
+    width: 400px;
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 40%;
+}
+
+.conte-bottom1 {
+    margin-top: 10%;
+padding: 10px;
+}
