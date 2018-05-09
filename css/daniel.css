@@ -7,8 +7,9 @@
 h1{
 	font-size: 6em;
 }
-p{
+.conte-teri p{
 	font-size: 2em;
+    padding: 10px;
 }
 .intro p{
 	width: 50%;
@@ -45,4 +46,33 @@ p{
     width: 1000px;
     margin-left: 15%;
 
+}
+.boton_personalizado1{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:purple;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+  }
+.boton_personalizado1:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+.conte-bottom {
+    margin-top: 10%;
+}
+
+.titulo {
+    position: absolute;
+    top: 8%;
+    left: 28%;
+    font-size: 35px;
+}
+
+#section1 {
+    background-color: white;
 }
