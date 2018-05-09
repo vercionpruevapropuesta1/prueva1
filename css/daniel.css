@@ -1,23 +1,29 @@
-.wrap{
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
-	position: relative;
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    position: relative;
 }
-h1{
-	font-size: 6em;
+
+h1 {
+    font-size: 6em;
 }
-.conte-teri p{
-	font-size: 2em;
+
+.conte-teri p {
+    font-size: 2em;
     padding: 10px;
 }
-.intro p{
-	width: 50%;
-	margin: 0 auto;
-	font-size: 1.5em;
+
+.intro p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
-.section{
-	text-align:center;
+
+.section {
+    text-align: center;
 }
 
 
@@ -40,27 +46,31 @@ h1{
 }
 
 .contye {
-     display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 1000px;
     margin-left: 15%;
 
 }
-.boton_personalizado1{
+
+.boton_personalizado1 {
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    background-color:purple;
+    background-color: purple;
     border-radius: 6px;
     border: 1px solid #0016b0;
-  }
-.boton_personalizado1:hover{
+}
+
+.boton_personalizado1:hover {
     color: #1883ba;
     background-color: #ffffff;
-  }
+
+}
+
 .boton_personalizado2{
     text-decoration: none;
     padding: 10px;
@@ -75,11 +85,9 @@ h1{
     color: #1883ba;
     background-color: #ffffff;
   }
-
 .conte-bottom {
     margin-top: 10%;
 }
-
 .titulo {
     position: absolute;
     top: 8%;
@@ -93,7 +101,7 @@ h1{
 
 .contenbunto {
     width: 400px;
-     display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 40%;
@@ -101,7 +109,27 @@ h1{
 
 .conte-bottom1 {
     margin-top: 10%;
-padding: 10px;
+    padding: 10px;
+}
+
+/*   ---------------         contenedor id:section5           ----------------    */
+#section3 {
+    background-color: rgba(78, 78, 78, 0.81);
+}
+#section3 .intro{
+    border: solid red 5px;
+    color: rgb(41, 41, 41);
+    font-size: 10px;
+}
+#section3 .cuerpo{
+    border: solid blue 5px;
+    width: 80%;
+    height: auto;
+}
+#section3 .cuerpo #dactos{
+    border: solid blue 5px;
+    width: 20%;
+    height: auto;
 }
 
 .contehr {
