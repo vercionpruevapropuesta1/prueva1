@@ -115,19 +115,35 @@ h1 {
 /*   ---------------         contenedor id:section5           ----------------    */
 #section3 {
     background-color: rgba(78, 78, 78, 0.81);
+
 }
 #section3 .intro{
     border: solid red 5px;
     color: rgb(41, 41, 41);
     font-size: 10px;
 }
-#section3 .cuerpo{
+.cuerpo{
     border: solid blue 5px;
     width: 80%;
     height: auto;
+    display: flex;
+    position: center;
+    margin: 15px 15%;
 }
-#section3 .cuerpo #dactos{
-    border: solid blue 5px;
-    width: 20%;
+.cuerpo #dactos{
+    border: solid yellow 5px;
+    width: 50%;
     height: auto;
+    margin-right: 15px;
+}
+/* modifica p y h4*/
+.cuerpo #dactos h4{
+    color: snow;
+    font-size: 16px;
+    font-family: roboto;
+}
+.cuerpo #dactos p{
+    color: snow;
+    font-size: 15px;
+    font-family: roboto;
 }
