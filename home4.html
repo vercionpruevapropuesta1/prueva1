@@ -13,250 +13,341 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <scrip src="JS/buscar.js"></scrip>
     <script src="main.js"></script>
-<!------------------------------------------------------------------------>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!------------------------------------------------------------------------>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
     <script type="text/javascript" src="JS/scrolloverflow.js"></script>
     <script type="text/javascript" src="JS/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="JS/daniel.js"></script>
-    <link rel="stylesheet" href="css/daniel.css">
+    <script type="text/javascript" src="JS/sliderverticalH4.js"></script>
+    <link rel="stylesheet" href="css/sliderverticalH4.css">
     <link rel="stylesheet" href="css/jquery.fullPage.css">
 
     <script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage','4rdPage','5rdPage'],
-				sectionsColor: ['#C63D0F', '#f4f7f6', '#ffffff','','#ef9935'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['First page', 'Second page', 'Third and last page','4 page','5 page'],
-				responsiveWidth: 900,
-				afterResponsive: function(isResponsive){
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
+                sectionsColor: ['#C63D0F', '#f4f7f6', '#ffffff', '', '#ef9935'],
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['First page', 'Second page', 'Third and last page', '4 page', '5 page'],
+                responsiveWidth: 900,
+                afterResponsive: function(isResponsive) {
 
-				}
+                }
 
-			});
-		});
-	</script>
-<!------------------------------------------------------------------------>
+            });
+        });
+    </script>
+    <!------------------------------------------------------------------------>
     <title>Home 4</title>
 </head>
 
 <body>
 
-   <div id="fullpage">
-	<div class="section " id="section0">
-		<div class="intro">
-			<h1>Responsive</h1>
-			<p>This example will turn to normal scroll when the window size gets smaller than 900px width</p>
-		</div>
-	</div>
-<!--	slide horizontal-->
-	<div class="section" id="section1">
-          <h2 class="titulo">IMPRESSED BY GREAT USER EXPERIENCE</h2>
-           <div class="contye">
-            <div class="conte-teri"><p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
-            <div class="conte-teri"><p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            </p></div>
+
+
+    <div id="fullpage">
+
+        <div class="section " id="section0">
+
+            <div>
+                <!--   Barra superior de las paginas contiene links hacia diversas redes sociales
+   se modifica el estilo en redes.css-->
+                <div class="Header-redes">
+                    <div class="info">
+                        <div id="tell"> <img src="images/telefono.png"> Telefono</div>
+                        <div id="email"> <img src="images/email.png"> Email</div>
+                        <div id="login"> <img src="images/Key.png"> Login</div>
+                    </div>
+                    <!-- variables tell,email,login pertenecientes a sus repetivos campos-->
+                    <div class="redes">
+                        <div id="faceb">
+                            <img src="images/facebook.png">
+                            <a class="colora" href="http://www.facebook.com">Facebook</a>
+                        </div>
+                        <div id="GM">
+                            <img src="images/gmail.png">
+                            <a class="colora" href="http://www.Gmail.com">Gmail</a>
+                        </div>
+                        <div id="inst">
+                            <img src="images/instagram.png">
+                            <a class="colora" href="http://www.Instagram.com">Instagram</a>
+                        </div>
+                        <div id="you">
+                            <img src="images/youtube.png">
+                            <a class="colora" href="http://www.Youtube.com">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+                <!--    Este contenedor esta los menus, el mene que flota por la pagina y el logose modifica en el menu.css-->
+                <header>
+                    <div class="contenedor">
+                        <div class="logo">
+                            <img src="http://dummyimage.com/200x100/000/fff&text=LOGO">
+                        </div>
+
+                        <div class="menu1">
+                            <ul class="nav">
+                                <li><a href="index.html">Inicio</a>
+                                    <ul>
+                                        <div class="cajamenu2">
+                                            <li><a id="menu-4" href="home2.html">Home 2</a></li>
+                                            <li><a href="http://zephyr.us-themes.com/">zephyr</a></li>
+                                            <li><a href="home3.html">Home 3</a></li>
+                                            <li><a href="">Submenu4</a>
+                                                <ul id="menumenor1">
+                                                    <li><a href="">Submenu1</a></li>
+                                                    <li><a href="">Submenu2</a></li>
+                                                    <li><a href="">Submenu3</a></li>
+                                                    <li><a href="">Submenu4</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+
+                                    </ul>
+                                </li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Proyectos</a></li>
+                                <li><a href="#">Trabajos</a></li>
+                                <li><a href="#">Contacto</a>
+                                    <ul>
+                                        <di class=" cajaMenu1">
+                                            <div class="caja1">
+                                                <li><a href="">Submenu1</a></li>
+                                                <li><a href="">Submenu2</a></li>
+                                                <li><a href="">Submenu3</a></li>
+                                                <li><a href="">Submenu4</a></li>
+                                            </div>
+                                            <div class="caja2">
+                                                <li><a href="">Submenu1</a></li>
+                                                <li><a href="">Submenu2</a></li>
+                                                <li><a href="">Submenu3</a></li>
+                                                <li><a href="">Submenu4</a></li>
+                                            </div>
+                                        </di>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+            <div class="intro">
+
+                <h1>Responsive</h1>
+                <p>This example will turn to normal scroll when the window size gets smaller than 900px width</p>
+            </div>
+        </div>
+        <!--	slide horizontal-->
+        <div class="section" id="section1">
+            <h2 class="titulo">IMPRESSED BY GREAT USER EXPERIENCE</h2>
+            <div class="contye">
+                <div class="conte-teri">
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="conte-teri">
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                </div>
             </div>
             <div class="conte-bottom">
                 <a class="boton_personalizado1" href="https://vinkula.com">JUST DO IT</a>
             </div>
 
-	</div>
-	<!--	slide horizontal-->
-
-	<div class="section" id="section2">
-
-		<div class="divimg"><img src="images/zephyr_preview13.png" alt=""></div>
-		<div class="contenbunto">
-		    <div class="conte-bottom1">
-                <a class="boton_personalizado1" href="https://vinkula.com">JUST DO IT</a>
-            </div>
-            <div class="conte-bottom1">
-                <a class="boton_personalizado1" href="https://vinkula.com">JUST DO IT</a>
-            </div>
-		</div>
-
-	</div>
-
-	<div class="section" id="section3">
-		<div class="intro">
-			<h1>Our Process</h1>
-			<div class="cuerpo">
-			    <div id="dactos">
-			        <div class="fondo" id="Fd1">
-                        <a href="#section4"><img src="images/diamond.png" alt="" ></a>
-			        </div>
-			        <div>
-			            <h4><a href="#section4" class="a1">CONCEPTS AND BRAINSTORMING</a></h4>
-			            <br>
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
-			        </div>
-			    </div>
-			    <div id="dactos">
-			        <div class="fondo" id="Fd2">
-
-			            <a href="#section4"><img src="images/erlenmeyer.png" alt=""></a>
-			        </div>
-			        <div>
-			            <h4><a href="#section4" class="a1">RESEARCH & DEVELOPMENT</a></h4>
-			            <br>
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
-			        </div>
-			    </div>
-			    <div id="dactos">
-			        <div class="fondo" id="Fd3">
-
-			            <a href="#section4"><img src="images/send-mail.png" alt=""></a>
-			        </div>
-			        <div>
-			            <h4><a href="#section4" class="a1">SKETCHING & DRAFTING</a></h4>
-			            <br>
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
-			        </div>
-			    </div>
-			    <div id="dactos">
-			        <div class="fondo" id="Fd4">
-
-			            <a href="#section4"><img src="images/desktop.png" alt=""></a>
-			        </div>
-			        <div>
-			            <h4><a href="#section4" class="a1">EXECUTION & DIGITALISATION</a></h4>
-			            <br>
-			            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
-			        </div>
-			    </div>
-			</div>
-		</div>
-	</div>
-
-	<div class="section" id="section4">
-	    <div class="contehr"><h5>Start Making Jaw Dropping Websites. Easy.</h5></div>
-		<div class="combu">
-		    <a class="boton_personalizado2" href="https://vinkula.com">JUST DO IT</a>
-		</div>
-	</div>
-
-	<div class="section" id="section5">
-		<div class="intro">
-			<!-- Pie de pagina   -->
-    <div class="content-9">
-        <div class="pie-1">
-            <div>
-                <h2> Some Text</h2>
-                <br>
-                <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde maxime est, molestias! Sint fugit, esse, in quaerat ut similique officiis autem voluptate perferendis animi numquam ducimus eius placeat, illo amet.
-            </div>
-            <div class="redes-pie">
-                <div id="faceb-p">
-                    <a href="http://www.facebook.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/facebook_pie2.png" title="FACEBOOCK" ></a>
-                </div>
-                <div id="GM-p">
-                    <a href="http://www.Gmail.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/gmail_pie.png" title="Gmail"></a>
-                </div>
-                <div id="inst-p">
-                    <a href="http://www.Instagram.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/instagram_pie.png" title="Instagram"></a>
-                </div>
-                <div id="you-p">
-                    <a href="http://www.Youtube.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/youtube_pie.png" title="Youtube"></a>
-                </div>
-
-            </div>
         </div>
-        <div class="pie-2">
-            <h2>Recent Posts</h2>
-            <br>
-            <br>
-            <ul type="a">
-                <li>
-                    <a href="index.html">Redirige al inicio</a>
-                    <br>
-                    <span class="post-date">Abril 30, 2018</span>
-                </li>
-                <li>
-                    <a href="index.html">Redirige al inicio</a>
-                    <br>
-                    <span class="post-date">Abril 30, 2018</span>
-                </li>
-                <li>
-                    <a href="index.html">Redirige al inicio</a>
-                    <br>
-                    <span class="post-date">Abril 30, 2018</span>
-                </li>
-                <li>
-                    <a href="index.html">Redirige al inicio</a>
-                    <br>
-                    <span class="post-date">Abril 30, 2018</span>
-                </li>
-            </ul>
+        <!--	slide horizontal-->
+
+        <div class="section" id="section2">
+
+            <div class="divimg"><img src="images/zephyr_preview13.png" alt=""></div>
+            <div class="contenbunto">
+                <div class="conte-bottom1">
+                    <a class="boton_personalizado1" href="https://vinkula.com">JUST DO IT</a>
+                </div>
+                <div class="conte-bottom1">
+                    <a class="boton_personalizado1" href="https://vinkula.com">JUST DO IT</a>
+                </div>
+            </div>
 
         </div>
-        <div class="pie-3">
-            <h2>Search Something</h2>
-            <br>
-            <br>
-            <form>
-                <div class="buscar">
-                    <input type="search" id="mySearch" name="q" placeholder="Search the site..." required size="30" minlength="4" maxlength="8" pattern="[A-z]{2}[0-9]{4}">
-                    <input type="submit" value="Buscar" class="button">
-                    <span class="validity"></span>
-                </div>
-            </form>
 
-            <br>
-            <div class="imagen-pie">
-                <div id="home-pie">
-                    <div><img src="images/home.png" align="left"></div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1>Our Process</h1>
+                <div class="cuerpo">
+                    <div id="dactos">
+                        <div class="fondo" id="Fd1">
+                            <a href="#section4"><img src="images/diamond.png" alt="" ></a>
+                        </div>
+                        <div>
+                            <h4><a href="#section4" class="a1">CONCEPTS AND BRAINSTORMING</a></h4>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
+                        </div>
+                    </div>
+                    <div id="dactos">
+                        <div class="fondo" id="Fd2">
 
-                    <div>
-                        <h3>1 k al sur del parque</h3>
+                            <a href="#section4"><img src="images/erlenmeyer.png" alt=""></a>
+                        </div>
+                        <div>
+                            <h4><a href="#section4" class="a1">RESEARCH & DEVELOPMENT</a></h4>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <div id="correo-pie">
-                    <div><img src="images/Correo.png" align="left"></div>
-                    <div>
-                        <h3>STN@Cr.com</h3>
+                    <div id="dactos">
+                        <div class="fondo" id="Fd3">
+
+                            <a href="#section4"><img src="images/send-mail.png" alt=""></a>
+                        </div>
+                        <div>
+                            <h4><a href="#section4" class="a1">SKETCHING & DRAFTING</a></h4>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
+                        </div>
                     </div>
-                </div>
-                <br>
-                <div id="tell-pie">
-                    <div><img src="images/phone.png" align="left"></div>
-                    <div>
-                        <h3>+506 222 222 22</h3>
-                    </div>
-                </div>
-                <br>
-                <div id="fax-pie">
-                    <div><img src="images/fax.png" align="left"></div>
-                    <div>
-                        <h3>+506 222 222 23</h3>
+                    <div id="dactos">
+                        <div class="fondo" id="Fd4">
+
+                            <a href="#section4"><img src="images/desktop.png" alt=""></a>
+                        </div>
+                        <div>
+                            <h4><a href="#section4" class="a1">EXECUTION & DIGITALISATION</a></h4>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem sit voluptas vel dolorem.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="section" id="section4">
+            <div class="contehr">
+                <h5>Start Making Jaw Dropping Websites. Easy.</h5>
+            </div>
+            <div class="combu">
+                <a class="boton_personalizado2" href="https://vinkula.com">JUST DO IT</a>
+            </div>
+        </div>
+
+        <div class="section" id="section5">
+            <!-- Pie de pagina   -->
+            <div class="content-9">
+                <div class="pie-1">
+                    <div>
+                        <h2> Some Text</h2>
+                        <br>
+                        <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde maxime est, molestias! Sint fugit, esse, in quaerat ut similique officiis autem voluptate perferendis animi numquam ducimus eius placeat, illo amet.
+                    </div>
+                    <div class="redes-pie">
+                        <div id="faceb-p">
+                            <a href="http://www.facebook.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/facebook_pie2.png" title="FACEBOOCK" ></a>
+                        </div>
+                        <div id="GM-p">
+                            <a href="http://www.Gmail.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/gmail_pie.png" title="Gmail"></a>
+                        </div>
+                        <div id="inst-p">
+                            <a href="http://www.Instagram.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/instagram_pie.png" title="Instagram"></a>
+                        </div>
+                        <div id="you-p">
+                            <a href="http://www.Youtube.com" onclick="document.forms[0].action='script_que_recibe_los_datos.xxx';document.forms[0].submit();"><img src="images/youtube_pie.png" title="Youtube"></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="pie-2">
+                    <h2>Recent Posts</h2>
+                    <br>
+                    <br>
+                    <ul type="a">
+                        <li>
+                            <a href="index.html">Redirige al inicio</a>
+                            <br>
+                            <span class="post-date">Abril 30, 2018</span>
+                        </li>
+                        <li>
+                            <a href="index.html">Redirige al inicio</a>
+                            <br>
+                            <span class="post-date">Abril 30, 2018</span>
+                        </li>
+                        <li>
+                            <a href="index.html">Redirige al inicio</a>
+                            <br>
+                            <span class="post-date">Abril 30, 2018</span>
+                        </li>
+                        <li>
+                            <a href="index.html">Redirige al inicio</a>
+                            <br>
+                            <span class="post-date">Abril 30, 2018</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="pie-3">
+                    <h2>Search Something</h2>
+                    <br>
+                    <br>
+                    <form>
+                        <div class="buscar">
+                            <input type="search" id="mySearch" name="q" placeholder="Search the site..." required size="30" minlength="4" maxlength="8" pattern="[A-z]{2}[0-9]{4}">
+                            <input type="submit" value="Buscar" class="button">
+                            <span class="validity"></span>
+                        </div>
+                    </form>
+
+                    <br>
+                    <div class="imagen-pie">
+                        <div id="home-pie">
+                            <div><img src="images/home.png" align="left"></div>
+
+                            <div>
+                                <h3>1 k al sur del parque</h3>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="correo-pie">
+                            <div><img src="images/Correo.png" align="left"></div>
+                            <div>
+                                <h3>STN@Cr.com</h3>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="tell-pie">
+                            <div><img src="images/phone.png" align="left"></div>
+                            <div>
+                                <h3>+506 222 222 22</h3>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="fax-pie">
+                            <div><img src="images/fax.png" align="left"></div>
+                            <div>
+                                <h3>+506 222 222 23</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Marca Registrada   -->
+            <div class="content-10">
+                <div class="NN1">
+                    <p>© 2018 All rights reserved. Daniel y Roberto prueba1</p>
+                </div>
+                <div>
+                    <ul><a href="">Home</a></ul>
+                    <ul><a href="">About</a></ul>
+                    <ul><a href="">Portafolio</a></ul>
+                    <ul><a href="">Blog</a></ul>
+                    <ul><a href="">Contact</a></ul>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Marca Registrada   -->
-    <div class="content-10">
-        <div class="NN1">
-            <p>© 2018 All rights reserved. Daniel y Roberto prueba1</p>
-        </div>
-        <div>
-            <ul><a href="">Home</a></ul>
-            <ul><a href="">About</a></ul>
-            <ul><a href="">Portafolio</a></ul>
-            <ul><a href="">Blog</a></ul>
-            <ul><a href="">Contact</a></ul>
-        </div>
-    </div>
-
-		</div>
-	</div>
-</div>
 
 
 </body>
