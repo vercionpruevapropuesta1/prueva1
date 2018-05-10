@@ -1,5 +1,7 @@
+/*estilo importado para el estilo de letra  por parte google*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*estilos aplicados para todo contenido del home4*/
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
     font-family: 'Roboto', sans-serif;
 
 }
+/*estilos para todo el cuerpo principal del ala pagina home4*/
 body{
     background-image: url(../images/background-1.jpg);
     background-attachment: fixed;
@@ -25,6 +28,8 @@ hr{
     width: 100%;
     margin-top: 40px;
 }
+/* el contenido se maneña  una estrutura propia por lo que los estilos
+esta separado en una estructura diferentes*/
 .content-principal{
     width: 100%;
     height: 80vh;
