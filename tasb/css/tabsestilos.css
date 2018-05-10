@@ -24,7 +24,7 @@ iconos dela cabecera del tabs*/
 .icon:hover{
     color: mediumpurple;
 }
-/*content-tab1 primer contenedor  de la estructura tabs para la primera ejecucion de contenido*/
+/*content-tabs1 primer contenedor  de la estructura tabs para la primera ejecucion de contenido*/
 .content-tabs1{
     position: absolute;
     left: 16%;
@@ -34,6 +34,7 @@ iconos dela cabecera del tabs*/
     padding: 20px;
 
 }
+/*estilos  para  el contenido interno del contenedor tabs1*/
 .content-tabs1 .content-texnew{
     text-align: center;
 }
