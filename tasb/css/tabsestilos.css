@@ -24,6 +24,7 @@ iconos dela cabecera del tabs*/
 .icon:hover{
     color: mediumpurple;
 }
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*content-tabs1 primer contenedor  de la estructura tabs para la primera ejecucion de contenido*/
 .content-tabs1{
     position: absolute;
@@ -57,6 +58,7 @@ iconos dela cabecera del tabs*/
      width: 100%;
     max-width: 500px;
 }
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*content-tab2  estilos para el segundo contenedor de las pestaña tabs*/
 .content-tabs2{
     position: absolute;
@@ -104,6 +106,7 @@ iconos dela cabecera del tabs*/
     padding: 20px;
     margin-top:12%;
 }
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*content-tab3  el estilos para el tab3*/
 .content-tabs3{
     position: absolute;
