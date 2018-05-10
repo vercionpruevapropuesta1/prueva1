@@ -66,7 +66,7 @@ li{
     font-size: 19px;
 }
 .cajamenu2{
-    border: solid red 2px;
+    box-shadow: inset 0 0 1em gold;
     background: rgba(0, 0, 0, 0.47);
     width: auto;
 	height: auto;
@@ -127,7 +127,7 @@ ul, ol {
 	position:fixed;
 	z-index:1000;
 	top:0;
-	max-width:1000px;
+	max-width:2000px;
 	/*left:0;*/
 	/*Podemos hacer que el menu abarque el 100% al hacer scroll*/
 	width:100%;
