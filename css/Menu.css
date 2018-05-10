@@ -127,7 +127,7 @@ ul, ol {
 	position:fixed;
 	z-index:1000;
 	top:0;
-	max-width:2000px;
+	max-width:1000px;
 	/*left:0;*/
 	/*Podemos hacer que el menu abarque el 100% al hacer scroll*/
 	width:100%;
