@@ -57,7 +57,13 @@ esta separado en una estructura diferentes*/
     border: solid 2px black;
 }
 /*-----------------------------------------------------------------*/
-
+#section0{
+    position: relative;
+}
+.SEC-red {
+    background: rgba(252, 252, 252, 0.56);
+    margin-top: -170px;
+}
 
 
 /*-----------------------------------------------------------------*/
