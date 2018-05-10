@@ -71,23 +71,26 @@ h1 {
 
 }
 
-.boton_personalizado2{
+.boton_personalizado2 {
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
     color: blue;
-    background-color:yellow;
+    background-color: yellow;
     border-radius: 6px;
     border: 1px solid #0016b0;
-  }
-.boton_personalizado2:hover{
+}
+
+.boton_personalizado2:hover {
     color: #1883ba;
     background-color: #ffffff;
-  }
+}
+
 .conte-bottom {
     margin-top: 10%;
 }
+
 .titulo {
     position: absolute;
     top: 8%;
@@ -113,38 +116,43 @@ h1 {
 }
 
 /*   ---------------         contenedor id:section5           ----------------    */
+
 #section3 {
     background-color: rgba(78, 78, 78, 0.81);
 
 }
-#section3 .intro{
-    border: solid red 5px;
+
+#section3 .intro {
     color: rgb(41, 41, 41);
     font-size: 10px;
+    margin: 0px 0px;
 }
-.cuerpo{
-    border: solid blue 5px;
+
+.cuerpo {
     width: 80%;
-    height: auto;
+    height: 400px;
     display: flex;
     position: center;
     margin: 15px 15%;
 }
-.cuerpo #dactos{
-    border: solid yellow 5px;
+
+.cuerpo #dactos {
     width: 50%;
     height: auto;
     margin-right: 15px;
 }
-/* modifica p y h4*/
-.cuerpo #dactos h4{
+
+/* --------- modifica p y h4    -------------*/
+
+.cuerpo #dactos h4 {
     width: 100%;
     margin-top: 35px;
     color: snow;
     font-size: 16px;
     font-family: roboto;
 }
-.cuerpo #dactos p{
+
+.cuerpo #dactos p {
     width: 100%;
     margin-top: 15px;
     color: snow;
@@ -154,7 +162,32 @@ h1 {
 
 .contehr {
     position: absolute;
-    font-size:40px;
+    font-size: 40px;
     top: 40%;
     left: 30%;
+}
+/*---------  modifica fondo de imagen  -----------*/
+.fondo img{
+    margin: 15px 5px;
+}
+.fondo {
+    margin: 35px 35%;
+    width: 30%;
+    height: 90px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid #1020cc;
+}
+#Fd1{
+    background: #4b46a3
+}
+#Fd2{
+    background: #425d4c
+}
+#Fd3{
+    background: #53c981
+}
+#Fd4{
+    background: #d3458c
 }
