@@ -147,16 +147,20 @@ h1 {
     margin-right: 15px;
 }
 
-/* --------- modifica p y h4    -------------*/
+/* --------- modifica p y h4:a   -------------*/
 
-.cuerpo #dactos h4 {
+.cuerpo #dactos a {
     width: 100%;
     margin-top: 35px;
     color: snow;
     font-size: 16px;
     font-family: roboto;
+    text-decoration: none;
 }
-
+.cuerpo #dactos a:hover{
+    color: #1f70b7;
+    font-size: 20px;
+}
 .cuerpo #dactos p {
     width: 100%;
     margin-top: 15px;
