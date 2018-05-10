@@ -57,7 +57,7 @@ iconos dela cabecera del tabs*/
      width: 100%;
     max-width: 500px;
 }
-/*content-tab2*/
+/*content-tab2  estilos para el segundo contenedor de las pestaña tabs*/
 .content-tabs2{
     position: absolute;
    left: 16%;
@@ -68,6 +68,7 @@ iconos dela cabecera del tabs*/
     display: none;
 
 }
+/*estilos para el contenido  de la segunda pestaña*/
 .content-tabs2 h1{
     -webkit-box-pack:center;
     -ms-flex-pack:center;
@@ -77,6 +78,7 @@ iconos dela cabecera del tabs*/
     text-align: center;
 
 }
+
 .contexprincipal{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -102,7 +104,7 @@ iconos dela cabecera del tabs*/
     padding: 20px;
     margin-top:12%;
 }
-/*content-tab3*/
+/*content-tab3  el estilos para el tab3*/
 .content-tabs3{
     position: absolute;
    left: 16%;
@@ -114,6 +116,7 @@ iconos dela cabecera del tabs*/
 
 
 }
+/*estilos para el contenido dentro0 del tabs3*/
 .contet-contenido{
  display: flex;
 
