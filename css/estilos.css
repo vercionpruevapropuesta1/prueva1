@@ -17,6 +17,9 @@ body{
     background-size: cover;
     
 }
+/*estilos para los contenedore para el home 1*/
+/*estilos para la estructura del content-1*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-1{
     width: 100%;
     background: white;
@@ -81,7 +84,9 @@ hr{
     
     
 }
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*conte-2*/
+/*estilos para la estructura del content-1*/
 .content-2{
     background-color: white;
     background-attachment: fixed;
