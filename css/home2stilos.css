@@ -1,4 +1,6 @@
+/*estilo importado para el estilo de letra  por parte google*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/*estilos aplicados para todo contenido del home2*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     font-family: 'Roboto', sans-serif;
 
 }
+/*estilos para todo el cuerpo principal del ala pagina home2*/
 body{
     background-image: url(../images/slider-tech.jpg);
     background-attachment: fixed;
@@ -25,6 +28,9 @@ hr{
     margin-top: 40px;
 
 }
+/*estilos para los contenedore para el home 2*/
+/*estilos para la estructura del content-1*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .content-1{
     width: 100%;
@@ -35,6 +41,9 @@ hr{
     background-size: cover;
 
 }
+/*estilos para los contenedore para el home 2*/
+/*estilos para la estructura del content-2*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-2{
     width: 100%;
     height: 90vh;
@@ -49,6 +58,9 @@ hr{
 
 
 }
+/*estilos para los contenedore para el home 2*/
+/*estilos para la estructura del content-3*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-3{
 
     width: 100%;
@@ -59,7 +71,9 @@ hr{
     background-image: url(http://zephyr.us-themes.com/wp-content/uploads/iphone.jpg);
 
 }
-
+/*estilos para los contenedore para el home 2*/
+/*estilos para la estructura del content-5*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-5{
     width: 100%;
     height: 30vh;
@@ -70,6 +84,9 @@ hr{
     background-size: cover;
 
 }
+/*estilos para los contenedore para el home 2*/
+/*estilos para la estructura del content-6*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*content-6*/
 .content-6{
     width: 100%;
@@ -113,6 +130,9 @@ hr{
     margin-top: 8%;
     left: 33%;
     }
+/*estilos para los contenedore para el home 2*/
+/*estilos para la estructura del content-7*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*content-7*/
 .content-7{
     width: 100%;
@@ -170,7 +190,10 @@ hr{
 }
 
 
-
+/*estilos para los contenedore para el home 2*/
+/*estilos para la estructura del content-9*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*todo los estilos a parti de aki pertenesen al pie de pagina*/
 
 .content-9{
     color: aliceblue;

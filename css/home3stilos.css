@@ -1,4 +1,6 @@
+/*estilo importado para el estilo de letra  por parte google*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+/*estilos aplicados para todo contenido del home3*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     font-family: 'Roboto', sans-serif;
 
 }
+/*estilos para todo el cuerpo principal del ala pagina home3*/
 body{
     background-image: url(../images/slider-tech.jpg);
     background-attachment: fixed;
@@ -14,6 +17,7 @@ body{
     background-size: cover;
 
 }
+
 
 hr{
     border-top:1px solid #4f4f4f;
@@ -25,7 +29,9 @@ hr{
     margin-top: 40px;
 
 }
-
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-1*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-1{
     width: 100%;
     height: 70vh;
@@ -69,7 +75,9 @@ hr{
 .opasity{
     background-color: rgba(31,31,31,0.7);
 }
-
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-3*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .content-3{
     width: 100%;
@@ -82,6 +90,9 @@ hr{
 
 }
 /*     ----------------     content-4       ----------------------------*/
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-4*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-4{
      width: 100%;
     height: 50vh;
@@ -92,7 +103,8 @@ hr{
     background-size: cover;
     border: solid black 10px;
 }
-/*content-5*/
+
+
 .title-Ct4{
     color: snow;
     font-size: 20px;
@@ -135,6 +147,9 @@ hr{
     padding: 12px 6px;
 }
 /*     ----------------     content-2       ----------------------------*/
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-2*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-2{
     width: 100%;
     height: 90vh;
@@ -190,6 +205,7 @@ hr{
     width: 100%;
     height: 50%;
 }
+
 #contenedorr {
     float: left;
     padding: 95px 90px;
@@ -274,6 +290,9 @@ transition: all linear 0.1s;
     max-height: 419px;
 }
 /*     ----------------     content-5       ----------------------------*/
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-5*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-5{
 
     width: 100%;
@@ -340,7 +359,10 @@ transition: all linear 0.1s;
     color: #1883ba;
     background-color: #ffffff;
   }
-/*content-6*/
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-6*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/
 .content-6{
     width: 100%;
     height: 60vh;
@@ -409,6 +431,9 @@ transition: all linear 0.1s;
     color: #1883ba;
     background-color: gray;
   }
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-7*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /*content-7*/
 .content-7{
@@ -459,7 +484,9 @@ transition: all linear 0.1s;
 }
 
 
-
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-9 esta seccionesta dedicada al pie de pagina*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .content-9{
     color: aliceblue;
@@ -581,6 +608,9 @@ input:valid ~ span:after {
     margin-top: 5px;
     margin-left: 50px;
 }
+/*estilos para los contenedore para el home 3*/
+/*estilos para la estructura del content-10*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-10{
     position: absolute;
     width: 100%;
