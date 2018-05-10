@@ -1,4 +1,5 @@
-
+/*clases dedicadas para los contenedores espesificos  de aria de los
+iconos dela cabecera del tabs*/
 .content-icon{
     width: 100%;
     height: auto;
@@ -23,7 +24,7 @@
 .icon:hover{
     color: mediumpurple;
 }
-/*content-tab1*/
+/*content-tab1 primer contenedor  de la estructura tabs para la primera ejecucion de contenido*/
 .content-tabs1{
     position: absolute;
     left: 16%;
