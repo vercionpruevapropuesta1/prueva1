@@ -1,6 +1,4 @@
-/*estilo importado para el estilo de letra  por parte google*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-/*estilos aplicados para todo contenido del home2*/
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
 
 }
-/*estilos para todo el cuerpo principal del ala pagina home2*/
+
 body{
     background-image: url(../images/slider-tech.jpg);
     background-attachment: fixed;
