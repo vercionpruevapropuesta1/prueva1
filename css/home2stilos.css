@@ -41,7 +41,7 @@ hr{
     background-size: cover;
 
 }
-/*estilos para los contenedore para el home 2*/
+
 /*estilos para la estructura del content-2*/
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-2{
@@ -58,7 +58,7 @@ hr{
 
 
 }
-/*estilos para los contenedore para el home 2*/
+
 /*estilos para la estructura del content-3*/
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-3{
@@ -71,7 +71,7 @@ hr{
     background-image: url(http://zephyr.us-themes.com/wp-content/uploads/iphone.jpg);
 
 }
-/*estilos para los contenedore para el home 2*/
+
 /*estilos para la estructura del content-5*/
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-5{
@@ -130,10 +130,8 @@ hr{
     margin-top: 8%;
     left: 33%;
     }
-/*estilos para los contenedore para el home 2*/
-/*estilos para la estructura del content-7*/
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/*content-7*/
+
+
 .content-7{
     width: 100%;
     height: 60vh;
@@ -190,10 +188,7 @@ hr{
 }
 
 
-/*estilos para los contenedore para el home 2*/
-/*estilos para la estructura del content-9*/
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/*todo los estilos a parti de aki pertenesen al pie de pagina*/
+
 
 .content-9{
     color: aliceblue;
