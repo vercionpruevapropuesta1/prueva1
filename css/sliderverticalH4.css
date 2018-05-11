@@ -206,3 +206,9 @@ h1 {
     background: rgba(0, 0, 0, 0.88);
     max-height: 100px;
 }
+
+.conteniconer {
+    position: absolute;
+   top: 10%;
+
+}
