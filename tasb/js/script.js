@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('.content-tabs2').slideUp();
         $('.content-tabs3').slideUp();
 
-    })
+    });
 
     $('.icon-folder').on('click', function(){
 
@@ -14,7 +14,7 @@ $(document).ready(function(){
         $('.content-tabs1').slideUp();
         $('.content-tabs3').slideUp();
 
-    })
+    });
 
     $('.icon-mail').on('click', function(){
 
@@ -22,6 +22,5 @@ $(document).ready(function(){
         $('.content-tabs1').slideUp();
         $('.content-tabs2').slideUp();
 
-    })
-
-})
+    });
+});
