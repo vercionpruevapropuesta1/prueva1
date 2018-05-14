@@ -115,27 +115,49 @@ input:valid ~ span:after {
 .content-10{
     width: 100%;
     background: rgba(0, 0, 0, 0.9);
-    min-height: 150px;
-    margin: 1px 0px;
+    min-height: 110px;
+    margin: 10px 0px;
     color: aliceblue;
 
 }
+@media all and ( max-width: 650px){
+    .content-10{
+    background: rgba(0, 0, 0, 0.9);
+    min-height: 190px;
+}
 .NN1{
+    margin: 10px 0px;
     float: left;
     color: snow;
-    width: auto;
-    margin: 3.29% 260px;
+    width: 50%;
+    float: left;
+}
+.NN2{
+    text-align: left;
+    margin: 10px 0px;
+    width: 50%;
+    float: left;
 }
 .content-10 ul {
+    text-align: center;
+    padding: 0px;
     float: left;
     color:white;
-    width: auto;
-    margin: 3.29% 10px;
-    font-size: 20px;
+    width: 20%;
+    font-size: 19px;
+}
+@media all and ( max-width: 650px){
+    .content-10 ul {
+    margin: 1px 0px;
+    width: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
 }
 .content-10 ul a{
     text-decoration:none;
-    display:block;
     color: aliceblue;
 }
 .content-10 ul a:hover{
@@ -143,4 +165,5 @@ input:valid ~ span:after {
     display:block;
     color: skyblue;
     font-size: 26px;
+    margin-left: -20px;
 }
