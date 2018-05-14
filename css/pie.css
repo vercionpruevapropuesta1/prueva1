@@ -116,7 +116,7 @@ input:valid ~ span:after {
     width: 100%;
     background: rgba(0, 0, 0, 0.9);
     min-height: 110px;
-    margin: 10px 0px;
+    margin: -9px 0px;
     color: aliceblue;
 
 }
@@ -127,7 +127,7 @@ input:valid ~ span:after {
 }
 }
 .NN1{
-    margin: 10px 0px;
+    margin: 20px 0px;
     float: left;
     color: snow;
     width: 50%;
@@ -135,7 +135,7 @@ input:valid ~ span:after {
 }
 .NN2{
     text-align: left;
-    margin: 10px 0px;
+    margin: 20px 0px;
     width: 50%;
     float: left;
 }
