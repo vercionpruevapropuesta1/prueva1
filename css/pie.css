@@ -115,7 +115,8 @@ input:valid ~ span:after {
 .content-10{
     width: 100%;
     background: rgba(0, 0, 0, 0.9);
-    min-height: 500px;
+    min-height: 150px;
+    margin: 1px 0px;
     color: aliceblue;
 
 }
