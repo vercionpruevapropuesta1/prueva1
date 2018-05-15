@@ -305,13 +305,14 @@ transition: all linear 0.1s;
 }
 @media all and (max-width:600px){
     .content-5{
-    border: solid red 3px;
+    height: 600px;
     }
 }
 .contentspecial{
     position: absolute;
     margin-top: 2%;
 }
+
 .imagenphon5{
     position:absolute;
     top: 5%;
@@ -343,7 +344,7 @@ transition: all linear 0.1s;
 .boton1{
     position: relative;
     margin-top: 100px;
-    left: 90px;
+    margin-left: 24%;
     float: left;
 }
 .boton2{
