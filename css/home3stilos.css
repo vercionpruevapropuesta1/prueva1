@@ -101,14 +101,12 @@ hr{
 }
 @media all and ( max-width: 980px){
     .content-4{
-        background: red;
         height: 590px;
         font-size: 15px;
     }
 }
 @media all and ( max-width: 690px){
     .content-4{
-        background: blue;
         height: 890px;
     }
 }
@@ -128,26 +126,40 @@ hr{
     margin-left: 25%;
     margin-top: 0.6%;
 }
-.BtCt4{
+.BtCt4-1, .BtCt4-2, .BtCt4-3{
     width: 30%;
     height: 100%;
     float: left;
+    overflow: hidden;
 }
 #BtCt4{
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
-    border: 12px double #0d0b0d;
     background-color: #9e969e;
     text-align: center;
-    width: 45%;
+    width: auto;
+    max-width: 120px;
     margin-left: 26%;
+    height: 100px;
 }
-.BtCt4 a{
+#BtCt4 img{
+    width: 60px;
+    height: auto;
+    margin: 20px 10px;
+}
+@media all and ( max-width: 690px){
+   #BtCt4 img{
+    width: 30px;
+    height: auto;
+    margin: 30px 0px;
+}
+}
+.BtCt4-1 a, .BtCt4-2 a, .BtCt4-3 a{
     color: wheat;
     text-decoration: none;
 }
-.BtCt4 p{
+.BtCt4-1 p, .BtCt4-2 p, .BtCt4-3 p{
     color: white;
     width: 100%;
     height: 180px;
