@@ -568,14 +568,14 @@ transition: all linear 0.1s;
     width: 100%;
     height: auto;
     top: 2%;
-    margin-left: 14%;
+    margin-left: 9%;
      display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 .conter-striker .conty{
     width: 350px;
-    padding: 30px;
+    padding: 20px;
 
 }
 @media all and (max-width:600px){
@@ -585,14 +585,12 @@ transition: all linear 0.1s;
 }
 @media all and (max-width:600px){
     .conty {
-        padding: 10px;
+        padding: 0px;
     }
 }
 @media all and (max-width:600px){
     .conter-strike{
-
-       margin-left:8%;
-        margin-right: 10%;
+     margin-left: 0%;
 
     }
 }
