@@ -55,7 +55,7 @@ hr{
 .comten-ryo h1{
     position: relative;
     font-size: 30px;
-    top: 42%;
+    top: 38%;
     left: 30%;
     color: grey;
     width: 55%
@@ -590,6 +590,7 @@ transition: all linear 0.1s;
 }
 @media all and (max-width:600px){
     .conter-strike{
+
        margin-left:8%;
         margin-right: 10%;
 
