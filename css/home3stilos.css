@@ -314,6 +314,7 @@ transition: all linear 0.1s;
 }
 .imagenphon5 img{
     width: 100%;
+    height: 80%;
     max-width: 400px;
     max-height: 350px
 
