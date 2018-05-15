@@ -1,7 +1,11 @@
 /*---------------------  Tipo de fuente ---------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 /*----------------------------------------------------------------*/
-
+div h2{
+    background: grey;
+    width: 100%;
+    height: 200px;
+}
 /*------------Contenedor del header-------------------------------------------*/
 .cabesera{
     width: 100%;
