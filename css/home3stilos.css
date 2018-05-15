@@ -305,7 +305,7 @@ transition: all linear 0.1s;
 }
 @media all and (max-width:600px){
     .content-5{
-    height: 600px;
+    height: 900px;
     }
 }
 .contentspecial{
