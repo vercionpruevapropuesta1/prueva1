@@ -406,12 +406,30 @@ transition: all linear 0.1s;
 }
 .contery1 .conten-p{
     position: relative;
-    width: 500px;
+    width: 70%;
     color: whitesmoke;
     line-height:30px;
     top: 15%;
     left: 10%;
 
+}
+@media all and (max-width:600px){
+    .conten-p p{
+           font-size: 9px;
+    }
+    .content-6{
+        height: 70vh;
+    }
+}
+@media all and (max-width:600px){
+    .content-6{
+        height: 90vh;
+    }
+}
+@media all and (max-width:500px){
+    .content-6{
+        height: 100vh;
+    }
 }
 .conte-butom{
     position: relative;
