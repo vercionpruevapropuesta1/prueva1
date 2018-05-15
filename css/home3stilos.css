@@ -513,6 +513,16 @@ transition: all linear 0.1s;
 
 
 }
+@media all and (max-width:700px){
+    .content-7{
+    height:700px;
+    }
+}
+@media all and (max-width:600px){
+    .content-7{
+    height:800px;
+    }
+}
 
 .content-7 .conten-h1{
 
