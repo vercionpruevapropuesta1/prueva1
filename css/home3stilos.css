@@ -34,7 +34,7 @@ hr{
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-1{
     width: 100%;
-    height: 600px;
+    height: 700px;
     margin-top: 0px;
     background-attachment: fixed;
     background-position: center center;
@@ -58,6 +58,7 @@ hr{
     top: 42%;
     left: 30%;
     color: grey;
+    width: 55%
 
 }
 .boton_personalizado1{
