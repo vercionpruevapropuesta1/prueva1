@@ -578,5 +578,22 @@ transition: all linear 0.1s;
     padding: 30px;
 
 }
+@media all and (max-width:600px){
+    .conty p{
+        font-size: 12px;
+    }
+}
+@media all and (max-width:600px){
+    .conty {
+        padding: 10px;
+    }
+}
+@media all and (max-width:600px){
+    .conter-strike{
+       margin-left:8%;
+        margin-right: 10%;
+
+    }
+}
 
 
