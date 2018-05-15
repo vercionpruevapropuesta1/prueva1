@@ -323,9 +323,6 @@ transition: all linear 0.1s;
     height: 500px;
     margin-top: 0px;
     background-color: white;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
 }
 @media all and (max-width:500px){
     .content-5{
@@ -334,7 +331,7 @@ transition: all linear 0.1s;
 }
 @media all and (max-width:600px){
     .content-5{
-    height: 900px;
+    height: 1050px;
     }
 }
 
@@ -372,15 +369,23 @@ transition: all linear 0.1s;
 
 }
 .boton1{
+    width: auto;
     position: relative;
     margin-top: 100px;
     margin-left: 24%;
     float: left;
 }
 @media all and (max-width:600px){
-    .boton1 a{
-
+    .boton1{
+    margin-top: 40px;
+    margin-left: 10%;
+        width: 150px;
+        height: 100px;
     }
+    .boton_personalizado{
+        display: block;
+    }
+
 }
 
 .boton_personalizado{
