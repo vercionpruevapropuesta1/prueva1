@@ -308,6 +308,7 @@ transition: all linear 0.1s;
     height: 900px;
     }
 }
+
 .contentspecial{
     position: absolute;
     margin-top: 2%;
@@ -347,12 +348,12 @@ transition: all linear 0.1s;
     margin-left: 24%;
     float: left;
 }
-.boton2{
-    position: relative;
-    margin-top: 100px;
-    float: left;
-    left: 100px;
+@media all and (max-width:600px){
+    .boton1 a{
+
+    }
 }
+
 .boton_personalizado{
     text-decoration: none;
     padding: 10px;
