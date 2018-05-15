@@ -70,7 +70,7 @@ hr{
     background-color:rebeccapurple;
     border-radius: 6px;
     border: 1px solid #0016b0;
-    top: 50%;
+    margin-top: 20%;
     left: 45%;
   }
 .boton_personalizado1:hover{
