@@ -303,6 +303,11 @@ transition: all linear 0.1s;
     background-position: center center;
     background-size: cover;
 }
+@media all and (max-width:500px){
+    .content-5{
+    height: 7http://192.168.1.2:5129600px;
+    }
+}
 @media all and (max-width:600px){
     .content-5{
     height: 900px;
