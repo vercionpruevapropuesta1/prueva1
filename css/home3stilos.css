@@ -55,7 +55,7 @@ hr{
 .comten-ryo h1{
     position: relative;
     font-size: 30px;
-    top: 42%;
+    top: 38%;
     left: 30%;
     color: grey;
     width: 55%
@@ -577,17 +577,28 @@ transition: all linear 0.1s;
     left: 10%;
 
 }
-@media all and (max-width:600px){
-    .conten-p p{
-           font-size: 9px;
-    }
+@media all and (max-width:900px){
     .content-6{
         height: 70vh;
     }
 }
-@media all and (max-width:600px){
+@media all and (max-width:700px){
+    .conten-p p{
+           font-size: 9px;
+    }
+    .content-6{
+        height: 80vh;
+    }
+}
+@media all and (max-width:650px){
     .content-6{
         height: 90vh;
+    }
+}
+
+@media all and (max-width:600px){
+    .content-6{
+        height: 95vh;
     }
 }
 @media all and (max-width:500px){
@@ -673,15 +684,31 @@ transition: all linear 0.1s;
     width: 100%;
     height: auto;
     top: 2%;
-    margin-left: 14%;
+    margin-left: 10%;
      display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 .conter-striker .conty{
     width: 350px;
-    padding: 30px;
+    padding: 20px;
 
+}
+@media all and (max-width:700px){
+    .conty p{
+        font-size: 12px;
+    }
+}
+@media all and (max-width:600px){
+    .conty {
+        padding: 0px;
+    }
+}
+@media all and (max-width:600px){
+    .conter-strike{
+     margin-left: 0%;
+
+    }
 }
 
 
