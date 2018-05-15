@@ -42,6 +42,11 @@ hr{
 
 
 }
+@media all and (max-width:600px){
+    .content-1{
+    height: 100vh;
+    }
+}
 .comten-ryo{
     width: 100%;
     height: 100%;
@@ -305,7 +310,7 @@ transition: all linear 0.1s;
 }
 @media all and (max-width:500px){
     .content-5{
-    height: 7http://192.168.1.2:5129600px;
+    height: 700px;
     }
 }
 @media all and (max-width:600px){
