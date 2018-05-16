@@ -213,6 +213,7 @@ hr {
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .content-2 {
+
     width: 100%;
     height: 90vh;
     margin-top: 0;
@@ -233,9 +234,9 @@ hr {
 .Ct2 .img img {
     float: left;
     width: 100%;
-    height: 99%;
+    height: 100%;
     max-width: 1000px;
-    max-height: 419px;
+    max-height: 100%;
 }
 
 .Ct2 .Ct2-text {
@@ -370,7 +371,12 @@ hr {
         width: 40px;
     }
 }
+@media all and ( max-width: 400px) {
+    .content-2 {
+        height: 50px;
+    }
 
+}
 
 /*    contenedor 2 secion 2      */
 
@@ -400,7 +406,7 @@ hr {
     /* Tamaño del texto de las pestañas */
     line-height: 40px;
     height: auto;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
     color: #888;
     /* Color del texto de las pestañas */
@@ -426,7 +432,7 @@ hr {
     /* Color de las pestañas al presionar */
     z-index: 6;
     line-height: 45px;
-    height: 45px;
+    height: 40px;
     position: relative;
     top: -5px;
     -webkit-transition: .1s;
@@ -527,9 +533,8 @@ hr {
     .conten {
         padding: 0;
     }
+
 }
-
-
 
 .Ct2-2 .img2 {
     float: left;
@@ -540,7 +545,7 @@ hr {
 .Ct2-2 .img2 img {
     float: left;
     width: 100%;
-    height: 99%;
+    height: 100%;
     max-width: 1000px;
     max-height: 100%;
 }
