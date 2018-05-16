@@ -271,7 +271,7 @@ hr {
 
 @media all and ( max-width: 1400px) {
     .content-2 {
-        height: 50vh;
+        height: 120vh;
     }
     .Ct2 {
         font-size: 15px;
