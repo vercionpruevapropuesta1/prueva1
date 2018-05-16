@@ -20,10 +20,7 @@ window.addEventListener("orientationchange", function () {
     if (fnMobile() && window.orientation == 0) {
         $(".content-2").height("60vh");
     }
-//    if (fnMobile() && window.orientation == 0) {
-////        $(".divi").fontSize("1px");
-//        document.getElementById("divi2").style.fontSize = 1;
-//    }
+
 });
 
 function fnMobile() {
