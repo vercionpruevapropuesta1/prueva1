@@ -282,7 +282,31 @@ hr {
         display: flex;
     }
 }
+@media all and ( max-width: 931px){
 
+    .CTT {
+        margin: 20px 0px;
+        margin-left: 30px;
+    }
+    .divi {
+        width: 80%;
+        display: flex;
+         margin: 10px 20px -10px;
+        height: auto;
+    }
+    #divi2 {
+        margin-top: 30px;
+    }
+  .tes h2 {
+        font-size: 16px;
+    }
+    .tes p{
+        font-size: 15px;
+    }
+    .icono img {
+        width: 50px;
+    }
+}
 @media all and ( max-width: 720px) {
     .content-2 {
         height: 140vh;
@@ -292,6 +316,10 @@ hr {
     }
     .Ct2 .img img {
         max-height: 99%;
+    }
+    .CTT {
+        margin: 10px 10px;
+        margin-left: 0;
     }
     .divi {
         width: 80%;
@@ -306,14 +334,14 @@ hr {
         font-size: 15px;
     }
 }
-
 @media all and ( max-width: 570px) {
     .content-2 {
         height: 180vh;
     }
     .CTT {
-        margin: 0px 10px;
+        margin: 10px 0px;
         margin-left: 0;
+        font-size: 13px;
     }
     .Ct2 {
         font-size: 14px;
@@ -324,7 +352,7 @@ hr {
     .divi {
         width: 80%;
         display: flex;
-         margin: 10px 0px -10px;
+         margin: 10px 0px -20px;
         height: auto;
     }
     #divi2 {
