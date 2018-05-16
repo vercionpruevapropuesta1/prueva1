@@ -20,6 +20,7 @@ window.addEventListener("orientationchange", function () {
     if (fnMobile() && window.orientation == 0) {
         $(".content-2").height("60vh");
     }
+
 });
 
 function fnMobile() {
