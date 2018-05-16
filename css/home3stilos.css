@@ -557,10 +557,11 @@ transition: all linear 0.1s;
     background-image: url(../images/GLOBOS.jpeg)
 }
 .contery1 h1{
+    width: 70%;
     position: relative;
-    margin-top: 15%;
-    left: 35px;
-    font-size: 25px;
+    top: 20px;
+    left: 30px;
+    font-size: 22px;
     font-family: roboto,sans-serif;
     font-family: inherit;
     line-height: 1.4;
@@ -681,7 +682,8 @@ transition: all linear 0.1s;
     padding-top: 1rem;
 }
 .conter-striker{
-    width: 100%;
+    position: relative;
+    width: 95%;
     height: auto;
     top: 2%;
     margin-left: 10%;
@@ -690,7 +692,7 @@ transition: all linear 0.1s;
     display: flex;
 }
 .conter-striker .conty{
-    width: 350px;
+    width: 30%;
     padding: 20px;
 
 }
