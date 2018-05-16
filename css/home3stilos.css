@@ -227,24 +227,64 @@ hr{
     height: 120vh;
 }
     .Ct2{
-    border: solid red 5px;
         font-size: 15px;
 }
     .Ct2 .img img{
     max-height: 530px;
 }
   .divi{
-    display: block;
     width: 80%;
-    height: 120px;
-    max-height: 120px;
     display: flex;
 }
-.icono{
-    margin-right: 15px;
 }
-.tes{
-    width: 100%;
+@media all and ( max-width: 720px){
+    .content-2{
+    height: 140vh;
+}
+    .Ct2{
+        font-size: 15px;
+}
+    .Ct2 .img img{
+    max-height: 99%;
+}
+  .divi{
+    width: 80%;
+    display: flex;
+}
+    #divi2{
+        margin-top: 80px;
+    }
+    .tes p{
+        font-size: 15px;
+}
+}
+@media all and ( max-width: 570px){
+    .content-2{
+    height: 180vh;
+}
+    .CTT{
+    margin-top:  20px;
+    margin-left: 0;
+}
+    .Ct2{
+        font-size: 14px;
+}
+    .Ct2 .img img{
+    max-height: 99%;
+}
+  .divi{
+    width: 60%;
+    display: flex;
+      margin-left: 0;
+}
+    #divi2{
+        margin-top: 30px;
+    }
+    .tes p,.tes h2{
+        font-size: 12px;
+}
+    .icono img{
+    width: 40px;
 }
 }
 
@@ -263,6 +303,7 @@ hr{
     box-sizing: border-box ;
     -moz-box-sizing: border-box;
 }
+
 #contenedorr input {
 height: 32px;
 visibility: hidden;
@@ -272,15 +313,17 @@ float: left;
 cursor: pointer;
 font-size: 15px;  /* Tamaño del texto de las pestañas */
 line-height: 40px;
-height: 40px;
+height: auto;
 padding: 0 20px;
-display: block;
+display: flex;
 color: #888;  /* Color del texto de las pestañas */
 text-align: center;
 border-radius: 5px 5px 0 0;
 background: #eee;  /* Fondo de las pestañas */
 margin-right: 5px;
 }
+
+
 #contenedorr input:hover + label {
 background: #ddd;  /* Fondo de las pestañas al pasar el cursor por encima */
 color: #666;  /* Color del texto de las pestañas al pasar el cursor por encima */
@@ -301,7 +344,7 @@ top: -5px;
 .conten {
 background: rgba(255, 218, 145, 0.47);  /* Fondo del contenido */
 position: relative;
-height: 100%;  /* Alto del contenido */
+height: 78%;  /* Alto del contenido */
 padding: 25px;
 z-index: 5;
 border-radius: 0 5px 5px 5px;
@@ -326,6 +369,68 @@ transition: all linear 0.1s;
 -ms-transition: all ease-out 0.2s 0.1s;
 }
 
+@media all and ( max-width: 1348px) {
+    #contenedorr {
+        padding: 20px 20px;
+        width: 50%;
+    }
+
+    #contenedorr label {
+        display: flex;
+    }
+
+}
+@media all and ( max-width: 970px) {
+    #contenedorr {
+        padding: 20px 20px;
+        width: 50%;
+        font-size: 10px;
+    }
+    #contenedorr input {
+        height: 40px;
+        visibility: hidden;
+    }
+    #contenedorr label {
+        font-size: 10px;
+        height: 5px;
+        padding: 0px 10px;
+        margin-right: 1px;
+        display: flex;
+    }
+    #contenedorr input:checked + label {
+        height: 10px;
+    }
+    .conten{
+        padding: 0;
+    }
+}
+@media all and ( max-width: 570px) {
+    #contenedorr {
+        padding: 20px 20px;
+        width: 50%;
+        font-size: 10px;
+    }
+    #contenedorr input {
+        height: 40px;
+        visibility: hidden;
+    }
+    #contenedorr label {
+        font-size: 10px;
+        height: 5px;
+        padding: 0px 10px;
+        margin-right: 1px;
+        display: flex;
+    }
+    #contenedorr input:checked + label {
+        height: 10px;
+    }
+    .conten{
+        padding: 0;
+    }
+}
+
+
+
 .Ct2-2 .img2 {
     float: left;
     width: 50%;
@@ -336,7 +441,7 @@ transition: all linear 0.1s;
     width: 100%;
     height: 99%;
     max-width: 1000px;
-    max-height: 419px;
+    max-height: 100%;
 }
 /*     ----------------     content-5       ----------------------------*/
 /*estilos para los contenedore para el home 3*/
