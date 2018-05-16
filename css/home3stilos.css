@@ -278,7 +278,7 @@ hr {
         max-height: 530px;
     }
     .divi {
-        width: 80%;
+        width: 30%;
         display: flex;
     }
 }
@@ -296,9 +296,11 @@ hr {
     .divi {
         width: 80%;
         display: flex;
+        margin: 10px 10px 0px;
+        height: auto;
     }
     #divi2 {
-        margin-top: 80px;
+        margin-top: 10px;
     }
     .tes p {
         font-size: 15px;
@@ -310,7 +312,7 @@ hr {
         height: 180vh;
     }
     .CTT {
-        margin-top: 20px;
+        margin: 0px 10px;
         margin-left: 0;
     }
     .Ct2 {
@@ -320,16 +322,19 @@ hr {
         max-height: 99%;
     }
     .divi {
-        width: 60%;
+        width: 80%;
         display: flex;
-        margin-left: 0;
+         margin: 10px 0px -10px;
+        height: auto;
     }
     #divi2 {
         margin-top: 30px;
     }
-    .tes p,
-    .tes h2 {
-        font-size: 12px;
+  .tes h2 {
+        font-size: 10px;
+    }
+    .tes p{
+        font-size: 9px;
     }
     .icono img {
         width: 40px;
@@ -582,7 +587,7 @@ hr {
     float: left;
 }
 
-@media all and (max-width:600px) {
+@media all and (max-width:800px) {
     .boton1 {
         margin-top: 40px;
         margin-left: 10%;
@@ -665,7 +670,7 @@ hr {
 
 @media all and (max-width:900px) {
     .content-6 {
-        height: 70vh;
+        height: 90vh;
     }
 }
 
@@ -674,19 +679,17 @@ hr {
         font-size: 9px;
     }
     .content-6 {
-        height: 80vh;
+        height: 91vh;
     }
 }
-
-@media all and (max-width:650px) {
-    .content-6 {
-        height: 90vh;
-    }
-}
-
 @media all and (max-width:600px) {
     .content-6 {
-        height: 95vh;
+        height: 92vh;
+    }
+}
+@media all and (max-width:650px) {
+    .content-6 {
+        height: 98vh;
     }
 }
 
@@ -694,6 +697,14 @@ hr {
     .content-6 {
         height: 100vh;
     }
+    .contery1 h1{
+        width: 100%;
+    }
+    .contery1 .conten-p {
+
+        margin: 1px 1px;
+        width: 100%;
+}
 }
 
 .conte-butom {
@@ -812,6 +823,12 @@ hr {
 @media all and (max-width:600px) {
     .conter-strike {
         margin-left: 0%;
+
+    }
+}
+@media all and (max-width:300px) {
+    .content-7  {
+        height: 1050px;
 
     }
 }
