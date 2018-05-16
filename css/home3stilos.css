@@ -252,16 +252,18 @@ hr {
 .divi {
     float: left;
     margin-top: 12px;
-    margin-left: 66px;
-    width: 40%;
-    height: 120px;
-    max-height: 120px;
+    margin-left: 30px;
+    width: 45%;
+    height: auto;
     display: flex;
 }
 
 .icono {
     margin-right: 15px;
 }
+.icono img {
+        width: 50px;
+    }
 
 .tes {
     width: 100%;
