@@ -654,7 +654,7 @@ hr {
 
 .content-6 {
     width: 100%;
-    height: 60vh;
+    height: 500px;
     margin-top: 0px;
     background-color: white;
     background-attachment: fixed;
@@ -671,7 +671,9 @@ hr {
 .contery1 {
     width: 50%;
     height: 100%;
-    background-image: url(../images/GLOBOS.jpeg)
+    background-image: url(../images/GLOBOS.jpeg);
+    background-position: center center;
+    background-size: cover;
 }
 
 .contery1 h1 {
@@ -694,7 +696,7 @@ hr {
 
 @media all and (max-width:900px) {
     .content-6 {
-        height: 90vh;
+        height: 700px;
     }
 }
 
@@ -703,23 +705,23 @@ hr {
         font-size: 9px;
     }
     .content-6 {
-        height: 91vh;
+        height: 720px;
     }
 }
 @media all and (max-width:600px) {
     .content-6 {
-        height: 92vh;
+        height: 750px;
     }
 }
 @media all and (max-width:650px) {
     .content-6 {
-        height: 98vh;
+        height: 760px;
     }
 }
 
 @media all and (max-width:500px) {
     .content-6 {
-        height: 100vh;
+        height: 800px;
     }
     .contery1 h1{
         width: 100%;
@@ -771,7 +773,7 @@ hr {
 
 .content-7 {
     width: 100%;
-    height: 70vh;
+    height: 700px;
     margin-top: 0px;
     background-color: whitesmoke;
     background-position: center center;
