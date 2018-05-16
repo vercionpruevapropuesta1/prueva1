@@ -673,26 +673,20 @@ hr {
 }
 
 .contery1 h1 {
-    width: 70%;
-    position: relative;
-    top: 20px;
-    left: 30px;
+   width: 70%;
     font-size: 22px;
     font-family: roboto, sans-serif;
     font-family: inherit;
     line-height: 1.4;
     margin: 0 0 1.5rem;
-    padding-top: 1rem;
     color: antiquewhite;
 }
 
 .contery1 .conten-p {
-    position: relative;
+    margin: 50px 90px;
     width: 70%;
     color: whitesmoke;
     line-height: 30px;
-    top: 15%;
-    left: 10%;
 
 }
 
