@@ -39,6 +39,9 @@ footer {
     margin-bottom: 20px;
     margin-left: 4px;
 }
+.pie-2 h2, .pie-2 ul{
+    margin: 0px 30px;
+}
 @media all and ( max-width: 800px){
     .pie-1, .pie-2, .pie-3{
     margin-top: 10px;
@@ -52,7 +55,7 @@ footer {
 }
 .pie-2 li{
     padding: 5px;
-    list-style-type: circle;
+    list-style-type: none;
 }
 .pie-2 a{
     color: #b7b0e0;
