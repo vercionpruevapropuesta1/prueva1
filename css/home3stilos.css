@@ -1,7 +1,9 @@
 /*estilo importado para el estilo de letra  por parte google*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 /*estilos aplicados para todo contenido del home3*/
-*{
+
+* {
     margin: 0;
     padding: 0;
     -wedkit-box-sizing: border-box;
@@ -9,8 +11,10 @@
     font-family: 'Roboto', sans-serif;
 
 }
+
 /*estilos para todo el cuerpo principal del ala pagina home3*/
-body{
+
+body {
     background-image: url(../images/slider-tech.jpg);
     background-attachment: fixed;
     background-position: center center;
@@ -18,10 +22,9 @@ body{
 
 }
 
-
-hr{
-    border-top:1px solid #4f4f4f;
-    border-bottom:  1px solid #4f4f4f;
+hr {
+    border-top: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
     border-left: none;
     border-right: none;
     height: 6px;
@@ -29,10 +32,14 @@ hr{
     margin-top: 40px;
 
 }
+
 /*estilos para los contenedore para el home 3*/
+
 /*estilos para la estructura del content-1*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-1{
+
+.content-1 {
     width: 100%;
     height: 700px;
     margin-top: 0px;
@@ -42,50 +49,58 @@ hr{
 
 
 }
-@media all and (max-width:600px){
-    .content-1{
-    height:800px;
+
+@media all and (max-width:600px) {
+    .content-1 {
+        height: 800px;
     }
 }
-.comten-ryo{
+
+.comten-ryo {
     width: 100%;
     height: 100%;
-    background-color: rgba(31,31,31,0.7);
+    background-color: rgba(31, 31, 31, 0.7);
 }
-.comten-ryo h1{
+
+.comten-ryo h1 {
     position: relative;
     font-size: 30px;
     top: 38%;
     left: 30%;
     color: grey;
     width: 55%
-
 }
-.boton_personalizado1{
+
+.boton_personalizado1 {
     position: absolute;
     text-decoration: none;
     padding: 10px;
     font-weight: 800;
     font-size: 20px;
     color: #ffffff;
-    background-color:rebeccapurple;
+    background-color: rebeccapurple;
     border-radius: 6px;
     border: 1px solid #0016b0;
     margin-top: 20%;
     left: 45%;
-  }
-.boton_personalizado1:hover{
+}
+
+.boton_personalizado1:hover {
     color: #1883ba;
     background-color: #ffffff;
-  }
-.opasity{
-    background-color: rgba(31,31,31,0.7);
 }
+
+.opasity {
+    background-color: rgba(31, 31, 31, 0.7);
+}
+
 /*estilos para los contenedore para el home 3*/
+
 /*estilos para la estructura del content-3*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.content-3{
+.content-3 {
     width: 100%;
     height: 80vh;
     margin-top: 0px;
@@ -95,50 +110,64 @@ hr{
     background-size: cover;
 
 }
+
 /*     ----------------     content-4       ----------------------------*/
+
 /*estilos para los contenedore para el home 3*/
+
 /*estilos para la estructura del content-4*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-4{
-     width: 100%;
+
+.content-4 {
+    width: 100%;
     height: 480px;
     margin-top: -10px;
     background-color: rgb(0, 0, 0);
 }
-@media all and ( max-width: 980px){
-    .content-4{
+
+@media all and ( max-width: 980px) {
+    .content-4 {
         height: 590px;
         font-size: 15px;
     }
 }
-@media all and ( max-width: 690px){
-    .content-4{
+
+@media all and ( max-width: 690px) {
+    .content-4 {
         height: 890px;
     }
 }
-.title-Ct4{
+
+.title-Ct4 {
     color: snow;
     font-size: 20px;
     margin-top: 1.1%;
     margin-left: 37%;
 }
-.title-Ct4 spam{
+
+.title-Ct4 spam {
     color: yellow;
 }
-.botoms-Ct4{
+
+.botoms-Ct4 {
     text-align: center;
     width: 55%;
     height: 80%;
     margin-left: 25%;
     margin-top: 0.6%;
 }
-.BtCt4-1, .BtCt4-2, .BtCt4-3{
+
+.BtCt4-1,
+.BtCt4-2,
+.BtCt4-3 {
     width: 30%;
     height: 100%;
     float: left;
     overflow: hidden;
 }
-#BtCt4{
+
+#BtCt4 {
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
@@ -149,64 +178,83 @@ hr{
     margin-left: 26%;
     height: 100px;
 }
-#BtCt4 img{
+
+#BtCt4 img {
     width: 60px;
     height: auto;
     margin: 20px 10px;
 }
-@media all and ( max-width: 690px){
-   #BtCt4 img{
-    width: 30px;
-    height: auto;
-    margin: 30px 0px;
+
+@media all and ( max-width: 690px) {
+    #BtCt4 img {
+        width: 30px;
+        height: auto;
+        margin: 30px 0px;
+    }
 }
-}
-.BtCt4-1 a, .BtCt4-2 a, .BtCt4-3 a{
+
+.BtCt4-1 a,
+.BtCt4-2 a,
+.BtCt4-3 a {
     color: wheat;
     text-decoration: none;
 }
-.BtCt4-1 p, .BtCt4-2 p, .BtCt4-3 p{
+
+.BtCt4-1 p,
+.BtCt4-2 p,
+.BtCt4-3 p {
     color: white;
     width: 100%;
     height: 180px;
     padding: 12px 6px;
 }
+
 /*     ----------------     content-2       ----------------------------*/
+
 /*estilos para los contenedore para el home 3*/
+
 /*estilos para la estructura del content-2*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-2{
+
+.content-2 {
     width: 100%;
     height: 90vh;
     margin-top: 0;
     background-color: white;
 }
-.Ct2{
+
+.Ct2 {
     width: 100%;
     height: 50%;
 }
-.Ct2 .img{
+
+.Ct2 .img {
     float: left;
     width: 49%;
     height: 100%;
 }
-.Ct2 .img img{
+
+.Ct2 .img img {
     float: left;
     width: 100%;
     height: 99%;
     max-width: 1000px;
     max-height: 419px;
 }
-.Ct2 .Ct2-text{
+
+.Ct2 .Ct2-text {
     float: left;
     width: 49%;
     height: 100%;
 }
-.CTT{
-    margin-top:  60px;
+
+.CTT {
+    margin-top: 60px;
     margin-left: 60px;
 }
-.divi{
+
+.divi {
     float: left;
     margin-top: 12px;
     margin-left: 66px;
@@ -215,82 +263,88 @@ hr{
     max-height: 120px;
     display: flex;
 }
-.icono{
+
+.icono {
     margin-right: 15px;
 }
-.tes{
+
+.tes {
     width: 100%;
 }
 
-@media all and ( max-width: 1400px){
-    .content-2{
-    height: 120vh;
-}
-    .Ct2{
+@media all and ( max-width: 1400px) {
+    .content-2 {
+        height: 120vh;
+    }
+    .Ct2 {
         font-size: 15px;
+    }
+    .Ct2 .img img {
+        max-height: 530px;
+    }
+    .divi {
+        width: 80%;
+        display: flex;
+    }
 }
-    .Ct2 .img img{
-    max-height: 530px;
-}
-  .divi{
-    width: 80%;
-    display: flex;
-}
-}
-@media all and ( max-width: 720px){
-    .content-2{
-    height: 140vh;
-}
-    .Ct2{
+
+@media all and ( max-width: 720px) {
+    .content-2 {
+        height: 140vh;
+    }
+    .Ct2 {
         font-size: 15px;
-}
-    .Ct2 .img img{
-    max-height: 99%;
-}
-  .divi{
-    width: 80%;
-    display: flex;
-}
-    #divi2{
+    }
+    .Ct2 .img img {
+        max-height: 99%;
+    }
+    .divi {
+        width: 80%;
+        display: flex;
+    }
+    #divi2 {
         margin-top: 80px;
     }
-    .tes p{
+    .tes p {
         font-size: 15px;
+    }
 }
-}
-@media all and ( max-width: 570px){
-    .content-2{
-    height: 180vh;
-}
-    .CTT{
-    margin-top:  20px;
-    margin-left: 0;
-}
-    .Ct2{
+
+@media all and ( max-width: 570px) {
+    .content-2 {
+        height: 180vh;
+    }
+    .CTT {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .Ct2 {
         font-size: 14px;
-}
-    .Ct2 .img img{
-    max-height: 99%;
-}
-  .divi{
-    width: 60%;
-    display: flex;
-      margin-left: 0;
-}
-    #divi2{
+    }
+    .Ct2 .img img {
+        max-height: 99%;
+    }
+    .divi {
+        width: 60%;
+        display: flex;
+        margin-left: 0;
+    }
+    #divi2 {
         margin-top: 30px;
     }
-    .tes p,.tes h2{
+    .tes p,
+    .tes h2 {
         font-size: 12px;
-}
-    .icono img{
-    width: 40px;
-}
+    }
+    .icono img {
+        width: 40px;
+    }
 }
 
 
 /*    contenedor 2 secion 2      */
-.Ct2-2{
+
+.Ct2-2 {
     width: 100%;
     height: 50%;
 }
@@ -300,63 +354,77 @@ hr{
     padding: 95px 90px;
     width: 49%;
     height: 100%;
-    box-sizing: border-box ;
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
 
 #contenedorr input {
-height: 32px;
-visibility: hidden;
+    height: 32px;
+    visibility: hidden;
 }
+
 #contenedorr label {
-float: left;
-cursor: pointer;
-font-size: 15px;  /* Tamaño del texto de las pestañas */
-line-height: 40px;
-height: auto;
-padding: 0 20px;
-display: flex;
-color: #888;  /* Color del texto de las pestañas */
-text-align: center;
-border-radius: 5px 5px 0 0;
-background: #eee;  /* Fondo de las pestañas */
-margin-right: 5px;
+    float: left;
+    cursor: pointer;
+    font-size: 15px;
+    /* Tamaño del texto de las pestañas */
+    line-height: 40px;
+    height: auto;
+    padding: 0 20px;
+    display: flex;
+    color: #888;
+    /* Color del texto de las pestañas */
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    background: #eee;
+    /* Fondo de las pestañas */
+    margin-right: 5px;
 }
 
 
 #contenedorr input:hover + label {
-background: #ddd;  /* Fondo de las pestañas al pasar el cursor por encima */
-color: #666;  /* Color del texto de las pestañas al pasar el cursor por encima */
+    background: #ddd;
+    /* Fondo de las pestañas al pasar el cursor por encima */
+    color: #666;
+    /* Color del texto de las pestañas al pasar el cursor por encima */
 }
+
 #contenedorr input:checked + label {
-background: rgba(162, 145, 255, 0.4);  /* Fondo de las pestañas al presionar */
-color: #444; /* Color de las pestañas al presionar */
-z-index: 6;
-line-height: 45px;
-height: 45px;
-position: relative;
-top: -5px;
--webkit-transition: .1s;
--moz-transition: .1s;
--o-transition: .1s;
--ms-transition: .1s;
+    background: rgba(162, 145, 255, 0.4);
+    /* Fondo de las pestañas al presionar */
+    color: #444;
+    /* Color de las pestañas al presionar */
+    z-index: 6;
+    line-height: 45px;
+    height: 45px;
+    position: relative;
+    top: -5px;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -o-transition: .1s;
+    -ms-transition: .1s;
 }
+
 .conten {
-background: rgba(255, 218, 145, 0.47);  /* Fondo del contenido */
-position: relative;
-height: 78%;  /* Alto del contenido */
-padding: 25px;
-z-index: 5;
-border-radius: 0 5px 5px 5px;
+    background: rgba(255, 218, 145, 0.47);
+    /* Fondo del contenido */
+    position: relative;
+    height: 78%;
+    /* Alto del contenido */
+    padding: 25px;
+    z-index: 5;
+    border-radius: 0 5px 5px 5px;
 }
+
 .conten div {
-position: absolute;
+    position: absolute;
     height: 80%;
     width: 90%;
-z-index: -100;
-opacity: 0;
-transition: all linear 0.1s;
+    z-index: -100;
+    opacity: 0;
+    transition: all linear 0.1s;
 }
+
 #contenedorr input.tab-selector-1:checked ~ .conten .conten-1,
 #contenedorr input.tab-selector-2:checked ~ .conten .conten-2,
 #contenedorr input.tab-selector-3:checked ~ .conten .conten-3,
@@ -364,9 +432,9 @@ transition: all linear 0.1s;
     z-index: 100;
     opacity: 1;
     -webkit-transition: all ease-out 0.2s 0.1s;
--moz-transition: all ease-out 0.2s 0.1s;
--o-transition: all ease-out 0.2s 0.1s;
--ms-transition: all ease-out 0.2s 0.1s;
+    -moz-transition: all ease-out 0.2s 0.1s;
+    -o-transition: all ease-out 0.2s 0.1s;
+    -ms-transition: all ease-out 0.2s 0.1s;
 }
 
 @media all and ( max-width: 1348px) {
@@ -380,6 +448,7 @@ transition: all linear 0.1s;
     }
 
 }
+
 @media all and ( max-width: 970px) {
     #contenedorr {
         padding: 20px 20px;
@@ -400,10 +469,11 @@ transition: all linear 0.1s;
     #contenedorr input:checked + label {
         height: 10px;
     }
-    .conten{
+    .conten {
         padding: 0;
     }
 }
+
 @media all and ( max-width: 570px) {
     #contenedorr {
         padding: 20px 20px;
@@ -424,7 +494,7 @@ transition: all linear 0.1s;
     #contenedorr input:checked + label {
         height: 10px;
     }
-    .conten{
+    .conten {
         padding: 0;
     }
 }
@@ -436,53 +506,62 @@ transition: all linear 0.1s;
     width: 50%;
     height: 100%;
 }
-.Ct2-2 .img2 img{
+
+.Ct2-2 .img2 img {
     float: left;
     width: 100%;
     height: 99%;
     max-width: 1000px;
     max-height: 100%;
 }
+
 /*     ----------------     content-5       ----------------------------*/
+
 /*estilos para los contenedore para el home 3*/
+
 /*estilos para la estructura del content-5*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-5{
+
+.content-5 {
 
     width: 100%;
     height: 500px;
     margin-top: 0px;
     background-color: white;
 }
-@media all and (max-width:500px){
-    .content-5{
-    height: 700px;
-    }
-}
-@media all and (max-width:600px){
-    .content-5{
-    height: 1050px;
+
+@media all and (max-width:500px) {
+    .content-5 {
+        height: 700px;
     }
 }
 
-.contentspecial{
+@media all and (max-width:600px) {
+    .content-5 {
+        height: 1050px;
+    }
+}
+
+.contentspecial {
     position: absolute;
     margin-top: 2%;
 }
 
-.imagenphon5{
-    position:absolute;
+.imagenphon5 {
+    position: absolute;
     top: 5%;
     left: 60%;
 }
-.imagenphon5 img{
+
+.imagenphon5 img {
     width: 100%;
     height: 80%;
     max-width: 400px;
     max-height: 350px
-
 }
-.imagenphontex{
+
+.imagenphontex {
     position: relative;
     top: 65%;
     left: 10%;
@@ -490,129 +569,145 @@ transition: all linear 0.1s;
     height: 20%;
 
 }
-.texclass{
+
+.texclass {
     position: relative;
     margin-top: 10px;
     left: 20px;
     text-align: center;
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
 
 }
-.boton1{
+
+.boton1 {
     width: auto;
     position: relative;
     margin-top: 100px;
     margin-left: 24%;
     float: left;
 }
-@media all and (max-width:600px){
-    .boton1{
-    margin-top: 40px;
-    margin-left: 10%;
+
+@media all and (max-width:600px) {
+    .boton1 {
+        margin-top: 40px;
+        margin-left: 10%;
         width: 150px;
         height: 100px;
     }
-    .boton_personalizado{
+    .boton_personalizado {
         display: block;
     }
 
 }
 
-.boton_personalizado{
+.boton_personalizado {
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    background-color:purple;
+    background-color: purple;
     border-radius: 6px;
     border: 1px solid #0016b0;
-  }
-.boton_personalizado:hover{
+}
+
+.boton_personalizado:hover {
     color: #1883ba;
     background-color: #ffffff;
-  }
+}
+
 /*estilos para los contenedore para el home 3*/
+
 /*estilos para la estructura del content-6*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.content-6{
+.content-6 {
     width: 100%;
     height: 60vh;
     margin-top: 0px;
-    background-color:white;
+    background-color: white;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-     display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 
 
 
 }
-.contery1{
+
+.contery1 {
     width: 50%;
     height: 100%;
     background-image: url(../images/GLOBOS.jpeg)
 }
-.contery1 h1{
+
+.contery1 h1 {
     width: 70%;
     position: relative;
     top: 20px;
     left: 30px;
     font-size: 22px;
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
     font-family: inherit;
     line-height: 1.4;
     margin: 0 0 1.5rem;
     padding-top: 1rem;
     color: antiquewhite;
 }
-.contery1 .conten-p{
+
+.contery1 .conten-p {
     position: relative;
     width: 70%;
     color: whitesmoke;
-    line-height:30px;
+    line-height: 30px;
     top: 15%;
     left: 10%;
 
 }
-@media all and (max-width:900px){
-    .content-6{
+
+@media all and (max-width:900px) {
+    .content-6 {
         height: 70vh;
     }
 }
-@media all and (max-width:700px){
-    .conten-p p{
-           font-size: 9px;
+
+@media all and (max-width:700px) {
+    .conten-p p {
+        font-size: 9px;
     }
-    .content-6{
+    .content-6 {
         height: 80vh;
     }
 }
-@media all and (max-width:650px){
-    .content-6{
+
+@media all and (max-width:650px) {
+    .content-6 {
         height: 90vh;
     }
 }
 
-@media all and (max-width:600px){
-    .content-6{
+@media all and (max-width:600px) {
+    .content-6 {
         height: 95vh;
     }
 }
-@media all and (max-width:500px){
-    .content-6{
+
+@media all and (max-width:500px) {
+    .content-6 {
         height: 100vh;
     }
 }
-.conte-butom{
+
+.conte-butom {
     position: relative;
     top: 30%;
     left: 10%;
 }
-.contery2{
+
+.contery2 {
     width: 50%;
     height: 100%;
     background-image: url(../images/hombre-estudiando-computadora.jpg);
@@ -620,33 +715,38 @@ transition: all linear 0.1s;
     background-size: cover;
 }
 
-.boton_personalizado2{
+.boton_personalizado2 {
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
     color: blue;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     border-radius: 6px;
     border: 1px solid #0016b0;
-  }
-.boton_personalizado2:hover{
+}
+
+.boton_personalizado2:hover {
     color: #1883ba;
     background-color: gray;
-  }
+}
+
 /*estilos para los contenedore para el home 3*/
+
 /*estilos para la estructura del content-7*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /*content-7*/
-.content-7{
+
+.content-7 {
     width: 100%;
     height: 70vh;
     margin-top: 0px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     background-position: center center;
     background-size: cover;
-     display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms- flex-wrap: wrap;
@@ -654,63 +754,69 @@ transition: all linear 0.1s;
 
 
 }
-@media all and (max-width:700px){
-    .content-7{
-    height:700px;
-    }
-}
-@media all and (max-width:600px){
-    .content-7{
-    height:800px;
+
+@media all and (max-width:700px) {
+    .content-7 {
+        height: 700px;
     }
 }
 
-.content-7 .conten-h1{
+@media all and (max-width:600px) {
+    .content-7 {
+        height: 800px;
+    }
+}
+
+.content-7 .conten-h1 {
 
     margin-top: 5%;
     margin-left: 21%;
 
 }
-.content-7 .conten-h1 h1{
+
+.content-7 .conten-h1 h1 {
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0;
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
     font-family: inherit;
     line-height: 1.4;
     margin: 0 0 1.5rem;
     padding-top: 1rem;
 }
-.conter-striker{
+
+.conter-striker {
     position: relative;
     width: 95%;
     height: auto;
     top: 2%;
     margin-left: 10%;
-     display: -webkit-box;
+    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-.conter-striker .conty{
+
+.conter-striker .conty {
     width: 30%;
     padding: 20px;
 
 }
-@media all and (max-width:700px){
-    .conty p{
+
+@media all and (max-width:700px) {
+    .conty p {
         font-size: 12px;
     }
 }
-@media all and (max-width:600px){
+
+@media all and (max-width:600px) {
     .conty {
         padding: 0px;
     }
 }
-@media all and (max-width:600px){
-    .conter-strike{
-     margin-left: 0%;
+
+@media all and (max-width:600px) {
+    .conter-strike {
+        margin-left: 0%;
 
     }
 }
-
-
