@@ -97,20 +97,26 @@ hr{
 
 }
 .content-item-1{
-    width: 80%;
+    width: 100%;
     height: 700px;
     margin: auto;
     background: white;
     color: black;
     text-align: center;
     padding: 40px;
+     display: -wedkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    ;
+}
 
     
 }
 .content-image-ct1{
-    position: absolute;
-    left: 50px;
-    margin-top: 150px
+    width: 40%;
+    height: 60%
+
 
 }
 .content-titile{
@@ -118,16 +124,23 @@ hr{
 
 }
 .comtent-HvP{
-    position: relative;
+
     left: 47%;
     margin-top: 180px;
     width: 40%;
     height: auto;
 }
 
-.home-pie{}
-.correo-pie{}
-.tell-pie{}
+.home-pie{
+    width: 30%;
+
+}
+.correo-pie{
+    width: 30%;
+}
+.tell-pie{
+    width: 30%;
+}
 
 .content-image-ct1 img{
     width: 100%;
