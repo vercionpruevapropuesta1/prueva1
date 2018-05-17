@@ -495,7 +495,7 @@ hr{
 /*content-6*/
 .content-6 {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-color: white;
     border: 1px solid #85898B;
 }
@@ -538,19 +538,38 @@ hr{
 }
 .CT1 {
     float: left;
-    width: 40px;
+    width: 1%;
     margin-right: 5px;
 }
 .CT2 {
     float: left;
-    width: 160px;
+    width: 100%;
 }
 @media all and (max-width: 884px) {
+    .content-6 {
+    height: 94vh;
+}
     .lol1,.lol2 {
-        border: solid red 1px;
-        display: flex;
-        width: 37%;
+        float: none;
+        width: 80%;
         height: auto;
+        font-size: 15px;
+        margin-left: 20%;
+    }
+}
+@media all and (max-width: 505px) {
+
+    .lol1,.lol2 {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 405px) {
+    .content-nnewh2 {
+       margin-left: 0;
+    }
+    .lol1,.lol2 {
+        margin-left: 0;
+        font-size: 12px;
     }
 }
 /*estilos para la estructura del content-4*/
