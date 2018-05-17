@@ -258,6 +258,7 @@ hr {
     width: 45%;
     height: auto;
     display: flex;
+    font-size: 85%;
 }
 
 .icono {
@@ -266,7 +267,6 @@ hr {
 .icono img {
         width: 50px;
     }
-
 .tes {
     width: 100%;
 }
@@ -282,8 +282,9 @@ hr {
         max-height: 530px;
     }
     .divi {
-        width: 30%;
+        width: 40%;
         display: flex;
+        font-size: 70%;
     }
 }
 @media all and ( max-width: 931px){
