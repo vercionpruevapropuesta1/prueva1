@@ -1,44 +1,55 @@
 /*estilo importado para el estilo de letra  por parte google*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 /*estilos aplicados para todo contenido del home1*/
-*{
+
+* {
     margin: 0;
     padding: 0;
     -wedkit-box-sizing: border-box;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
+
 }
+
 /*estilos para todo el cuerpo principal del ala pagina home1*/
-body{
+
+body {
     background-image: url(../images/background-1.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    
+
 }
+
 /*estilos para los contenedore para el home 1*/
+
 /*estilos para la estructura del content-1*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-1{
+
+.content-1 {
     width: 100%;
     background: white;
 
 
 
 }
-.content-1 h1{
+
+.content-1 h1 {
     text-align: center;
 }
-.content-icon-all{
+
+.content-icon-all {
     display: -wedkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap:wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
 }
-.content-icon{
+
+.content-icon {
     width: 200px;
     padding: 20px;
     text-align: center;
@@ -46,49 +57,59 @@ body{
     -wedkit-transition: all 300ms;
     transition: all 300ms;
     margin-top: 40px;
-    
+
 }
-.content-icon:hover{
-    -wedkit-box-shadow:0px 0px 40px -5px black;
+
+.content-icon:hover {
+    -wedkit-box-shadow: 0px 0px 40px -5px black;
     box-shadow: 0px 0px 40px -5px black;
 }
-.content-icon img{
+
+.content-icon img {
     width: 150px;
-    border-radius:50% ;
-    -wedkit-box-shadow:0px 0px 40px -10px black;
+    border-radius: 50%;
+    -wedkit-box-shadow: 0px 0px 40px -10px black;
     box-shadow: 0px 0px 40px -10px black;
 }
-.content-icon h4{
-    margin-top:10px;
-}
-.content-icon p{
+
+.content-icon h4 {
     margin-top: 10px;
 }
-hr{
-    border-top:1px solid #4f4f4f;
-    border-bottom:  1px solid #4f4f4f;
+
+.content-icon p {
+    margin-top: 10px;
+}
+
+hr {
+    border-top: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
     border-left: none;
     border-right: none;
     height: 6px;
     width: 100%;
     margin-top: 40px;
 }
-.remiopasiti{
-    background-color: rgba(31,31,31,0.7);
+
+.remiopasiti {
+    background-color: rgba(31, 31, 31, 0.7);
 }
-.parrafo1{
+
+.parrafo1 {
     margin: auto;
     margin-top: 20px;
     max-width: 800px;
     font-size: 20px;
-    
-    
+
+
 }
 
 /*conte-2*/
+
 /*estilos para la estructura del content-2*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-2{
+
+.content-2 {
     margin-top: 20px;
     background-color: white;
     background-attachment: fixed;
@@ -99,56 +120,66 @@ hr{
 
 
 }
-.contenB{
+
+.contenB {
     width: 90%;
     position: relative;
-   top: 20%;
+    top: 20%;
     left: 18%;
     display: -wedkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-.contenrelyimg1{
+
+.contenrelyimg1 {
     width: 45%;
     padding: 20px;
 
 }
-.contenrelyimg{
-     width: 35%;
+
+.contenrelyimg {
+    width: 35%;
     padding: 20px;
 }
-.contenrelyimg1 img{
+
+.contenrelyimg1 img {
     width: 100%;
     height: 80%;
     max-width: 600px;
     max-height: 450px;
 }
-.comtenparrafo{
+
+.comtenparrafo {
     width: 100%;
     padding: 10px;
     display: flex;
 
 }
-.comtenparrafo img{
+
+.comtenparrafo img {
     padding: 10px;
-    }
+}
 
 
 
 /*content-3*/
+
 /*estilos para la estructura del content-3*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-3{
+
+.content-3 {
     width: 100%;
-    height:700PX;
+    height: 700PX;
 
     background-image: url(../images/background-2.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    
+
 }
-.content-imagebox{
+
+.content-imagebox {
     position: relative;
     z-index: 1;
     width: 80%;
@@ -158,10 +189,11 @@ hr{
     display: -wedkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap:wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-#imagebox-1{
+
+#imagebox-1 {
 
     z-index: 2;
     width: 370px;
@@ -169,22 +201,25 @@ hr{
     background-image: url(../images/28558804-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
 
 }
-#info1{
+
+#info1 {
 
     overflow: hidden;
-   width: 370px;
+    width: 370px;
     height: 239px;
     color: white;
-    background-color: rgba(31,31,31,0.9);
-    -wedkit-transition:opacity 0.2s;
-    -moz-transition:opacity 0.2s;
+    background-color: rgba(31, 31, 31, 0.9);
+    -wedkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
     opacity: 0;
 }
-#imagebox-1:hover #info1{
+
+#imagebox-1:hover #info1 {
     opacity: 1;
 
 }
-#headline1{
+
+#headline1 {
     position: absolute;
     font-size: 21;
     margin-left: 150px;
@@ -192,7 +227,7 @@ hr{
 
 }
 
-#imagebox-2{
+#imagebox-2 {
 
     z-index: 3;
     top: 0px;
@@ -202,29 +237,33 @@ hr{
     background-image: url(../images/28558811-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
 
 }
-#info2{
+
+#info2 {
 
     overflow: hidden;
-   width: 370px;
+    width: 370px;
     height: 239px;
     color: white;
-    background-color: rgba(31,31,31,0.9);
-    -wedkit-transition:opacity 0.2s;
-    -moz-transition:opacity 0.2s;
+    background-color: rgba(31, 31, 31, 0.9);
+    -wedkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
     opacity: 0;
 }
-#imagebox-2:hover #info2{
+
+#imagebox-2:hover #info2 {
     opacity: 1;
 
 }
-#headline2{
+
+#headline2 {
     position: absolute;
     font-size: 21;
     margin-left: 150px;
     margin-top: 100px;
 
 }
-#imagebox-3{
+
+#imagebox-3 {
 
     z-index: 4;
     top: 0px;
@@ -234,29 +273,33 @@ hr{
     background-image: url(../images/28559613-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
 
 }
-#info3{
+
+#info3 {
 
     overflow: hidden;
-   width: 370px;
+    width: 370px;
     height: 239px;
     color: white;
-    background-color: rgba(31,31,31,0.9);
-    -wedkit-transition:opacity 0.2s;
-    -moz-transition:opacity 0.2s;
+    background-color: rgba(31, 31, 31, 0.9);
+    -wedkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
     opacity: 0;
 }
-#imagebox-3:hover #info3{
+
+#imagebox-3:hover #info3 {
     opacity: 1;
 
 }
-#headline3{
+
+#headline3 {
     position: absolute;
     font-size: 21;
     margin-left: 150px;
     margin-top: 100px;
 
 }
-#imagebox-4{
+
+#imagebox-4 {
 
     z-index: 5;
 
@@ -265,29 +308,33 @@ hr{
     background-image: url(../images/30287319-nube-concepto-de-computaci%C3%B3n.jpg);
 
 }
-#info4{
+
+#info4 {
 
     overflow: hidden;
-   width: 370px;
+    width: 370px;
     height: 239px;
     color: white;
-    background-color: rgba(31,31,31,0.9);
-    -wedkit-transition:opacity 0.2s;
-    -moz-transition:opacity 0.2s;
+    background-color: rgba(31, 31, 31, 0.9);
+    -wedkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
     opacity: 0;
 }
-#imagebox-4:hover #info4{
+
+#imagebox-4:hover #info4 {
     opacity: 1;
 
 }
-#headline4{
+
+#headline4 {
     position: absolute;
     font-size: 21;
     margin-left: 150px;
     margin-top: 100px;
 
 }
-#imagebox-5{
+
+#imagebox-5 {
 
     z-index: 6;
 
@@ -296,29 +343,33 @@ hr{
     background-image: url(../images/declaracion-18.jpg);
 
 }
-#info5{
+
+#info5 {
 
     overflow: hidden;
-   width: 370px;
+    width: 370px;
     height: 239px;
     color: white;
-    background-color: rgba(31,31,31,0.9);
-    -wedkit-transition:opacity 0.2s;
-    -moz-transition:opacity 0.2s;
+    background-color: rgba(31, 31, 31, 0.9);
+    -wedkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
     opacity: 0;
 }
-#imagebox-5:hover #info5{
+
+#imagebox-5:hover #info5 {
     opacity: 1;
 
 }
-#headline5{
+
+#headline5 {
     position: absolute;
     font-size: 21;
     margin-left: 150px;
     margin-top: 100px;
 
 }
-.imagebox-6{
+
+.imagebox-6 {
 
     z-index: 7;
 
@@ -327,22 +378,25 @@ hr{
     background-image: url(../images/niif-esfa.jpg);
 
 }
-#info6{
+
+#info6 {
 
     overflow: hidden;
-   width: 370px;
+    width: 370px;
     height: 239px;
     color: white;
-    background-color: rgba(31,31,31,0.9);
-    -wedkit-transition:opacity 0.2s;
-    -moz-transition:opacity 0.2s;
+    background-color: rgba(31, 31, 31, 0.9);
+    -wedkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
     opacity: 0;
 }
-#imagebox-6:hover #info6{
+
+#imagebox-6:hover #info6 {
     opacity: 1;
 
 }
-#headline6{
+
+#headline6 {
     position: absolute;
     font-size: 21;
     margin-left: 130px;
@@ -351,9 +405,12 @@ hr{
 }
 
 /*estilos para la estructura del content-5*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
 /*content-5*/
-.content-5{
+
+.content-5 {
     width: 100%;
     height: 60vh;
 
@@ -363,16 +420,19 @@ hr{
     background-size: cover;
 
 }
-.contentspecial{
+
+.contentspecial {
     position: relative;
     top: 10%;
 }
-.imagenphon5{
-    position:absolute;
+
+.imagenphon5 {
+    position: absolute;
     top: 5%;
     left: 60%;
 }
-.imagenphontex{
+
+.imagenphontex {
     position: relative;
     top: 65%;
     left: 10%;
@@ -380,43 +440,51 @@ hr{
     height: 20%;
 
 }
-.texclass{
+
+.texclass {
     position: relative;
     margin-top: 10px;
     left: 20px;
     text-align: center;
-    font-family: roboto,sans-serif;
+    font-family: roboto, sans-serif;
 
 }
-.boton1{
+
+.boton1 {
     position: relative;
     margin-top: 100px;
     left: 90px;
     float: left;
 }
-.boton2{
+
+.boton2 {
     position: relative;
     margin-top: 100px;
     float: left;
     left: 100px;
 }
-.boton_personalizado{
+
+.boton_personalizado {
     text-decoration: none;
     padding: 10px;
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
-    background-color:purple;
+    background-color: purple;
     border-radius: 6px;
     border: 1px solid #0016b0;
-  }
-.boton_personalizado:hover{
+}
+
+.boton_personalizado:hover {
     color: #1883ba;
     background-color: #ffffff;
-  }
+}
+
 /*estilos para la estructura del content-7*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-7{
+
+.content-7 {
     width: 100%;
     height: 70vh;
 
@@ -426,7 +494,8 @@ hr{
     background-size: cover;
 
 }
-.comten-spec-tex{
+
+.comten-spec-tex {
     position: relative;
     width: 80%;
     height: 80%;
@@ -434,9 +503,10 @@ hr{
     left: 100px;
 
 }
-.conten-special-tex1{
+
+.conten-special-tex1 {
     position: absolute;
-    color:black;
+    color: black;
     width: 200px;
     top 200px;
     left: 50px;
@@ -444,53 +514,60 @@ hr{
 
 
 }
-.conten-special-tex2{
+
+.conten-special-tex2 {
     position: absolute;
-   color:black;
-     width: 200px;
+    color: black;
+    width: 200px;
     top 100px;
     left: 40%;
     text-align: center;
 
 }
-.conten-special-tex3{
+
+.conten-special-tex3 {
     position: absolute;
-    color:black;
-     width: 200px;
-     top 100px;
+    color: black;
+    width: 200px;
+    top 100px;
     left: 80%;
     text-align: center;
 
 }
-.conten-special-tex4{
+
+.conten-special-tex4 {
     position: absolute;
-    color:black;;
-     width: 200px;
+    color: black;
+    ;
+    width: 200px;
     top: 200px;
     left: 50px;
     text-align: center;
 
 }
-.conten-special-tex5{
+
+.conten-special-tex5 {
     position: absolute;
-    color:black;
-     width: 200px;
+    color: black;
+    width: 200px;
     top: 200px;
-     left: 40%;
+    left: 40%;
     text-align: center;
 
 }
-.conten-special-tex6{
+
+.conten-special-tex6 {
     position: absolute;
-    color:black;
-     width: 200px;
+    color: black;
+    width: 200px;
     top: 200px;
     left: 80%;
     text-align: center;
 
 
 }
-.content-8{
+
+.content-8 {
     width: 100%;
     height: 20vh;
     background-image: url(../images/background-1.jpg);
@@ -499,24 +576,31 @@ hr{
     background-size: cover;
 
 }
+
 /*estilos para la estructura del content-6*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
 /*content-6*/
+
 .content-6 {
     width: 100%;
     height: 70vh;
     background-color: white;
     border: 1px solid #85898B;
 }
+
 .content-image-content-6 {
     float: left;
     width: 49%;
     height: 100%;
 }
+
 .content-image-content-6 img {
     width: 100%;
     height: 100%;
 }
+
 .content-nnewh2 {
     float: left;
     width: 40%;
@@ -525,40 +609,49 @@ hr{
     margin-left: 10%;
     text-align: center;
 }
+
 .content-contenido-tex {
     float: left;
     width: 50%;
     height: 70%;
     margin-top: 3%;
 }
-.lol1, .lol2 {
+
+.lol1,
+.lol2 {
     float: left;
     width: 37%;
     height: auto;
 }
+
 .lol1 {
     margin-left: 20%;
 }
+
 .contex-1 {
     float: left;
     margin: 5% 5%;
     width: 100%;
     height: auto;
 }
+
 .CT1 {
     float: left;
     width: 1%;
     margin-right: 5px;
 }
+
 .CT2 {
     float: left;
     width: 100%;
 }
+
 @media all and (max-width: 884px) {
     .content-6 {
-    height: 94vh;
-}
-    .lol1,.lol2 {
+        height: 94vh;
+    }
+    .lol1,
+    .lol2 {
         float: none;
         width: 80%;
         height: auto;
@@ -566,24 +659,31 @@ hr{
         margin-left: 20%;
     }
 }
+
 @media all and (max-width: 505px) {
 
-    .lol1,.lol2 {
+    .lol1,
+    .lol2 {
         font-size: 14px;
     }
 }
+
 @media all and (max-width: 405px) {
     .content-nnewh2 {
-       margin-left: 0;
+        margin-left: 0;
     }
-    .lol1,.lol2 {
+    .lol1,
+    .lol2 {
         margin-left: 0;
         font-size: 12px;
     }
 }
+
 /*estilos para la estructura del content-4*/
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.content-4{
+
+.content-4 {
     width: 100%;
     height: 30vh;
     margin-top: 0px;
