@@ -189,7 +189,7 @@ hr {
     position: relative;
     z-index: 1;
     width: 80%;
-    height: 90%;
+    height: auto;
     left: 12%;
     top: 70px;
     display: -wedkit-box;
