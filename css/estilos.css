@@ -178,6 +178,12 @@ hr {
     background-size: cover;
 
 }
+@media all and (max-width: 1305px){
+    .content-3{
+        height: 900px;
+    }
+
+}
 
 .content-imagebox {
     position: relative;
