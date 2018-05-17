@@ -117,8 +117,8 @@ hr{
 
 }
 .comtent-HvP{
-    position: absolute;
-    right: 50px;
+    position: relative;
+    left: 45%;
     margin-top: 180px;
     width: 700px;
     height: auto;
