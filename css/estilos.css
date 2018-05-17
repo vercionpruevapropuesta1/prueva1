@@ -89,6 +89,7 @@ hr{
 /*estilos para la estructura del content-2*/
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-2{
+    margin-top: 20px;
     background-color: white;
     background-attachment: fixed;
     background-position: center center;
@@ -97,7 +98,7 @@ hr{
 }
 .content-item-1{
     width: 80%;
-    height: 80vh;
+    height: 700px;
     margin: auto;
     background: white;
     color: black;
@@ -118,13 +119,15 @@ hr{
 }
 .comtent-HvP{
     position: relative;
-    left: 45%;
+    left: 47%;
     margin-top: 180px;
-    width: 700px;
+    width: 40%;
     height: auto;
 }
 
-
+.home-pie{}
+.correo-pie{}
+.tell-pie{}
 
 .content-image-ct1 img{
     width: 100%;
