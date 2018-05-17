@@ -27,7 +27,7 @@ window.addEventListener("orientationchange", function () {
         $(".content-6").removeAttr("style");
     }
     if (fnMobile() && window.orientation == 0) {
-        $(".content-6").height("35vh");
+        $(".content-6").height("370px");
     }
 
 });
