@@ -109,16 +109,22 @@ hr{
 }
 .contenrelyimg1{
     width: 35%;
+    padding: 20px;
 
 }
 .contenrelyimg{
      width: 35%;
+    padding: 20px;
 }
 .contenrelyimg1 img{
     width: 100%;
     height: 80%;
     max-width: 600px;
     max-height: 450px;
+}
+.comtenparrafo{
+    width: 100%;
+    padding: 10px;
 }
 
 
