@@ -155,17 +155,22 @@ hr{
     height: 90%;
     left: 12%;
     top: 70px;
+    display: -wedkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 #imagebox-1{
-    position: absolute;
+
     z-index: 2;
     width: 370px;
     height: 239px;
     background-image: url(../images/28558804-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
-    top: 5px;
+
 }
 #info1{
-    position: absolute;
+
     overflow: hidden;
    width: 370px;
     height: 239px;
@@ -188,17 +193,17 @@ hr{
 }
 
 #imagebox-2{
-    position:absolute;
+
     z-index: 3;
     top: 0px;
-    left: 380px;
+
     width: 370px;
     height: 239px;
     background-image: url(../images/28558811-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
-    top: 5px;
+
 }
 #info2{
-    position: absolute;
+
     overflow: hidden;
    width: 370px;
     height: 239px;
@@ -220,17 +225,17 @@ hr{
 
 }
 #imagebox-3{
-    position: absolute;
+
     z-index: 4;
     top: 0px;
-    left: 760px;
+
     width: 370px;
     height: 239px;
     background-image: url(../images/28559613-la-computaci%C3%B3n-en-nube-dispositivos.jpg);
-    top: 5px;
+
 }
 #info3{
-    position: absolute;
+
     overflow: hidden;
    width: 370px;
     height: 239px;
@@ -252,16 +257,16 @@ hr{
 
 }
 #imagebox-4{
-    position: absolute;
+
     z-index: 5;
-    top:250px;
+
     width: 370px;
     height: 239px;
     background-image: url(../images/30287319-nube-concepto-de-computaci%C3%B3n.jpg);
 
 }
 #info4{
-    position: absolute;
+
     overflow: hidden;
    width: 370px;
     height: 239px;
@@ -283,17 +288,16 @@ hr{
 
 }
 #imagebox-5{
-    position: absolute;
+
     z-index: 6;
-    top:250px;
-    left: 380px;
+
     width: 370px;
     height: 239px;
     background-image: url(../images/declaracion-18.jpg);
 
 }
 #info5{
-    position: absolute;
+
     overflow: hidden;
    width: 370px;
     height: 239px;
@@ -315,17 +319,16 @@ hr{
 
 }
 .imagebox-6{
-    position: absolute;
+
     z-index: 7;
-    top:250px;
-    left: 760px;
+
     width: 370px;
     height: 239px;
     background-image: url(../images/niif-esfa.jpg);
 
 }
 #info6{
-    position: absolute;
+
     overflow: hidden;
    width: 370px;
     height: 239px;
