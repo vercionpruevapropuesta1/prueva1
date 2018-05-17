@@ -125,7 +125,12 @@ hr{
 .comtenparrafo{
     width: 100%;
     padding: 10px;
+    display: flex;
+
 }
+.comtenparrafo img{
+    padding: 10px;
+    }
 
 
 
