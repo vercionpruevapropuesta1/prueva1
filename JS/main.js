@@ -22,7 +22,15 @@ window.addEventListener("orientationchange", function () {
     }
 
 });
+window.addEventListener("orientationchange", function () {
+    if (fnMobile() && window.orientation == 90) {
+        $(".content-6").removeAttr("style");
+    }
+    if (fnMobile() && window.orientation == 0) {
+        $(".content-6").height("35vh");
+    }
 
+});
 function fnMobile() {
     var isMobile = false; //initiate as false
     // device detection
