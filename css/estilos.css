@@ -505,83 +505,65 @@ hr{
 /*estilos para la estructura del content-6*/
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*content-6*/
-.content-6{
+.content-6 {
     width: 100%;
-    height: 80vh;
-
+    height: 60vh;
     background-color: white;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
     border: 1px solid #85898B;
 }
-.content-image-content-6{
-    position: relative;
-        float: left;
-    width: 49%;
-    height: 100%;
-
-
-}
-.content-image-content-6 img{
-    width: 100%;
-    height: 100%;
-    }
-.content-contenido-tex{
-    position: relative;
+.content-image-content-6 {
     float: left;
     width: 49%;
-    height: auto;
-    margin-top: 80px;
-    left: 100px
-
-
+    height: 100%;
 }
-.content-nnewh2{
-     position: relative;
+.content-image-content-6 img {
+    width: 100%;
+    height: 100%;
+}
+.content-nnewh2 {
     float: left;
     width: 40%;
     height: auto;
-    margin-top: 80px;
-    left: 100px;
+    margin-top: 6%;
+    margin-left: 10%;
     text-align: center;
-
 }
-.lol1, .lol2{
+.content-contenido-tex {
     float: left;
-    width: 600px;
-    margin: 10px 60px;
-
+    width: 50%;
+    height: 70%;
+    margin-top: 3%;
+}
+.lol1, .lol2 {
+    float: left;
+    width: 37%;
+    height: auto;
+}
+.lol1 {
+    margin-left: 20%;
 }
 .contex-1 {
     float: left;
-    margin-right: 50px;
-    padding: 20px;
+    margin: 5% 5%;
+    width: 100%;
+    height: auto;
 }
-.CT1, .CT3, .CT5, .CT7 {
+.CT1 {
     float: left;
     width: 40px;
     margin-right: 5px;
 }
-.CT2, .CT4, .CT6, .CT8 {
-    float: right;
-
+.CT2 {
+    float: left;
     width: 160px;
 }
-.contex-2 {
-    float: left;
-    margin-right: 50px;
-    padding: 20px;
-}
-.contex-3 {
-     float: left;
-    margin-right: 50px;
-    padding: 20px;
-}
-.contex-4 {
-    float: left;
-    margin-right: 50px;
-    padding: 20px;
+@media all and (max-width: 884px) {
+    .lol1,.lol2 {
+        border: solid red 1px;
+        display: flex;
+        width: 37%;
+        height: auto;
+    }
 }
 /*estilos para la estructura del content-4*/
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
