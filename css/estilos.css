@@ -443,6 +443,13 @@ hr {
     left: 60%;
 }
 
+.imagenphon5 img {
+    width: 100%;
+    height: 80%;
+    max-width: 400px;
+    max-height: 350px;
+}
+
 .imagenphontex {
     position: relative;
     top: 65%;
