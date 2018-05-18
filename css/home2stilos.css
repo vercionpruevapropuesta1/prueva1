@@ -32,7 +32,7 @@ hr{
 
 .content-1{
     width: 100%;
-    height: 70vh;
+    height: 700px;
     margin-top: 0px;
     background-attachment: fixed;
     background-position: center center;
@@ -44,7 +44,7 @@ hr{
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-2{
     width: 100%;
-    height: 90vh;
+    height: 800px;
     margin-top: 0px;
     background-color: white;
     background-attachment: fixed;
@@ -62,7 +62,7 @@ hr{
 .content-3{
 
     width: 100%;
-    height: 69vh;
+    height: 650px;
     margin-top: 0px;
     background-position: center center;
     background-size: cover;
@@ -74,7 +74,7 @@ hr{
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .content-5{
     width: 100%;
-    height: 30vh;
+    height:238px;
     margin-top: 0px;
     background-color:orange;
     background-attachment: fixed;
