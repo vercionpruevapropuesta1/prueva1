@@ -26,19 +26,19 @@ animation: cambio 15s infinite alternate linear;}
     animation-play-state:paused;
 }
 #clickImg:hover .TxSl{
-    font-size: 40px;
+    font-size: 190%;
     margin-left: 25%;
     margin-top: 14%;
     opacity:1;
 }
 #clickImg:hover .TxSl2{
-    font-size: 15px;
+    font-size: 210%;
     margin-left: 35%;
     margin-top: 10%;
     opacity:1;
 }
 #clickImg:hover .TxSl3{
-    font-size: 40px;
+    font-size: 190%;
     margin-left: 28%;
     margin-top: 15%;
     opacity:1;
