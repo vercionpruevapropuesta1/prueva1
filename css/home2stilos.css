@@ -47,12 +47,6 @@ hr{
     height: 800px;
     margin-top: 0px;
     background-color: white;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
 
 
 }
@@ -98,19 +92,21 @@ hr{
 
 .tex-contex{
     position: relative;
-   left: 15%;
-    top: 17%;
-    width: 100%;
-    max-width: 1000px;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms- flex-wrap: wrap;
     flex-wrap: wrap;
+    border: 1px solid red;
 }
 @media all and (max-width: 1305px){
-    .tex-contex{
-        left: 5%;
+
+    .contentH2-6{
+        height: 900px;
     }
 
 }
