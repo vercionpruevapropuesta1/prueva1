@@ -49,7 +49,7 @@ animation: cambio 15s infinite alternate linear;}
     .content-1{
         height: 60px;
     }
-    #clickImg:hover .TxSl{
+    #clickImg:hover #TxSl1{
         font-size: 5px;
     }
 }
