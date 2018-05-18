@@ -8,9 +8,9 @@ iconos dela cabecera del tabs*/
     display: flex;
     -webkit-box-pack:center;
     -ms-flex-pack:center;
-    justify-content: center;
+    margin:  10px 380px;
     margin-top: 20px;
-    padding: 40px;
+
 }
 .icon{
     padding: 10px;
@@ -28,7 +28,7 @@ iconos dela cabecera del tabs*/
 /*content-tabs1 primer contenedor  de la estructura tabs para la primera ejecucion de contenido*/
 .content-tabs1{
     position: absolute;
-    left: 16%;
+    left: 6%;
     margin-top: 10%;
     width: 100%;
     max-width: 1000px;
@@ -62,7 +62,7 @@ iconos dela cabecera del tabs*/
 /*content-tab2  estilos para el segundo contenedor de las pestaña tabs*/
 .content-tabs2{
     position: absolute;
-   left: 16%;
+   left: 6%;
     margin-top: 10%;
     width: 100%;
     max-width: 1000px;
@@ -110,7 +110,7 @@ iconos dela cabecera del tabs*/
 /*content-tab3  el estilos para el tab3*/
 .content-tabs3{
     position: absolute;
-   left: 16%;
+   left: 6%;
     margin-top: 10%;
     width: 100%;
     max-width: 1000px;
