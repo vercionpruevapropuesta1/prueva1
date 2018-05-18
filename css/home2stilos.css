@@ -91,17 +91,15 @@ hr{
     height: 700px;
     margin-top: 0px;
     background-color:white;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+
 
 
 }
 
 .tex-contex{
-      position: absolute;
+      position: relative;
    left: 18%;
-    margin-top: 10%;
+
     width: 100%;
     max-width: 1000px;
     padding: 20px;
