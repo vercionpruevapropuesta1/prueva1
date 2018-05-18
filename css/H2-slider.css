@@ -1,3 +1,12 @@
+.content-1{
+    width: 100%;
+    height: 70vh;
+    margin-top: 0px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}
 /*    ------    contenedor 1    -----     */
 .slider {
     position: relative;
@@ -9,7 +18,7 @@
 .slider ul {
     display: flex;
     padding: 0;
-    width: 300%;
+    width: 500%;
 }
 #clickImg {
 animation: cambio 15s infinite alternate linear;}
@@ -42,11 +51,12 @@ animation: cambio 15s infinite alternate linear;}
 }
 .slider li {
     width: 100%;
+    height: 100%;
     list-style: none;
 }
 .slider img {
     width: 100%;
-    height: 58.5%;
+    height: 100%;
 }
 @keyframes cambio{
     0% {margin-left: 0;}
@@ -59,7 +69,13 @@ animation: cambio 15s infinite alternate linear;}
     70% {margin-left: -200%;}
 
     75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+
+    100% {margin-left: -400%;}
+    120% {margin-left: -400%;}
+
+    125% {margin-left: -500%;}
+    145% {margin-left: -500%;}
 }
 
 .slider .TxSl {
