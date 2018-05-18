@@ -97,17 +97,22 @@ hr{
 }
 
 .tex-contex{
-      position: relative;
-   left: 18%;
-
+    position: relative;
+   left: 15%;
+    top: 17%;
     width: 100%;
     max-width: 1000px;
-    padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms- flex-wrap: wrap;
     flex-wrap: wrap;
+}
+@media all and (max-width: 1305px){
+    .tex-contex{
+        left: 5%;
+    }
+
 }
 .tex-contex .cont-tex{
     width: 300px;
@@ -122,9 +127,9 @@ hr{
     padding: 10px;
 }
 .content-h{
-    position: absolute;
-    margin-top: 8%;
-    left: 33%;
+    position: relative;
+    top: 8%;
+    left: 30%;
     }
 
 /*estilos para la estructura del content-6*/
