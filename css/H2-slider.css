@@ -17,7 +17,7 @@
     width: 500%;
 }
 #clickImg {
-animation: cambio 15s infinite alternate linear;}
+animation: cambio 0s infinite alternate linear;}
 #clickImg:hover {
     animation-play-state:paused;
 }
@@ -45,7 +45,8 @@ animation: cambio 15s infinite alternate linear;}
     opacity:1;
 }
 /*-------------------      REGLAS       ----------------------*/
-@media (min-width: 700px) and (orientation: landscape){
+/*
+@media (min-width: 980px) and (orientation: landscape){
     .content-1{
         height: 652px;
     }
@@ -56,17 +57,31 @@ animation: cambio 15s infinite alternate linear;}
     opacity:1;
 }
 }
-@media (min-width: 700px) and (orientation: portrait){
+@media (min-width: 980px) and (orientation: portrait) {
     .content-1{
         height: 652px;
     }
     #clickImg:hover .TxSl{
-    font-size: 10%;
+    font-size: 130%;
     margin-left: 30%;
     margin-top: 16%;
     opacity:1;
 }
 }
+*/
+
+@media (max-width: 981px) and (min-width: 980px) and (orientation: portrait) {
+    .content-1{
+        height: 652px;
+    }
+    #clickImg:hover .TxSl{
+    font-size: 130%;
+    margin-left: 30%;
+    margin-top: 16%;
+    opacity:1;
+}
+}
+
 /**/
 
 
