@@ -45,13 +45,27 @@ animation: cambio 15s infinite alternate linear;}
     opacity:1;
 }
 /*-------------------      REGLAS       ----------------------*/
-@media all and(max-width:700px){
+@media (min-width: 700px) and (orientation: landscape){
     .content-1{
-        height: 60px;
+        height: 652px;
     }
-    #clickImg:hover #TxSl1{
-        font-size: 5px;
+    #clickImg:hover .TxSl{
+    font-size: 90%;
+    margin-left: 30%;
+    margin-top: 16%;
+    opacity:1;
+}
+}
+@media (min-width: 700px) and (orientation: portrait){
+    .content-1{
+        height: 652px;
     }
+    #clickImg:hover .TxSl{
+    font-size: 10%;
+    margin-left: 30%;
+    margin-top: 16%;
+    opacity:1;
+}
 }
 /**/
 
