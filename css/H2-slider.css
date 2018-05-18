@@ -1,11 +1,7 @@
 .content-1{
     width: 100%;
-    height: 70vh;
+    height: 700px;
     margin-top: 0px;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-
 }
 /*    ------    contenedor 1    -----     */
 .slider {
@@ -26,29 +22,40 @@ animation: cambio 15s infinite alternate linear;}
     animation-play-state:paused;
 }
 #clickImg:hover .TxSl{
-    font-size: 190%;
-    margin-left: 25%;
-    margin-top: 14%;
+    font-size: 200%;
+    margin-left: 30%;
+    margin-top: 16%;
     opacity:1;
 }
 #clickImg:hover .TxSl2{
     font-size: 210%;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 10%;
     opacity:1;
 }
 #clickImg:hover .TxSl3{
     font-size: 190%;
-    margin-left: 28%;
-    margin-top: 15%;
+    margin-top: 17%;
     opacity:1;
 }
 #clickImg:hover .bottonSL{
     font-size: 10px;
-    margin-left: 38%;
+    margin-left: 48%;
     margin-top: 25%;
     opacity:1;
 }
+/*-------------------      REGLAS       ----------------------*/
+@media all and(max-width:700px){
+    .content-1{
+        height: 60px;
+    }
+    #clickImg:hover .TxSl{
+        font-size: 5px;
+    }
+}
+/**/
+
+
 .slider li {
     width: 100%;
     height: 100%;
