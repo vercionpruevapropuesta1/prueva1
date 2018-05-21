@@ -17,7 +17,7 @@
     width: 500%;
 }
 #clickImg {
-animation: cambio 0s infinite alternate linear;}
+animation: cambio 15s infinite alternate linear;}
 #clickImg:hover {
     animation-play-state:paused;
 }
@@ -45,39 +45,32 @@ animation: cambio 0s infinite alternate linear;}
     opacity:1;
 }
 /*-------------------      REGLAS       ----------------------*/
-/*
-@media (min-width: 980px) and (orientation: landscape){
-    .content-1{
-        height: 652px;
-    }
-    #clickImg:hover .TxSl{
-    font-size: 90%;
-    margin-left: 30%;
-    margin-top: 16%;
-    opacity:1;
-}
-}
-@media (min-width: 980px) and (orientation: portrait) {
-    .content-1{
-        height: 652px;
-    }
-    #clickImg:hover .TxSl{
-    font-size: 130%;
-    margin-left: 30%;
-    margin-top: 16%;
-    opacity:1;
-}
-}
-*/
-
 @media (max-width: 981px) and (min-width: 980px) and (orientation: portrait) {
     .content-1{
         height: 652px;
     }
     #clickImg:hover .TxSl{
     font-size: 130%;
-    margin-left: 30%;
-    margin-top: 16%;
+    margin-left: 24%;
+    margin-top: 25%;
+    opacity:1;
+}
+    #clickImg:hover .TxSl2{
+    font-size: 180%;
+    margin-left: 20%;
+    margin-top: 10%;
+    opacity:1;
+}
+#clickImg:hover .TxSl3{
+    font-size: 170%;
+    margin-left: 34%;
+    margin-top: 20%;
+    opacity:1;
+}
+#clickImg:hover .bottonSL{
+    font-size: 15px;
+    margin-left: 40%;
+    margin-top: 29%;
     opacity:1;
 }
 }
