@@ -214,3 +214,51 @@ h1 {
     left: 47%;
 
 }
+/*-------------- reglas -------------------*/
+
+@media only screen and (max-width: 1350px) {
+    .fondo img {
+        width: 85%;
+        height: 70%;
+        margin: 10px 4px;
+    }
+    .fondo {
+        margin: 35px 35%;
+        width: 25%;
+        height: 65px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .fondo img {
+        margin: 5px 0px;
+    }
+    .fondo {
+        width: 35%;
+        height: 50px;
+        margin: 30px 30%;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .fondo img {
+        margin: 5px 0px;
+    }
+    .fondo {
+        width: 35%;
+        height: 50px;
+        margin: 30px 30%;
+    }
+      .cuerpo #dactos a {
+
+    font-size: 14px;
+}
+    .cuerpo #dactos p {
+
+    font-size: 15px;
+}
+
+.cuerpo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+}
