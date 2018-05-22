@@ -25,6 +25,7 @@ h1 {
 
 .section {
     text-align: center;
+    background-size: cover;
 }
 
 /*stilos para los seccion del  slider  js vertical de home 4*/
