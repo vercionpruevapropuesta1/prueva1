@@ -111,6 +111,13 @@ h1 {
     display: flex;
     margin-left: 40%;
 }
+@media all and (max-width: 1305px){
+
+    .contenbunto {
+        margin-left:36%;
+    }
+
+}
 
 .conte-bottom1 {
     margin-top: 10%;
