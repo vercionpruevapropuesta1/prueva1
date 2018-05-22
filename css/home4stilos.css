@@ -59,6 +59,7 @@ esta separado en una estructura diferentes*/
 /*-----------------------------------------------------------------*/
 #section0{
     position: relative;
+     background-size: cover;
 }
 .SEC-red {
     background: rgba(252, 252, 252, 0.56);

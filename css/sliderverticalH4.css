@@ -25,7 +25,7 @@ h1 {
 
 .section {
     text-align: center;
-    background-size: cover;
+
 }
 
 /*stilos para los seccion del  slider  js vertical de home 4*/
@@ -43,7 +43,7 @@ h1 {
 
 .conte-teri {
     font-size: 9px;
-    width: 500px;
+    width: 50%;
 
 }
 
