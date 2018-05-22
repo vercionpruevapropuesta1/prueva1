@@ -1,6 +1,8 @@
 /*estilo importado para el estilo de letra  por parte google*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 /*stilos extras para de hoe 4 para la estruturacion interna de los contenedores div del slider*/
+
 .wrap {
     margin-left: auto;
     margin-right: auto;
@@ -111,10 +113,11 @@ h1 {
     display: flex;
     margin-left: 40%;
 }
-@media all and (max-width: 1305px){
+
+@media all and (max-width: 1305px) {
 
     .contenbunto {
-        margin-left:36%;
+        margin-left: 36%;
     }
 
 }
@@ -127,15 +130,17 @@ h1 {
 /*   ---------------         contenedor id:section5           ----------------    */
 
 #section3 {
-    background-color: rgba(17,17,17,0.82);
+    background-color: rgba(17, 17, 17, 0.82);
 
 }
+
 #section3 h1 {
     width: 100%;
     color: snow;
     font-size: 36px;
     font-family: roboto;
 }
+
 #section3 .intro {
     color: rgb(41, 41, 41);
     font-size: 10px;
@@ -166,10 +171,12 @@ h1 {
     font-family: roboto;
     text-decoration: none;
 }
-.cuerpo #dactos a:hover{
+
+.cuerpo #dactos a:hover {
     color: #1f70b7;
     font-size: 20px;
 }
+
 .cuerpo #dactos p {
     width: 100%;
     margin-top: 15px;
@@ -184,10 +191,13 @@ h1 {
     top: 40%;
     left: 30%;
 }
+
 /*---------  modifica fondo de imagen  -----------*/
-.fondo img{
+
+.fondo img {
     margin: 15px 5px;
 }
+
 .fondo {
     margin: 35px 35%;
     width: 30%;
@@ -197,27 +207,31 @@ h1 {
     -webkit-border-radius: 200px 200px 200px 200px;
     border: 2px solid #1020cc;
 }
-#Fd1{
+
+#Fd1 {
     background: #4b46a3
 }
-#Fd2{
+
+#Fd2 {
     background: #425d4c
 }
-#Fd3{
+
+#Fd3 {
     background: #53c981
 }
-#Fd4{
+
+#Fd4 {
     background: #d3458c
 }
 
-#section5{
+#section5 {
     background: rgba(0, 0, 0, 0.88);
     max-height: 100px;
 }
 
 .conteniconer {
     position: absolute;
-   top: 30%;
+    top: 30%;
     left: 47%;
 
 }
@@ -236,6 +250,7 @@ h1 {
         height: 65px;
     }
 }
+
 @media only screen and (max-width: 800px) {
     .fondo img {
         margin: 5px 0px;
@@ -246,6 +261,7 @@ h1 {
         margin: 30px 30%;
     }
 }
+
 @media only screen and (max-width: 580px) {
     .fondo img {
         margin: 5px 0px;
@@ -255,27 +271,26 @@ h1 {
         height: 50px;
         margin: 30px 30%;
     }
-      .cuerpo #dactos a {
+    .cuerpo #dactos a {
 
-    font-size: 14px;
-}
+        font-size: 14px;
+    }
     .cuerpo #dactos p {
 
-    font-size: 15px;
+        font-size: 15px;
+    }
+
+    .cuerpo {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
 }
 
-.cuerpo {
-    width: 100%;
-    height: auto;
-    margin: 0;
-}
+.divimg {}
 
-
-.divimg {
-
-}
 .divimg img {
-     width: 100%;
+    width: 100%;
     height: 80%;
     max-width: 400px;
     max-height: 350px;
