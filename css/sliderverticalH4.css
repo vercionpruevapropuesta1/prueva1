@@ -111,6 +111,13 @@ h1 {
     display: flex;
     margin-left: 40%;
 }
+@media all and (max-width: 1305px){
+
+    .contenbunto {
+        margin-left:36%;
+    }
+
+}
 
 .conte-bottom1 {
     margin-top: 10%;
@@ -214,6 +221,7 @@ h1 {
     left: 47%;
 
 }
+
 /*-------------- reglas -------------------*/
 
 @media only screen and (max-width: 1350px) {
@@ -261,4 +269,16 @@ h1 {
     height: auto;
     margin: 0;
 }
+
+
+.divimg {
+
+}
+.divimg img {
+     width: 100%;
+    height: 80%;
+    max-width: 400px;
+    max-height: 350px;
+
+
 }
