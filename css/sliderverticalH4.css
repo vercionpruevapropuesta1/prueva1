@@ -75,21 +75,7 @@ h1 {
 
 }
 
-.boton_personalizado2 {
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 20px;
-    color: blue;
-    background-color: yellow;
-    border-radius: 6px;
-    border: 1px solid #0016b0;
-}
 
-.boton_personalizado2:hover {
-    color: #1883ba;
-    background-color: #ffffff;
-}
 
 .conte-bottom {
     margin-top: 10%;
@@ -185,12 +171,7 @@ h1 {
     font-family: roboto;
 }
 
-.contehr {
-    position: absolute;
-    font-size: 40px;
-    top: 40%;
-    left: 30%;
-}
+
 
 /*---------  modifica fondo de imagen  -----------*/
 
@@ -229,12 +210,6 @@ h1 {
     max-height: 100px;
 }
 
-.conteniconer {
-    position: absolute;
-    top: 30%;
-    left: 47%;
-
-}
 
 /*-------------- reglas -------------------*/
 
@@ -294,6 +269,35 @@ h1 {
     height: 80%;
     max-width: 400px;
     max-height: 350px;
+}
 
+/*------------------------   ID: SECCION 4-------------------------------------*/
 
+.conteniconer {
+    margin: 10% 0px 10%;
+
+}
+.contehr {
+    margin: 40px 0px 10%;
+    font-size: 40px;
+    top: 40%;
+    left: 30%;
+}
+.combu{
+    margin: 10px 0px 10%;
+}
+.boton_personalizado2 {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: blue;
+    background-color: yellow;
+    border-radius: 6px;
+    border: 1px solid #0016b0;
+}
+
+.boton_personalizado2:hover {
+    color: #1883ba;
+    background-color: #ffffff;
 }
