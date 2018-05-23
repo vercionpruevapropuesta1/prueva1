@@ -3,7 +3,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 /*stilos extras para de hoe 4 para la estruturacion interna de los contenedores div del slider*/
 /*-----------------------   seccion 0    -------------------------------*/
-
+@media (max-width: 981px) and (min-width: 980px) and (orientation: portrait){
+    .cabesera{
+        margin: 0px 0px 140%;
+    }
+    .Header-redes{
+        height: 130px;
+        font-size: 40px;
+    }
+    .info img{
+        height: 30px;
+       width: 30px;
+    }
+   .redes img{
+        height: 50px;
+       width: 50px;
+    }
+    .nav a{
+        font-size: 20px;
+    }
+}
 
 
 
