@@ -112,6 +112,12 @@ h1 {
     left: 28%;
     font-size: 35px;
 }
+@media all and (max-width: 1305px){
+   .titulo{
+         left: 15%;
+    }
+
+}
 
 #section1 {
     background-color: white;
