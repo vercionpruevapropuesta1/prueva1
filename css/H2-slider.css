@@ -1,9 +1,11 @@
-.content-1{
+.content-1 {
     width: 100%;
     height: 700px;
     margin-top: 0px;
 }
+
 /*    ------    contenedor 1    -----     */
+
 .slider {
     position: relative;
     width: 100%;
@@ -11,100 +13,135 @@
     margin: auto;
     overflow: hidden;
 }
+
 .slider ul {
     display: flex;
     padding: 0;
     width: 500%;
 }
+
 #clickImg {
-animation: cambio 15s infinite alternate linear;}
-#clickImg:hover {
-    animation-play-state:paused;
+    animation: cambio 15s infinite alternate linear;
 }
-#clickImg:hover .TxSl{
+
+#clickImg:hover {
+    animation-play-state: paused;
+}
+
+#clickImg:hover .TxSl {
     font-size: 200%;
     margin-left: 30%;
     margin-top: 16%;
-    opacity:1;
+    opacity: 1;
 }
-#clickImg:hover .TxSl2{
+
+#clickImg:hover .TxSl2 {
     font-size: 210%;
     margin-left: 30%;
     margin-top: 10%;
-    opacity:1;
+    opacity: 1;
 }
-#clickImg:hover .TxSl3{
+
+#clickImg:hover .TxSl3 {
     font-size: 190%;
     margin-top: 17%;
-    opacity:1;
+    opacity: 1;
 }
-#clickImg:hover .bottonSL{
+
+#clickImg:hover .bottonSL {
     font-size: 10px;
     margin-left: 48%;
     margin-top: 25%;
-    opacity:1;
+    opacity: 1;
 }
+
 /*-------------------      REGLAS       ----------------------*/
+
 @media (max-width: 981px) and (min-width: 980px) and (orientation: portrait) {
-    .content-1{
+    .content-1 {
         height: 652px;
     }
-    #clickImg:hover .TxSl{
-    font-size: 130%;
-    margin-left: 24%;
-    margin-top: 25%;
-    opacity:1;
-}
-    #clickImg:hover .TxSl2{
-    font-size: 180%;
-    margin-left: 20%;
-    margin-top: 10%;
-    opacity:1;
-}
-#clickImg:hover .TxSl3{
-    font-size: 170%;
-    margin-left: 34%;
-    margin-top: 20%;
-    opacity:1;
-}
-#clickImg:hover .bottonSL{
-    font-size: 15px;
-    margin-left: 40%;
-    margin-top: 29%;
-    opacity:1;
-}
+    #clickImg:hover .TxSl {
+        font-size: 130%;
+        margin-left: 24%;
+        margin-top: 25%;
+        opacity: 1;
+    }
+    #clickImg:hover .TxSl2 {
+        font-size: 180%;
+        margin-left: 20%;
+        margin-top: 10%;
+        opacity: 1;
+    }
+    #clickImg:hover .TxSl3 {
+        font-size: 170%;
+        margin-left: 34%;
+        margin-top: 20%;
+        opacity: 1;
+    }
+    #clickImg:hover .bottonSL {
+        font-size: 15px;
+        margin-left: 40%;
+        margin-top: 29%;
+        opacity: 1;
+    }
 }
 
 /**/
-
 
 .slider li {
     width: 100%;
     height: 100%;
     list-style: none;
 }
+
 .slider img {
     width: 100%;
     height: 100%;
 }
-@keyframes cambio{
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
 
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
 
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
 
-    75% {margin-left: -300%;}
-    95% {margin-left: -300%;}
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
 
-    100% {margin-left: -400%;}
-    120% {margin-left: -400%;}
+    75% {
+        margin-left: -300%;
+    }
+    95% {
+        margin-left: -300%;
+    }
 
-    125% {margin-left: -500%;}
-    145% {margin-left: -500%;}
+    100% {
+        margin-left: -400%;
+    }
+    120% {
+        margin-left: -400%;
+    }
+
+    125% {
+        margin-left: -500%;
+    }
+    145% {
+        margin-left: -500%;
+    }
 }
 
 .slider .TxSl {
@@ -114,9 +151,10 @@ animation: cambio 15s infinite alternate linear;}
     margin-top: 5%;
     text-align: center;
     color: black;
-    opacity:0;
+    opacity: 0;
     transition: opacity 0.9s, margin-top 0.6s, font-size 0.9s;
 }
+
 .slider .TxSl2 {
     position: absolute;
     font-size: 20px;
@@ -124,9 +162,10 @@ animation: cambio 15s infinite alternate linear;}
     margin-top: 5%;
     text-align: center;
     color: black;
-    opacity:0;
+    opacity: 0;
     transition: opacity 0.9s, margin-top 0.6s, font-size 0.9s;
 }
+
 .slider .TxSl3 {
     position: absolute;
     font-size: 20px;
@@ -134,30 +173,35 @@ animation: cambio 15s infinite alternate linear;}
     margin-top: 5%;
     text-align: center;
     color: black;
-    opacity:0;
+    opacity: 0;
     transition: opacity 0.9s, margin-top 0.6s, font-size 0.9s;
 }
+
 .slider .bottonSL {
     position: absolute;
     font-size: 20px;
     margin-left: 40%;
     margin-top: 50%;
-    border-radius:15px;
+    border-radius: 15px;
     text-align: center;
     color: black;
     background: green;
     padding: 10px 30px;
-    opacity:0;
+    opacity: 0;
     transition: opacity 0.9s, margin-top 0.6s, font-size 0.9s;
 }
-.slider .bottonSL a{
+
+.slider .bottonSL a {
     color: black;
     text-decoration: none;
 }
+
 /*----------     contenedor 3      -----------*/
-.content-3{
- overflow: hidden;
+
+.content-3 {
+    overflow: hidden;
 }
+
 .l-section-video video {
     position: relative;
     top: 50%;
@@ -167,9 +211,10 @@ animation: cambio 15s infinite alternate linear;}
     max-width: none;
     height: auto;
     width: auto;
-    transform: translate(-50%,-10%);
+    transform: translate(-50%, -10%);
     filter: grayscale(80%);
 }
+
 .content-3 .texto {
     position: absolute;
 
@@ -180,6 +225,7 @@ animation: cambio 15s infinite alternate linear;}
     font-size: 20px;
     color: white;
 }
+
 .content-3 .texto2 {
     position: absolute;
     margin-left: 28.5%;
@@ -189,6 +235,7 @@ animation: cambio 15s infinite alternate linear;}
     font-size: 50px;
     color: white;
 }
+
 .content-3 .logos {
     width: 50%;
     position: absolute;
@@ -199,13 +246,16 @@ animation: cambio 15s infinite alternate linear;}
     font-size: 15px;
     color: white;
 }
-.content-3 #L1{
+
+.content-3 #L1 {
     float: left;
     margin-right: 5%;
 }
-.content-3 #L1 h2{
+
+.content-3 #L1 h2 {
     margin-top: 7%;
 }
+
 .content-3 #L1:hover {
     transition: all 1.5s ease-in-out;
     /*
@@ -218,136 +268,142 @@ animation: cambio 15s infinite alternate linear;}
     -webkit-box-shadow: 0px 0px 15px 15px gold;
     background: grey;
 }
+
 /*.content-3 #L1 h2:hover{
     font-size: 30px;
 }*/
 
-@media all and (max-width:1400px){
-   .content-3 .logos {
-    width: 60%;
-}
-    .logos img{
+@media all and (max-width:1400px) {
+    .content-3 .logos {
+        width: 60%;
+    }
+    .logos img {
         width: 50%;
     }
-    .logos h2{
+    .logos h2 {
         font-size: 20px;
     }
 }
-@media all and (max-width:1220px){
+
+@media all and (max-width:1220px) {
     .content-3 .texto {
-    margin-left: 35%;
-    margin-top: 10%;
-    font-size: 20px;
-}
-.content-3 .texto2 {
-    margin-left: 24%;
-    margin-top: 14%;
-    font-size: 40px;
-}
-   .content-3 .logos {
-       margin-left: 27%;
-}
-    .logos img{
+        margin-left: 35%;
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    .content-3 .texto2 {
+        margin-left: 24%;
+        margin-top: 14%;
+        font-size: 40px;
+    }
+    .content-3 .logos {
+        margin-left: 27%;
+    }
+    .logos img {
         width: 40%;
     }
-    .logos h2{
+    .logos h2 {
         font-size: 18px;
     }
 }
-@media all and (max-width:950px){
+
+@media all and (max-width:950px) {
     .content-3 .texto {
-    margin-left: 30%;
-    margin-top: 13%;
-    font-size: 18px;
-}
-.content-3 .texto2 {
-    margin-left: 18%;
-    margin-top: 18%;
-    font-size: 35px;
-}
-   .content-3 .logos {
-       margin-left: 17%;
-       margin-top: 29%;
-}
-    .logos img{
+        margin-left: 30%;
+        margin-top: 13%;
+        font-size: 18px;
+    }
+    .content-3 .texto2 {
+        margin-left: 18%;
+        margin-top: 18%;
+        font-size: 35px;
+    }
+    .content-3 .logos {
+        margin-left: 17%;
+        margin-top: 29%;
+    }
+    .logos img {
         width: 30%;
     }
-    .logos h2{
+    .logos h2 {
         font-size: 15px;
     }
 }
-@media all and (max-width:780px){
+
+@media all and (max-width:780px) {
     .content-3 .texto {
-    margin-left: 25%;
-    margin-top: 13%;
-    font-size: 15px;
-}
-.content-3 .texto2 {
-    margin-left: 14%;
-    margin-top: 18%;
-    font-size: 30px;
-}
-   .content-3 .logos {
-       width: 80%;
-       margin-left: 13%;
-       margin-top: 29%;
-}
-    .logos img{
+        margin-left: 25%;
+        margin-top: 13%;
+        font-size: 15px;
+    }
+    .content-3 .texto2 {
+        margin-left: 14%;
+        margin-top: 18%;
+        font-size: 30px;
+    }
+    .content-3 .logos {
+        width: 80%;
+        margin-left: 13%;
+        margin-top: 29%;
+    }
+    .logos img {
         width: 30%;
     }
-    .logos h2{
+    .logos h2 {
         font-size: 15px;
     }
 }
-@media all and (max-width:600px){
+
+@media all and (max-width:600px) {
     .content-3 .texto {
-    margin-left: 20%;
-    margin-top: 19%;
-    font-size: 15px;
-}
-.content-3 .texto2 {
-    margin-left: 14%;
-    margin-top: 28%;
-    font-size: 25px;
-}
-   .content-3 .logos {
-       width: 80%;
-       margin-left: 13%;
-       margin-top: 49%;
-}
-    .logos img{
+        margin-left: 20%;
+        margin-top: 19%;
+        font-size: 15px;
+    }
+    .content-3 .texto2 {
+        margin-left: 14%;
+        margin-top: 28%;
+        font-size: 25px;
+    }
+    .content-3 .logos {
+        width: 80%;
+        margin-left: 13%;
+        margin-top: 49%;
+    }
+    .logos img {
         width: 30%;
     }
-    .logos h2{
+    .logos h2 {
         font-size: 12px;
     }
 }
-@media all and (max-width:480px){
+
+@media all and (max-width:480px) {
     .content-3 .texto {
         position: absolute;
-    margin-left: 0;
-    margin-top: 19%;
-    font-size: 15px;
-}
-.content-3 .texto2 {
-    margin-left: 4%;
-    margin-top: 48%;
-    font-size: 15px;
-}
-   .content-3 .logos {
-       display: block;
+        margin-left: 0;
+        margin-top: 19%;
+        font-size: 15px;
+    }
+    .content-3 .texto2 {
+        margin-left: 4%;
+        margin-top: 48%;
+        font-size: 15px;
+    }
+    .content-3 .logos {
+        display: block;
 
-       width: 80%;
-       margin-left: 13%;
-       margin-top:79%;
-}
-    .logos #L1{
+        width: 80%;
+        margin-left: 13%;
+        margin-top: 79%;
+    }
+    .logos #L1 {
         width: 100%;
     }
-    .logos img{
+    .logos img {
         width: 30%;
     }
-    .logos h2{
+    .logos h2 {
         font-size: 18px;
     }
 }
