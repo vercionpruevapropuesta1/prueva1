@@ -152,7 +152,7 @@ hr{
     width: 25%;
     padding: 20px;
 
-     background-image: url(/images/BCJAP.jpg);
+     background-image: url(../images/BCJAP.jpg);
     background-position: center center;
     background-size: cover;
 
@@ -173,7 +173,7 @@ hr{
 .content-R3{
     width:25%;
     padding: 20px;
-    background-image: url(/images/empresa2.jpeg);
+    background-image: url(../images/empresa2.jpeg);
     background-position: center center;
     background-size: cover;
 }
