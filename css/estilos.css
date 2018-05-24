@@ -690,18 +690,6 @@ hr {
     }
 }
 
-/*estilos para la estructura del content-4*/
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.content-4 {
-    width: 100%;
-    height: 30vh;
-    margin-top: 0px;
-    background-color: purple;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    border: 1px solid #85898B;
 
-}
