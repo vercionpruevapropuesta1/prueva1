@@ -177,6 +177,8 @@ hr {
     background-size: cover;
 
 }
+/* reglas @ media  las cuales cabiasn caractiristicas de las pagina*/
+/*para cunado son cargadas en una pantalla mas pequeña*/
 @media all and (max-width: 1305px){
     .content-3{
         height: 900px;
