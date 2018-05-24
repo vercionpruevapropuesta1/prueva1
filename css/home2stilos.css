@@ -93,6 +93,7 @@ hr{
 
 }
 
+
 .tex-contex{
     position: relative;
     top: 10%;
@@ -106,6 +107,8 @@ hr{
     flex-wrap: wrap;
 
 }
+/*regla de ajuste de la pantalla para la pantanlla enfrenta un cambio*/
+/*de resolucion*/
 @media all and (max-width: 1305px){
 
     .contentH2-6{
